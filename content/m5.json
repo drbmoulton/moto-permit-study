@@ -1,0 +1,277 @@
+{
+  "id": "m5",
+  "title": "Space Management",
+  "manualPages": [
+    25,
+    26,
+    27
+  ],
+  "summary": [
+    "A cushion of space around the motorcycle gives you time to react and is your best protection in a crash situation.",
+    "Keep at least a two-second following distance, measured by counting from when the vehicle ahead passes a fixed object until you reach it.",
+    "If you reach the fixed object before finishing the two-second count, you are too close and should slow down.",
+    "Use a four-second or greater gap when the area is unfamiliar, traffic is heavy, or the road is slippery.",
+    "If someone tailgates you, open up more space ahead and, when possible, change lanes to let them by.",
+    "To pass, start from the left portion of your lane at a safe following distance, check mirrors and do a head check before signaling, and move quickly through the other driver's blind spot.",
+    "After passing, check mirrors and do a head check again before signaling and returning to your lane.",
+    "When being passed, ride in the center of your lane to avoid being sideswiped, hit by debris, or pushed by wind blast.",
+    "Intersections are among the most dangerous places for riders; pick a visible lane position and assume any vehicle that could enter your path will.",
+    "When riding past parked cars, use the left portion of the lane to stay clear of opening doors, pedestrians, and cars pulling out or making U-turns.",
+    "Riding alongside another vehicle within a single marked lane is prohibited; ride in the lane center to discourage drivers from squeezing in, and do not ride between rows of stopped vehicles.",
+    "Avoid riding next to cars in adjacent lanes, and never assume merging drivers see you—give them plenty of room."
+  ],
+  "questions": [
+    {
+      "id": "m5-01",
+      "q": "What minimum following distance does the manual recommend under normal conditions?",
+      "options": [
+        "One second",
+        "Two seconds",
+        "Three seconds",
+        "Five seconds"
+      ],
+      "answer": 1,
+      "explanation": "The manual recommends the two-second rule as the baseline following distance to give extra reaction time.",
+      "page": 25,
+      "volatile": false
+    },
+    {
+      "id": "m5-02",
+      "q": "Using the two-second rule, you reach the fixed object before you finish counting \"one one-thousand, two one-thousand.\" What should you do?",
+      "options": [
+        "Maintain your speed; the count is only a guideline",
+        "Change lanes immediately",
+        "Slow down until you have more distance from the vehicle ahead",
+        "Flash your brake light at the vehicle ahead"
+      ],
+      "answer": 2,
+      "explanation": "Reaching the object before the count ends means you are following too closely, so you should slow down to open the gap.",
+      "page": 25,
+      "volatile": false
+    },
+    {
+      "id": "m5-03",
+      "q": "When should a rider increase following distance to four seconds or more?",
+      "options": [
+        "Only when riding with a passenger",
+        "Only at night",
+        "Whenever traveling below 30 mph",
+        "When the area is unfamiliar, traffic is heavy, or the pavement is slippery"
+      ],
+      "answer": 3,
+      "explanation": "The manual calls for a four-second or larger cushion when the area is unfamiliar, traffic is congested, or the road surface is slippery.",
+      "page": 25,
+      "volatile": false
+    },
+    {
+      "id": "m5-04",
+      "q": "A vehicle is tailgating you. What does the manual recommend?",
+      "options": [
+        "Tap your brakes repeatedly to warn the driver",
+        "Speed up to pull away from the vehicle",
+        "Increase your distance from the vehicle ahead and change lanes to let the driver pass when you can",
+        "Move to the right edge of the lane and stop"
+      ],
+      "answer": 2,
+      "explanation": "More space ahead gives you room to handle an emergency with a tailgater behind, and changing lanes lets the driver get by safely.",
+      "page": 25,
+      "volatile": false
+    },
+    {
+      "id": "m5-05",
+      "q": "Before passing a vehicle, where in your lane should you position the motorcycle?",
+      "options": [
+        "In the left portion of the lane at a safe following distance",
+        "In the right portion of the lane, close behind the vehicle",
+        "In the center of the lane, directly behind the vehicle's bumper",
+        "On the shoulder to get a better view"
+      ],
+      "answer": 0,
+      "explanation": "Starting a pass from the left portion of the lane at a safe following distance makes you more visible and lets you see ahead.",
+      "page": 26,
+      "volatile": false
+    },
+    {
+      "id": "m5-06",
+      "q": "When there is enough room to pass, what should you do before signaling and accelerating into the passing lane?",
+      "options": [
+        "Sound your horn",
+        "Close the gap with the vehicle ahead",
+        "Downshift two gears",
+        "Check your mirrors and do a quick head check"
+      ],
+      "answer": 3,
+      "explanation": "Mirrors plus a head check let you confirm traffic behind and to the sides before you signal and move over.",
+      "page": 26,
+      "volatile": false
+    },
+    {
+      "id": "m5-07",
+      "q": "While passing another vehicle, how should you handle the driver's blind spot?",
+      "options": [
+        "Slow down and match the vehicle's speed there",
+        "Pass through it quickly",
+        "Stay in it until the driver waves you by",
+        "Move to the right side of the passing lane"
+      ],
+      "answer": 1,
+      "explanation": "The manual says to move quickly through the other driver's blind spot so you are not lingering where you cannot be seen.",
+      "page": 26,
+      "volatile": false
+    },
+    {
+      "id": "m5-08",
+      "q": "You have safely passed a vehicle. What should you do before returning to your original lane?",
+      "options": [
+        "Use your mirrors and head checks, then signal and return",
+        "Return immediately and then signal",
+        "Brake firmly so the vehicle can see you",
+        "Wait until the passed vehicle flashes its headlights"
+      ],
+      "answer": 0,
+      "explanation": "After passing, the manual calls for checking mirrors and doing head checks before signaling and moving back.",
+      "page": 26,
+      "volatile": false
+    },
+    {
+      "id": "m5-09",
+      "q": "When another vehicle is passing you, which lane position is recommended?",
+      "options": [
+        "The left portion of the lane",
+        "The right portion of the lane",
+        "The center of the lane",
+        "On the shoulder"
+      ],
+      "answer": 2,
+      "explanation": "Riding in the center of the lane while being passed gives a cushion of space on both sides.",
+      "page": 26,
+      "volatile": false
+    },
+    {
+      "id": "m5-10",
+      "q": "Why does riding in the center of the lane help when you are being passed by a larger vehicle?",
+      "options": [
+        "It lets the passing driver use part of your lane",
+        "It reduces the risk of a sideswipe, flying debris, and wind gusts that can upset stability",
+        "It makes it easier to pass the vehicle back",
+        "It keeps you out of the oily strip in the lane"
+      ],
+      "answer": 1,
+      "explanation": "The center position keeps space between you and the passing vehicle, protecting against sideswipes, debris, and wind blast from large vehicles.",
+      "page": 26,
+      "volatile": false
+    },
+    {
+      "id": "m5-11",
+      "q": "Approaching an intersection, you see a car that could pull into your path. According to the manual, what should you assume?",
+      "options": [
+        "The driver has seen you and will wait",
+        "You have the right-of-way, so the car will yield",
+        "The car will turn away from you",
+        "The car will enter your path"
+      ],
+      "answer": 3,
+      "explanation": "The manual advises that if a vehicle is able to enter your path at an intersection, you should assume it will.",
+      "page": 26,
+      "volatile": false
+    },
+    {
+      "id": "m5-12",
+      "q": "What should guide your lane position as you approach an intersection?",
+      "options": [
+        "Choosing the position closest to the curb",
+        "Choosing the position that increases your visibility",
+        "Staying directly behind the car ahead to stay hidden",
+        "Riding on the lane line to keep both lanes open"
+      ],
+      "answer": 1,
+      "explanation": "Because intersections are among the most dangerous places for riders, pick a lane position that makes you more visible to other drivers.",
+      "page": 26,
+      "volatile": false
+    },
+    {
+      "id": "m5-13",
+      "q": "When riding past a row of parked vehicles, where should you position your motorcycle?",
+      "options": [
+        "In the right portion of the lane, close to the parked cars",
+        "Between the parked cars and the travel lane",
+        "Anywhere, since parked cars pose no risk",
+        "In the left portion of the lane"
+      ],
+      "answer": 3,
+      "explanation": "The left portion of the lane keeps you away from opening doors, pedestrians stepping out, and cars pulling away from the curb.",
+      "page": 27,
+      "volatile": false
+    },
+    {
+      "id": "m5-14",
+      "q": "Which of these is a hazard the manual specifically mentions when passing parked vehicles?",
+      "options": [
+        "Drivers or pedestrians stepping out from between vehicles",
+        "Wind blast from parked trucks",
+        "Grooved pavement near parking meters",
+        "Low-hanging tree branches"
+      ],
+      "answer": 0,
+      "explanation": "The manual warns that drivers exiting their cars and pedestrians stepping between parked vehicles can cause problems, along with cars pulling out or making U-turns.",
+      "page": 27,
+      "volatile": false
+    },
+    {
+      "id": "m5-15",
+      "q": "In Massachusetts, may a motorcycle ride alongside another motor vehicle within the same marked travel lane?",
+      "options": [
+        "Yes, if both drivers agree",
+        "Yes, but only in heavy traffic",
+        "No, it is prohibited",
+        "Yes, if the motorcycle stays to the right edge"
+      ],
+      "answer": 2,
+      "explanation": "The manual states riders are prohibited from riding next to motor vehicles within a single marked lane, because every vehicle is entitled to the full lane.",
+      "page": 27,
+      "volatile": false
+    },
+    {
+      "id": "m5-16",
+      "q": "What lane position helps discourage drivers from trying to squeeze into your lane beside you?",
+      "options": [
+        "The center of the lane",
+        "The right portion of the lane",
+        "The left portion of the lane",
+        "Directly on the lane line"
+      ],
+      "answer": 0,
+      "explanation": "Riding in the center of the lane makes it harder and less tempting for a driver to share the lane with you.",
+      "page": 27,
+      "volatile": false
+    },
+    {
+      "id": "m5-17",
+      "q": "A vehicle in the next lane is traveling right beside you. What does the manual recommend?",
+      "options": [
+        "Stay beside it so the driver keeps you in view",
+        "Move onto the lane line so you are more visible",
+        "Adjust your speed to open up space between you and the vehicle",
+        "Sound your horn and hold your position"
+      ],
+      "answer": 2,
+      "explanation": "A car alongside may suddenly change direction into you, so change your speed until there is an adequate space cushion.",
+      "page": 27,
+      "volatile": false
+    },
+    {
+      "id": "m5-18",
+      "q": "A car is merging onto the highway near you. What is the safest approach?",
+      "options": [
+        "Assume the driver sees you and hold your speed",
+        "Speed up to block the car from merging",
+        "Move to the right portion of your lane toward the car so it notices you",
+        "Do not assume the driver sees you, and give the merging vehicle plenty of space"
+      ],
+      "answer": 3,
+      "explanation": "The manual warns not to assume a merging driver will notice you and advises giving entering vehicles ample room.",
+      "page": 27,
+      "volatile": false
+    }
+  ]
+}

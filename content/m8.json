@@ -1,0 +1,401 @@
+{
+  "id": "m8",
+  "title": "Signals, Signs & Markings",
+  "manualPages": [
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+  ],
+  "summary": [
+    "Posted limits assume ideal conditions, so never exceed them, and ride slower whenever traffic, road surface, weather, visibility, or pedestrians and cyclists call for it.",
+    "Where no other limit is posted, the manual treats riding over 20 mph in school zones, 30 mph in thickly settled or business districts, 40 mph outside those districts, or 50 mph on highways outside them as unreasonable, and it sets a 45 mph minimum on interstates and other limited-access highways.",
+    "A steady red light, or a red arrow for traffic headed the arrow's way, means stop; after a full stop and yielding you may turn right on red unless NO TURN ON RED is posted, but a left on red is allowed only from one one-way street onto another.",
+    "Treat a flashing red like a STOP sign, stop for a steady yellow if you safely can, proceed carefully on a flashing yellow, and handle a blacked-out signal as an all-way stop.",
+    "On a steady green, go only after yielding and only if you can clear the intersection without blocking it; a green arrow permits a turn in the arrow's direction.",
+    "Riders must give way to any pedestrian stepping into or walking in a crosswalk along their path, and to pedestrians whenever their own signal shows red, alone or together with yellow.",
+    "Never stop with your motorcycle across a crosswalk, and never overtake a vehicle that is slowing down or stopped for a pedestrian.",
+    "Sign colors: red is stop, yellow general warning, orange construction or maintenance, black and white regulation, green direction, blue motorist services, and brown recreational, historic or scenic sites.",
+    "Sign shapes: octagon is stop, downward triangle yield, diamond warning, five-sided school zone, round railroad crossing, pennant no-passing zone, upright rectangle regulation, wide rectangle guide information, and shield interstate highway.",
+    "At a STOP sign come to a full stop (slowing is not enough) behind any stop line or painted crosswalk, at a four-way stop the first vehicle into the intersection goes first, and at a YIELD sign slow down, let others go first, and stop only if traffic requires it.",
+    "Orange work-zone signs call for extra caution because conditions there change quickly, and you must obey any flagger or police officer directing traffic.",
+    "A round yellow warning sign means a railroad crossing is ahead; if the crossing lights flash, stop at least 15 feet from the gate or light post, stay stopped until the gate is up and the flashing ends, and never ride around a gate that is down.",
+    "White lines separate same-direction lanes: cross a broken one to change lanes after signaling, a solid one only to avoid a hazard, a double solid one never, and a painted white diamond marks a restricted lane such as HOV, bus or bicycle only.",
+    "Yellow lines separate opposing traffic: you may cross to pass only when the broken line is on your side, and you may cross a double solid yellow only to turn left."
+  ],
+  "questions": [
+    {
+      "id": "m8-01",
+      "q": "The posted limit is 40 mph, but it is raining and the road is wet. How fast should you ride?",
+      "options": [
+        "At 40 mph, since posted limits already take bad weather into account",
+        "At exactly 40 mph, since riding below a posted limit is not allowed",
+        "Up to 45 mph, to keep pace with the flow of traffic",
+        "Slower than 40 mph, at a speed suited to the conditions"
+      ],
+      "answer": 3,
+      "explanation": "Posted limits are set for ideal conditions. When rain or another hazard is present you must slow below the limit to a speed that is reasonable for the conditions, and you may never go above it.",
+      "page": 36,
+      "volatile": false
+    },
+    {
+      "id": "m8-02",
+      "q": "According to the manual, what is the minimum speed on Massachusetts interstate and limited-access highways?",
+      "options": [
+        "35 mph",
+        "45 mph",
+        "50 mph",
+        "55 mph"
+      ],
+      "answer": 1,
+      "explanation": "The manual gives 45 mph as the lowest speed allowed on Massachusetts interstates and other limited-access highways. Their posted maximums range from 50 to 65 mph.",
+      "page": 36,
+      "volatile": true
+    },
+    {
+      "id": "m8-03",
+      "q": "Unless a different limit is posted, riding faster than what speed in a school zone is not considered reasonable and proper?",
+      "options": [
+        "10 mph",
+        "15 mph",
+        "20 mph",
+        "30 mph"
+      ],
+      "answer": 2,
+      "explanation": "Near schools the default limit is 20 mph. It may be marked with flashing yellow lights or apply only during certain hours, so watch carefully for school zone signs.",
+      "page": 37,
+      "volatile": true
+    },
+    {
+      "id": "m8-04",
+      "q": "Unless a different limit is posted, riding faster than what speed in a thickly settled or business district is not considered reasonable and proper?",
+      "options": [
+        "20 mph",
+        "30 mph",
+        "35 mph",
+        "40 mph"
+      ],
+      "answer": 1,
+      "explanation": "When no other limit is posted, the manual's defaults are 20 mph in school zones, 30 mph in thickly settled or business districts, 40 mph outside them, and 50 mph on highways outside them.",
+      "page": 37,
+      "volatile": true
+    },
+    {
+      "id": "m8-05",
+      "q": "When does the manual allow a left turn on a steady red light?",
+      "options": [
+        "Never; Massachusetts does not allow left turns on a red light",
+        "From a two-way street onto a one-way street, after stopping and yielding",
+        "From a one-way street onto another one-way street, after stopping and yielding",
+        "Any time no oncoming traffic is in sight, after slowing down and checking"
+      ],
+      "answer": 2,
+      "explanation": "A left on red is permitted only when going from one one-way street onto another, and only after a full stop and yielding to pedestrians and vehicles.",
+      "page": 37,
+      "volatile": false
+    },
+    {
+      "id": "m8-06",
+      "q": "A flashing red traffic light means the same as which of these?",
+      "options": [
+        "A STOP sign",
+        "A YIELD sign",
+        "A warning sign",
+        "A DO NOT ENTER sign"
+      ],
+      "answer": 0,
+      "explanation": "Treat a flashing red light just like a STOP sign: stop completely, follow the right-of-way rules, and continue only when it is safe.",
+      "page": 38,
+      "volatile": false
+    },
+    {
+      "id": "m8-07",
+      "q": "What does a steady yellow traffic light mean?",
+      "options": [
+        "The light is about to turn green, so get ready to go",
+        "It is only a warning, so you may proceed with caution",
+        "Speed up to clear the intersection before it turns red",
+        "The signal is changing to red; stop if you can do so safely"
+      ],
+      "answer": 3,
+      "explanation": "A steady yellow warns that red is next, so stop if you can do it safely. A rider who is already waiting at the intersection or stop line must not go.",
+      "page": 38,
+      "volatile": false
+    },
+    {
+      "id": "m8-08",
+      "q": "What does a flashing yellow traffic light mean?",
+      "options": [
+        "Come to a complete stop, then go when it is safe",
+        "The signal is about to change from green to red",
+        "Proceed with caution and stay alert",
+        "Stop and wait until the light turns green"
+      ],
+      "answer": 2,
+      "explanation": "A flashing yellow is a warning, not an order to stop: continue carefully, stay alert and check both directions as you cross. A steady yellow is the one that means the signal is changing to red.",
+      "page": 38,
+      "volatile": false
+    },
+    {
+      "id": "m8-09",
+      "q": "Your light is green, but traffic is backed up on the far side of the intersection. What should you do?",
+      "options": [
+        "Wait until there is room to get completely through the intersection",
+        "Go ahead, since the green light gives you the right-of-way",
+        "Enter the intersection and wait inside it until traffic moves",
+        "Pull partway into the intersection so cross traffic sees you"
+      ],
+      "answer": 0,
+      "explanation": "A green light lets you go only after yielding and only if you can clear the intersection completely. Never pull in where you would end up blocking it.",
+      "page": 38,
+      "volatile": false
+    },
+    {
+      "id": "m8-10",
+      "q": "You reach an intersection where the traffic signals are completely dark and not working. What must you do?",
+      "options": [
+        "Slow down, and go through without stopping if no one is coming",
+        "Proceed with caution, as you would at a flashing yellow light",
+        "Keep going if you are on the busier of the two roads",
+        "Treat it as if there were stop signs in every direction"
+      ],
+      "answer": 3,
+      "explanation": "Blacked-out signals turn the intersection into an all-way stop: stop, then go when it is safe. If the signals are flashing instead, follow the flashing-light rules.",
+      "page": 39,
+      "volatile": false
+    },
+    {
+      "id": "m8-11",
+      "q": "You are turning right on a green light, and a pedestrian has just stepped into the crosswalk on the street you are turning onto. What must you do?",
+      "options": [
+        "Complete the turn, since the green light gives you the right-of-way",
+        "Yield and let the pedestrian cross",
+        "Speed up to finish the turn before the pedestrian reaches your lane",
+        "Sound your horn to warn the pedestrian, then make the turn"
+      ],
+      "answer": 1,
+      "explanation": "A green light lets you go only after yielding, and riders must give way to anyone stepping into or walking in a crosswalk along their path.",
+      "page": 39,
+      "volatile": false
+    },
+    {
+      "id": "m8-12",
+      "q": "Which of these does the manual say a motorcycle rider must never do?",
+      "options": [
+        "Yield to a pedestrian who is entering a crosswalk",
+        "Come to a complete stop before turning right on red",
+        "Let the motorcycle block a crosswalk",
+        "Stop behind the stop line at a STOP sign"
+      ],
+      "answer": 2,
+      "explanation": "One of the laws for riders is that your motorcycle must never block a crosswalk. The other three choices are all things the manual requires you to do.",
+      "page": 39,
+      "volatile": false
+    },
+    {
+      "id": "m8-13",
+      "q": "Your traffic signal is showing red and yellow lights at the same time. What must you do?",
+      "options": [
+        "Yield to pedestrians, as you must at a red light",
+        "Go ahead, since pedestrians must wait while your signal shows yellow",
+        "Treat it like a flashing yellow and continue without yielding",
+        "Turn right without stopping, since the yellow overrides the red"
+      ],
+      "answer": 0,
+      "explanation": "The rider laws require you to give way to pedestrians whenever your signal shows red, including when red and yellow are lit together.",
+      "page": 39,
+      "volatile": false
+    },
+    {
+      "id": "m8-14",
+      "q": "The vehicle in the lane next to yours is slowing down for a pedestrian at a crosswalk ahead. What should you do?",
+      "options": [
+        "Pass it quickly before the pedestrian reaches your lane",
+        "Pass it once it has come to a complete stop",
+        "Sound your horn and continue past it",
+        "Stay back and do not pass it"
+      ],
+      "answer": 3,
+      "explanation": "The rider laws forbid overtaking any vehicle that is slowing down or stopped for a pedestrian, so stay back instead of going around it.",
+      "page": 39,
+      "volatile": false
+    },
+    {
+      "id": "m8-15",
+      "q": "You have stopped at a red light and want to turn right, and no sign prohibits it. A pedestrian is walking in the crosswalk in your path. What must you do?",
+      "options": [
+        "Turn now, since you have already come to a complete stop",
+        "Wait and let the pedestrian cross before you turn",
+        "Turn quickly, before the pedestrian reaches your side of the road",
+        "Go ahead, since pedestrians must wait for vehicles turning on red"
+      ],
+      "answer": 1,
+      "explanation": "Stopping does not end your duty: with a red signal you must still give way to pedestrians, and a right on red is legal only after a full stop and yielding to anyone in your path.",
+      "page": 39,
+      "volatile": false
+    },
+    {
+      "id": "m8-16",
+      "q": "What does a brown traffic sign indicate?",
+      "options": [
+        "Motorist services such as gas, food and lodging",
+        "A recreational, historic or scenic site",
+        "Construction or maintenance work ahead",
+        "Directions to highway exits and interchanges"
+      ],
+      "answer": 1,
+      "explanation": "Sign colors are coded: brown marks recreational, historic and scenic sites, blue marks motorist services, green gives directions, and orange warns of construction or maintenance.",
+      "page": 40,
+      "volatile": false
+    },
+    {
+      "id": "m8-17",
+      "q": "At an intersection where every approach has a STOP sign marked 4-WAY or ALL WAY, which vehicle has the right-of-way?",
+      "options": [
+        "The vehicle on the left",
+        "A motorcycle, since it can clear the intersection fastest",
+        "The first vehicle in the intersection",
+        "The vehicle on the wider road"
+      ],
+      "answer": 2,
+      "explanation": "With an ALL WAY (or 4-WAY) plate under each STOP sign, everyone approaching must stop, and the vehicle that is first in the intersection goes first.",
+      "page": 40,
+      "volatile": false
+    },
+    {
+      "id": "m8-18",
+      "q": "You see an orange diamond-shaped sign ahead. What does it tell you?",
+      "options": [
+        "A school zone is just ahead",
+        "Construction or maintenance work is ahead, so take extra care",
+        "A recreational or scenic area is coming up",
+        "Motorist services such as gas and food are available"
+      ],
+      "answer": 1,
+      "explanation": "Orange signs warn of construction or maintenance work. They may show familiar warning symbols, but they call for extra caution because conditions around work zones can change fast.",
+      "page": 42,
+      "volatile": false
+    },
+    {
+      "id": "m8-19",
+      "q": "What does a yellow pennant-shaped sign (a sideways triangle pointing right) mark?",
+      "options": [
+        "A school zone",
+        "A railroad crossing ahead",
+        "A place where you must yield",
+        "A no-passing zone"
+      ],
+      "answer": 3,
+      "explanation": "On the manual's chart of sign shapes, the pennant marks a no-passing zone, meaning you must not pass by crossing the yellow line there. A yield sign is a triangle pointing down, not sideways.",
+      "page": 42,
+      "volatile": false
+    },
+    {
+      "id": "m8-20",
+      "q": "What does a five-sided sign, shaped like a house with a pointed top, indicate?",
+      "options": [
+        "A school zone",
+        "A no-passing zone",
+        "A railroad crossing ahead",
+        "A highway rest area"
+      ],
+      "answer": 0,
+      "explanation": "On the manual's chart of sign shapes, the five-sided, house-shaped outline is the school zone sign. Pennants mark no-passing zones and round signs mark railroad crossings.",
+      "page": 42,
+      "volatile": false
+    },
+    {
+      "id": "m8-21",
+      "q": "The red lights at a railroad crossing start flashing as you approach. What must you do?",
+      "options": [
+        "Stop at least 15 feet from the gate or light post and wait until the gate rises and the lights stop",
+        "Stop at least 5 feet from the tracks, then cross as soon as you can see that no train is coming",
+        "Stop at least 15 feet from the gate, then ride around it if you can see that no train is coming",
+        "Slow down, check both ways, and cross quickly before the gate has come all the way down"
+      ],
+      "answer": 0,
+      "explanation": "Once the lights flash, you must halt no closer than 15 feet to the gate or light post and stay put until the gate is up and the flashing ends. Going around a lowered gate is never allowed, even if no train is visible.",
+      "page": 45,
+      "volatile": false
+    },
+    {
+      "id": "m8-22",
+      "q": "When may you cross a single solid white lane line?",
+      "options": [
+        "Whenever you have signaled and it is safe",
+        "Only to pass a slower vehicle",
+        "Never, under any circumstances",
+        "Only when you must, to avoid a hazard"
+      ],
+      "answer": 3,
+      "explanation": "A single solid white line marks the road edge or divides same-direction lanes, and you should cross it only if needed to avoid a hazard. A broken white line is the one you may cross to change lanes after signaling.",
+      "page": 46,
+      "volatile": false
+    },
+    {
+      "id": "m8-23",
+      "q": "Two solid white lines run side by side between two lanes going the same direction. When may you cross them?",
+      "options": [
+        "After signaling, whenever it is safe",
+        "Only when you must, to avoid a hazard",
+        "Never; crossing them is prohibited",
+        "Only to make a left turn"
+      ],
+      "answer": 2,
+      "explanation": "The manual flatly forbids crossing two solid white lines. A single solid white line may be crossed only to avoid a hazard, and a broken white line may be crossed to change lanes after signaling.",
+      "page": 46,
+      "volatile": false
+    },
+    {
+      "id": "m8-24",
+      "q": "The center of a two-way road is marked with a double yellow line: the line nearest you is solid and the far line is broken. What does this mean for you?",
+      "options": [
+        "You may not cross it to pass",
+        "You may cross it to pass when it is safe",
+        "Traffic from both directions may cross it to pass when safe",
+        "It separates two lanes moving in the same direction"
+      ],
+      "answer": 0,
+      "explanation": "With a solid-and-broken pair, the line nearest you decides: solid on your side means you may not cross, while broken on your side lets you cross only to pass when it is safe.",
+      "page": 47,
+      "volatile": false
+    },
+    {
+      "id": "m8-25",
+      "q": "When may you cross a double solid yellow center line?",
+      "options": [
+        "To pass a slow vehicle when the road ahead is clear",
+        "Only to make a left turn, when it is safe",
+        "Never, for any reason",
+        "To pass a vehicle that has stopped for a pedestrian"
+      ],
+      "answer": 1,
+      "explanation": "Double solid yellow lines bar passing from both directions; the only time you may cross them is to make a left turn when it is safe.",
+      "page": 47,
+      "volatile": false
+    },
+    {
+      "id": "m8-26",
+      "q": "What does a white diamond painted in a traffic lane mean?",
+      "options": [
+        "A pedestrian crosswalk is coming up just ahead",
+        "Passing is permitted in this section of road",
+        "A railroad crossing is coming up ahead",
+        "The lane is restricted, such as to HOV, buses or bicycles"
+      ],
+      "answer": 3,
+      "explanation": "A painted white diamond warns that the lane has a special restriction, such as being for high-occupancy vehicles, buses or bicycles only.",
+      "page": 47,
+      "volatile": false
+    }
+  ]
+}

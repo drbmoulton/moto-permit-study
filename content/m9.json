@@ -1,0 +1,403 @@
+{
+  "id": "m9",
+  "title": "Motorcycle Laws, Turns & Impairment",
+  "manualPages": [
+    48,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64
+  ],
+  "summary": [
+    "Ride no more than two abreast, never between lanes of traffic or along lane lines, enter restricted lanes only to set up a turn, and stay off highways and expressways unless your motorcycle can safely hold the minimum posted speed.",
+    "When two or more lanes run in your direction, keep right except to pass, turn left, or get around a blocked right lane; never change lanes inside an intersection, and use a breakdown lane for travel only where a highway opens it at rush hour.",
+    "Pass on the left, and only when you need to and can do it safely; never go over the speed limit to pass, and never pass using a shoulder, breakdown lane, or sidewalk.",
+    "When joining a highway, yield to traffic already on it and match its speed; give your exit signal 500 or more feet ahead of the ramp, and if you miss your exit, continue to the next one rather than stopping or backing up.",
+    "Signal at least 100 feet before a turn (500 feet on a highway), turn right on red only after a full stop and yielding unless a sign forbids it, and make a U-turn only from the lane nearest the center line, never on a hilltop, near a curve, or anywhere visibility is under 500 feet.",
+    "You never claim the right-of-way, you only yield it: give way to pedestrians walking in or crossing the road, come to a full stop for a blind pedestrian using a white cane or guide dog, and yield even when another driver ignores the rules.",
+    "Yield to traffic from your right at uncontrolled intersections; at a four-way stop yield to anyone who stopped first and to the vehicle on your right if you stop together; and yield to oncoming traffic when turning left and to vehicles already in a rotary.",
+    "Whichever direction you are traveling, stop for a school bus or pupil transport vehicle showing flashing red lights and an extended stop sign unless it is on the far side of a barrier-divided highway; the manual lists a $250 fine and license suspension for a first violation.",
+    "Stay at least 8 feet from a trolley's passenger step while riders board or exit, yield to a funeral procession until it has fully passed, and pull over and stop if an animal you are passing appears frightened.",
+    "In business or residential districts, park no more than 12 inches from the curb unless angled parking is allowed, and never closer than 20 feet to an intersection or 10 feet to a fire hydrant; unpaid parking tickets block license and registration renewals.",
+    "Driving on a bet, drag racing, littering, bypassing a muffler, and sending or reading electronic messages while riding are all illegal.",
+    "Alcohol, a depressant, slows reflexes and distorts vision and judgment even as it inflates confidence; a 12-oz beer, 4-oz glass of wine, or 1 oz of 80-proof liquor can each raise an average person's BAC by about 0.02%, and only time brings it down.",
+    "A BAC of 0.08% or higher is over the legal limit (0.02% for riders under 21); under implied consent, testing over the limit or refusing a breath or blood test gets your license seized on the spot, and OUI laws cover drugs too, with prescription and over-the-counter medicines able to impair you just like illegal drugs.",
+    "The manual lists a $500 to $5,000 fine and a 1-year suspension for a first OUI, a 1- to 5-year license loss for any drug conviction even with no vehicle involved, a 30-day suspension for adults with three speeding violations in a year, and 90 days for a junior operator's first speeding conviction."
+  ],
+  "questions": [
+    {
+      "id": "m9-01",
+      "q": "On a road with two or more lanes in your direction, when may you leave the right lane?",
+      "options": [
+        "When you plan to turn right at the next intersection",
+        "When you are riding in a group",
+        "When passing, turning left, or if the right lane is blocked",
+        "Whenever it is dark out"
+      ],
+      "answer": 2,
+      "explanation": "The right lane is the default on multi-lane roads. You leave it only to pass, to make a left turn, or when something blocks the right lane.",
+      "page": 48,
+      "volatile": false
+    },
+    {
+      "id": "m9-02",
+      "q": "Under the manual's special rules for motorcycles, what is the maximum number of motorcycles that may ride abreast (side by side)?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "As many as fit within one lane"
+      ],
+      "answer": 0,
+      "explanation": "The special rules cap riders at two abreast. For group rides, the manual still recommends a staggered formation rather than pairing up.",
+      "page": 51,
+      "volatile": false
+    },
+    {
+      "id": "m9-03",
+      "q": "When does the manual allow you to ride between lanes of traffic (lane splitting)?",
+      "options": [
+        "Only when traffic is stopped or crawling",
+        "Only on highways with three or more lanes",
+        "Only when you are going 10 mph or slower",
+        "Never; riding between lanes is not allowed"
+      ],
+      "answer": 3,
+      "explanation": "The special rules for motorcycles tell you to stay off lane lines and out of the gaps between lanes of traffic, and they make no exception for slow or stopped traffic.",
+      "page": 51,
+      "volatile": false
+    },
+    {
+      "id": "m9-04",
+      "q": "When may you ride in a lane posted as restricted?",
+      "options": [
+        "Whenever traffic in your lane is moving slowly",
+        "Only when preparing to make a turn",
+        "Whenever you need to pass a slower vehicle",
+        "Whenever the restricted lane is empty"
+      ],
+      "answer": 1,
+      "explanation": "A lane posted as restricted is off-limits except when you are moving into position to make a turn.",
+      "page": 51,
+      "volatile": false
+    },
+    {
+      "id": "m9-05",
+      "q": "Your motorcycle cannot safely keep up with the minimum posted speed. Where does the manual say you should not ride it?",
+      "options": [
+        "In residential neighborhoods",
+        "On roads with one lane in each direction",
+        "On highways or expressways",
+        "In thickly settled or business districts"
+      ],
+      "answer": 2,
+      "explanation": "If a motorcycle can't safely travel at the minimum posted speeds, the special rules say to keep it off highways and expressways.",
+      "page": 51,
+      "volatile": false
+    },
+    {
+      "id": "m9-06",
+      "q": "You are riding on a highway and realize you have missed your exit. What should you do?",
+      "options": [
+        "Stop on the shoulder and back up to the exit ramp",
+        "Continue to the next exit and follow signs back the other way",
+        "Back up slowly in the breakdown lane with your hazard lights on",
+        "Stop where you are and wait for traffic to clear before backing up"
+      ],
+      "answer": 1,
+      "explanation": "Never stop or reverse on a highway because you missed an exit. Ride on to the next exit and use the signs there to get back on the road heading the other way.",
+      "page": 51,
+      "volatile": false
+    },
+    {
+      "id": "m9-07",
+      "q": "What does the law say about your speed while you are passing another vehicle?",
+      "options": [
+        "You may not exceed the speed limit, even briefly",
+        "You may exceed the limit by up to 10 mph until the pass is done",
+        "You may go as fast as needed to complete the pass quickly",
+        "You may exceed the limit only on a highway"
+      ],
+      "answer": 0,
+      "explanation": "Passing never permits speeding. When in doubt about whether a pass is safe, stay where you are.",
+      "page": 52,
+      "volatile": false
+    },
+    {
+      "id": "m9-08",
+      "q": "Traffic ahead of you is moving slowly, and there is a wide paved shoulder on the right. May you use the shoulder to pass?",
+      "options": [
+        "Yes, if you signal first and the shoulder is clear",
+        "Yes, but only at speeds under 15 mph",
+        "Only if the vehicle ahead is turning left",
+        "No, passing on a shoulder is never allowed"
+      ],
+      "answer": 3,
+      "explanation": "The manual rules out passing on a road shoulder, in a breakdown lane, or on a sidewalk. Where passing is allowed, do it on the left.",
+      "page": 52,
+      "volatile": false
+    },
+    {
+      "id": "m9-09",
+      "q": "At least how far ahead should you signal a turn on an ordinary road, and on a highway?",
+      "options": [
+        "50 feet on an ordinary road; 200 feet on a highway",
+        "100 feet on an ordinary road; 500 feet on a highway",
+        "100 feet on an ordinary road; 300 feet on a highway",
+        "200 feet on an ordinary road; 1,000 feet on a highway"
+      ],
+      "answer": 1,
+      "explanation": "Signal at least 100 feet before a turn, or at least 500 feet ahead on a highway, the same distance used before an exit ramp. Ideally, signal before you begin braking.",
+      "page": 53,
+      "volatile": false
+    },
+    {
+      "id": "m9-10",
+      "q": "A pedestrian with a white cane or a guide dog is crossing the street in front of you. What does the White Cane Law require?",
+      "options": [
+        "Tap your horn lightly so the person knows where you are",
+        "Wave the person across so they know it is safe to cross",
+        "Slow down and ride carefully around behind the person",
+        "Come to a full stop until the person has safely crossed"
+      ],
+      "answer": 3,
+      "explanation": "The law requires a full stop for a blind pedestrian, and you must wait until they have finished crossing. Don't honk, wave them on, or pass another vehicle that has stopped for them.",
+      "page": 54,
+      "volatile": false
+    },
+    {
+      "id": "m9-11",
+      "q": "You reach an intersection with no signs or signals just as a car approaches it from your right. Who has the right-of-way?",
+      "options": [
+        "You, because drivers must yield to traffic on their left",
+        "Whichever vehicle reaches the middle first",
+        "The car approaching from your right",
+        "Whichever vehicle is traveling faster"
+      ],
+      "answer": 2,
+      "explanation": "Where no signs or signals control an intersection, you must give way to traffic coming from your right, whether it is already in the intersection or still approaching. Even when a driver on your left should yield to you, confirm that they actually are before you go.",
+      "page": 55,
+      "volatile": false
+    },
+    {
+      "id": "m9-12",
+      "q": "At a four-way stop, you and a vehicle on your immediate right come to a stop at the same time. Who should go first?",
+      "options": [
+        "You, because you are on the other driver's left",
+        "The vehicle on your right",
+        "Whichever vehicle is larger",
+        "Whichever driver waves the other through"
+      ],
+      "answer": 1,
+      "explanation": "At an all-way stop, yield to anyone who stopped before you, and to the driver directly to your right if you both stopped at the same moment. Making eye contact helps you judge what other drivers intend.",
+      "page": 55,
+      "volatile": false
+    },
+    {
+      "id": "m9-13",
+      "q": "You are approaching a rotary (traffic circle). Who has the right-of-way?",
+      "options": [
+        "Vehicles already in the rotary",
+        "Vehicles entering the rotary",
+        "Trucks and buses, because they need more room",
+        "Whichever vehicle is moving faster"
+      ],
+      "answer": 0,
+      "explanation": "Yield to any vehicle already circulating in the rotary. When the rotary is busy, stop at its edge and wait for a safe gap.",
+      "page": 56,
+      "volatile": false
+    },
+    {
+      "id": "m9-14",
+      "q": "You are riding on an undivided two-lane road. A school bus coming toward you in the opposite lane stops with its red lights flashing and its stop sign extended. What must you do?",
+      "options": [
+        "Stop, and wait until the lights stop flashing or the stop sign folds in",
+        "Slow down and pass carefully, since only traffic behind the bus must stop",
+        "Stop only if you see children near the road",
+        "Sound your horn and continue at a reduced speed"
+      ],
+      "answer": 0,
+      "explanation": "Traffic in both directions must stop for a school bus with flashing red lights and its stop sign out. Even once the signals end, pull away slowly and keep watching for children.",
+      "page": 56,
+      "volatile": false
+    },
+    {
+      "id": "m9-15",
+      "q": "In which situation are you NOT required to stop for a school bus with its red lights flashing and stop sign out?",
+      "options": [
+        "You are approaching the bus from the opposite direction on an undivided road",
+        "You cannot see any children getting on or off",
+        "The bus is across a divided highway that has a barrier between directions",
+        "You are in the far lane of a multi-lane road with no barrier"
+      ],
+      "answer": 2,
+      "explanation": "The single exception is a bus stopped across a barrier-divided highway from you. In every other case, traffic from both directions must stop.",
+      "page": 56,
+      "volatile": false
+    },
+    {
+      "id": "m9-16",
+      "q": "A trolley has stopped to let passengers on and off. How close may you ride to the trolley's passenger step?",
+      "options": [
+        "No closer than 3 feet",
+        "No closer than 8 feet",
+        "No closer than 15 feet",
+        "No closer than 25 feet"
+      ],
+      "answer": 1,
+      "explanation": "State law bars you from coming within 8 feet of a trolley's passenger step while riders are getting on or off. Also never turn in front of an approaching trolley, since it is stuck on its tracks and can't steer around you.",
+      "page": 56,
+      "volatile": false
+    },
+    {
+      "id": "m9-17",
+      "q": "In Massachusetts, how close to a fire hydrant may you park?",
+      "options": [
+        "No closer than 5 feet",
+        "No closer than 15 feet",
+        "No closer than 20 feet",
+        "No closer than 10 feet"
+      ],
+      "answer": 3,
+      "explanation": "Massachusetts bans parking within 10 feet of a hydrant or fire lane. Don't confuse this with the 20-foot no-parking zone around an intersection.",
+      "page": 58,
+      "volatile": false
+    },
+    {
+      "id": "m9-18",
+      "q": "After drinking alcohol, what is the only thing that lowers your blood alcohol content (BAC)?",
+      "options": [
+        "Drinking black coffee",
+        "Taking a cold shower",
+        "Letting time pass",
+        "Exercising"
+      ],
+      "answer": 2,
+      "explanation": "Your liver and kidneys need time to process alcohol, and there is no shortcut. Coffee, a cold shower, exercise, or food may make you feel more alert, but they don't change how fast alcohol leaves your body.",
+      "page": 59,
+      "volatile": false
+    },
+    {
+      "id": "m9-19",
+      "q": "Which of these contains about the same amount of alcohol as a 12-ounce beer?",
+      "options": [
+        "A 4-ounce glass of wine",
+        "An 8-ounce glass of wine",
+        "A 4-ounce serving of 80-proof liquor",
+        "A 24-ounce beer"
+      ],
+      "answer": 0,
+      "explanation": "A 12-ounce beer, a 4-ounce glass of wine, and 1 ounce of 80-proof liquor each contain roughly half an ounce of alcohol, and any one of them can raise an average person's BAC by about 0.02%.",
+      "page": 60,
+      "volatile": false
+    },
+    {
+      "id": "m9-20",
+      "q": "For a rider age 21 or older, what is the lowest BAC at which Massachusetts considers you over the legal limit?",
+      "options": [
+        "0.02%",
+        "0.05%",
+        "0.08%",
+        "0.10%"
+      ],
+      "answer": 2,
+      "explanation": "Operators 21 and older who test at 0.08% or higher are over the Massachusetts legal limit, although even a single drink can hurt your riding.",
+      "page": 60,
+      "volatile": false
+    },
+    {
+      "id": "m9-21",
+      "q": "Under the Massachusetts \"zero tolerance\" law, a rider under age 21 is over the legal limit with a BAC as low as:",
+      "options": [
+        "0.02%",
+        "0.04%",
+        "0.08%",
+        "0.10%"
+      ],
+      "answer": 0,
+      "explanation": "For operators under 21, a BAC of just 0.02%, roughly what one drink can produce, is over the legal limit.",
+      "page": 60,
+      "volatile": false
+    },
+    {
+      "id": "m9-22",
+      "q": "Under the Massachusetts Implied Consent Law, what happens if you are arrested for OUI and refuse a breathalyzer or blood test?",
+      "options": [
+        "Nothing, as long as you pass a field sobriety test",
+        "You keep your license until your court date",
+        "Your license is suspended starting 30 days later",
+        "The officer must seize your license immediately"
+      ],
+      "answer": 3,
+      "explanation": "Every licensed operator has already agreed to breath or blood testing in certain situations. If you refuse, or test over the limit, the officer is required to take your license right away and the suspension or revocation notice takes effect at once, though you can ask for a hearing.",
+      "page": 60,
+      "volatile": false
+    },
+    {
+      "id": "m9-23",
+      "q": "Before a ride, you take an over-the-counter cold medicine. What does the manual say about medicines like this?",
+      "options": [
+        "They are safe to ride on because no prescription is needed",
+        "They matter only if you have also been drinking",
+        "They affect you only if you take more than the label dose",
+        "They can slow your reactions and dull your vision and motor skills"
+      ],
+      "answer": 3,
+      "explanation": "Nearly any drug can affect your riding; illegal drugs, prescription medicines, and over-the-counter remedies all slow your reactions and impair your vision and motor skills. Massachusetts OUI laws cover drugs as well as alcohol.",
+      "page": 60,
+      "volatile": false
+    },
+    {
+      "id": "m9-24",
+      "q": "According to the manual's OUI penalty table, what is the license suspension for a first offense, before any reduction for completing an alcohol education course?",
+      "options": [
+        "30 days",
+        "1 year",
+        "2 years",
+        "8 years"
+      ],
+      "answer": 1,
+      "explanation": "A first OUI conviction carries a 1-year license suspension, a $500 to $5,000 fine, and up to 2½ years in prison; a court may let you shorten the suspension by completing an alcohol education course.",
+      "page": 61,
+      "volatile": true
+    },
+    {
+      "id": "m9-25",
+      "q": "A rider age 18 or older is found responsible for three speeding violations within one year. What happens to their license?",
+      "options": [
+        "It is suspended for 30 days",
+        "It is suspended for 7 days",
+        "It is suspended for 90 days",
+        "It is suspended for 1 year"
+      ],
+      "answer": 0,
+      "explanation": "For operators 18 and older, three speeding violations inside any one-year period trigger a mandatory 30-day suspension, plus a reinstatement fee.",
+      "page": 62,
+      "volatile": true
+    },
+    {
+      "id": "m9-26",
+      "q": "Under the junior operator rules (ages 16 to 18), how long is the suspension for a first speeding conviction?",
+      "options": [
+        "30 days",
+        "90 days",
+        "180 days",
+        "3 years"
+      ],
+      "answer": 1,
+      "explanation": "Junior operators lose their permit or license for 90 days for a first speeding conviction and for one year for any later one; they must also retake the learner's permit exam.",
+      "page": 63,
+      "volatile": true
+    }
+  ]
+}

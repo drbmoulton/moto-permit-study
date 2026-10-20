@@ -1,0 +1,242 @@
+{
+  "id": "m1",
+  "title": "Licensing & the Road Test",
+  "manualPages": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "summary": [
+    "Riders under 18 must complete the Massachusetts Rider Education Program (MREP) basic rider course to get a motorcycle license.",
+    "By law a motorcycle has a seat or saddle and is built to run on no more than three wheels touching the ground.",
+    "Mopeds (motorized bicycles) are limited to 30 mph and 50 cc by design and may not be ridden faster than 25 mph; motorized scooters may not be ridden faster than 20 mph or between sunset and sunrise.",
+    "A limited use vehicle (top speed over 30 but not over 40 mph) needs a Class M license or permit if it is a motorcycle and may not use any road with a speed limit above 40 mph or limited-access highways.",
+    "You must be at least 16, apply, show valid ID, pay a fee, and pass a knowledge test to get a motorcycle learner's permit; applicants without a Class D license must also pass the Class D knowledge test.",
+    "Permit holders may ride only from sunrise to sunset and may never carry passengers.",
+    "You can apply for a Class M license at 16 and a half, and the permit converts to a license only after passing the road test or completing the MREP course.",
+    "Junior operators (under 18) must hold the permit six months with a clean record, take driver's education and the MREP course, and may not drive between 12:30 a.m. and 5:00 a.m.",
+    "Failing the motorcycle road test twice means you must complete an approved rider training course before scheduling another road test.",
+    "For the road test the motorcycle must be safe, registered, and inspected, and the rider must wear a DOT helmet meeting FMVSS No. 218 plus eye protection unless the bike has a windshield or screen.",
+    "Taking the road test on a trike or limited use vehicle earns a Class M license with a 'J' restriction limiting you to that type of vehicle.",
+    "The road test may include figure-eights and 360-degree circles in both directions without putting a foot down, along with starts, stops, turns, traffic, intersections, and hills."
+  ],
+  "questions": [
+    {
+      "id": "m1-01",
+      "q": "What is the minimum age to obtain a Massachusetts motorcycle learner's permit?",
+      "options": [
+        "15",
+        "16",
+        "16 and a half",
+        "18"
+      ],
+      "answer": 1,
+      "explanation": "An applicant for a motorcycle learner's permit must be at least 16 years old. Sixteen and a half is the minimum age to apply for the license itself.",
+      "page": 7,
+      "volatile": false
+    },
+    {
+      "id": "m1-02",
+      "q": "When is a motorcycle learner's permit holder allowed to ride?",
+      "options": [
+        "Any time, if accompanied by a licensed rider",
+        "Only between 5:00 a.m. and 12:30 a.m.",
+        "Only during daylight hours, from sunrise to sunset",
+        "Any time, but only on roads posted 40 mph or less"
+      ],
+      "answer": 2,
+      "explanation": "Permit holders may operate a motorcycle only in daylight, from sunrise to sunset.",
+      "page": 7,
+      "volatile": false
+    },
+    {
+      "id": "m1-03",
+      "q": "May a motorcycle learner's permit holder carry a passenger?",
+      "options": [
+        "No, passengers are prohibited for permit holders",
+        "Yes, if the passenger holds a Class M license",
+        "Yes, during daylight hours only",
+        "Yes, if the passenger is over 18"
+      ],
+      "answer": 0,
+      "explanation": "Riders on a learner's permit are not allowed to carry any passengers.",
+      "page": 7,
+      "volatile": false
+    },
+    {
+      "id": "m1-04",
+      "q": "What happens if you fail the Class M road test twice?",
+      "options": [
+        "You must wait one year before retesting",
+        "You must retake the knowledge test",
+        "Your learner's permit is revoked",
+        "You must complete an approved basic rider course before scheduling another road test"
+      ],
+      "answer": 3,
+      "explanation": "After two failed motorcycle road tests, the RMV requires completion of an approved rider training course before another road test can be booked.",
+      "page": 10,
+      "volatile": false
+    },
+    {
+      "id": "m1-05",
+      "q": "A 17-year-old wants a Massachusetts motorcycle license. Which course must they complete?",
+      "options": [
+        "An advanced rider course",
+        "The Massachusetts Rider Education Program basic rider course",
+        "A three-wheel rider course",
+        "No course is required if they pass the road test"
+      ],
+      "answer": 1,
+      "explanation": "Anyone under 18 is required to successfully complete the MREP basic rider course to get a motorcycle license.",
+      "page": 2,
+      "volatile": false
+    },
+    {
+      "id": "m1-06",
+      "q": "How long must a minor hold a learner's permit before taking the road test for a Junior Operator's License?",
+      "options": [
+        "30 days",
+        "3 months",
+        "6 months",
+        "12 months"
+      ],
+      "answer": 2,
+      "explanation": "Junior operators must have held the learner's permit for at least six months, with a clean record over that period, before the road test.",
+      "page": 7,
+      "volatile": false
+    },
+    {
+      "id": "m1-07",
+      "q": "A rider under 18 may not operate a motor vehicle during which hours?",
+      "options": [
+        "12:30 a.m. to 5:00 a.m.",
+        "Sunset to sunrise",
+        "11:00 p.m. to 6:00 a.m.",
+        "Midnight to 4:00 a.m."
+      ],
+      "answer": 0,
+      "explanation": "Operators under 18 are barred from driving between 12:30 a.m. and 5:00 a.m.",
+      "page": 7,
+      "volatile": false
+    },
+    {
+      "id": "m1-08",
+      "q": "Under Massachusetts law, a motorcycle is designed to travel on how many wheels in contact with the ground?",
+      "options": [
+        "Exactly two",
+        "No more than four",
+        "Two, plus an optional sidecar wheel only if registered separately",
+        "No more than three"
+      ],
+      "answer": 3,
+      "explanation": "The legal definition covers motor vehicles with a seat or saddle built to run on no more than three wheels touching the ground.",
+      "page": 4,
+      "volatile": false
+    },
+    {
+      "id": "m1-09",
+      "q": "What is the maximum speed at which you may operate a moped (motorized bicycle) in Massachusetts?",
+      "options": [
+        "20 mph",
+        "25 mph",
+        "30 mph",
+        "40 mph"
+      ],
+      "answer": 1,
+      "explanation": "Moped riders must not exceed 25 mph, even though a moped can be built to reach up to 30 mph.",
+      "page": 4,
+      "volatile": false
+    },
+    {
+      "id": "m1-10",
+      "q": "Which rule applies to operating a motorized scooter in Massachusetts?",
+      "options": [
+        "It may be ridden on limited-access highways in the right lane",
+        "It may carry one passenger with a helmet",
+        "It may not be ridden faster than 20 mph",
+        "It must be registered with the RMV"
+      ],
+      "answer": 2,
+      "explanation": "Motorized scooters are capped at 20 mph; they also cannot carry passengers, use limited-access highways, or be registered by the RMV.",
+      "page": 5,
+      "volatile": false
+    },
+    {
+      "id": "m1-11",
+      "q": "On which roads is a limited use vehicle prohibited?",
+      "options": [
+        "Any road with a speed limit above 40 mph",
+        "Any road with a speed limit above 30 mph",
+        "Only interstate highways",
+        "Any road after sunset"
+      ],
+      "answer": 0,
+      "explanation": "Limited use vehicles may not be driven on limited-access or express highways or on any road posted above 40 mph.",
+      "page": 6,
+      "volatile": false
+    },
+    {
+      "id": "m1-12",
+      "q": "When is a motorcycle operator NOT required to wear eyeglasses, goggles, or a face shield?",
+      "options": [
+        "When riding below 30 mph",
+        "When riding during daylight hours",
+        "When wearing a DOT-approved helmet",
+        "When the motorcycle has a windshield or screen"
+      ],
+      "answer": 3,
+      "explanation": "Eye protection is required unless the motorcycle is equipped with a windshield or screen.",
+      "page": 9,
+      "volatile": false
+    },
+    {
+      "id": "m1-13",
+      "q": "Massachusetts requires motorcycle helmets to comply with which standard?",
+      "options": [
+        "Federal Motor Vehicle Safety Standard No. 108",
+        "Federal Motor Vehicle Safety Standard No. 218",
+        "Snell M2015 only",
+        "Any helmet sold by a licensed dealer"
+      ],
+      "answer": 1,
+      "explanation": "Helmets must meet the US DOT's FMVSS No. 218 and carry stickers showing compliance inside and out.",
+      "page": 9,
+      "volatile": false
+    },
+    {
+      "id": "m1-14",
+      "q": "During the Class M road test, how must you perform figure-eights and 360-degree circles?",
+      "options": [
+        "In both directions without your feet touching the roadway",
+        "In one direction only, with one foot down allowed",
+        "At a minimum speed of 15 mph",
+        "With a passenger on board"
+      ],
+      "answer": 0,
+      "explanation": "The examiner may ask for figure-eights and full circles in both directions, completed without putting your feet down.",
+      "page": 10,
+      "volatile": false
+    },
+    {
+      "id": "m1-15",
+      "q": "To avoid being charged the road test fee, at least how far in advance must you cancel or reschedule your road test?",
+      "options": [
+        "24 hours",
+        "48 hours",
+        "72 hours",
+        "One week"
+      ],
+      "answer": 2,
+      "explanation": "Cancelling or rescheduling less than 72 hours before the test time results in the road test fee being charged.",
+      "page": 11,
+      "volatile": true
+    }
+  ]
+}

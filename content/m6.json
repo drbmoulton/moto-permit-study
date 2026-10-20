@@ -1,0 +1,367 @@
+{
+  "id": "m6",
+  "title": "Hazards & Emergencies",
+  "manualPages": [
+    27,
+    28,
+    29,
+    30,
+    31,
+    49,
+    50
+  ],
+  "summary": [
+    "Mud, wet pavement, snow, ice, manhole covers, steel plates, and painted lane lines offer poor traction, so slow down, allow extra stopping distance, and slow further before curves.",
+    "On slick surfaces keep all inputs smooth, use both brakes gradually without fearing the front brake, and hold the clutch in to coast across a small slippery patch.",
+    "On wet roads ride in the tire tracks of vehicles ahead because oil builds up in the lane center, and near intersections, curves, and ramps stay clear of dirt and gravel at the road edge.",
+    "Avoid snow and ice; if you can't, stay upright, crawl across with your feet skimming the surface, don't brake until you're past the ice, and straddle-walk the bike if riding isn't practical.",
+    "If you must ride over an obstacle, slow down, stay upright, meet it at 90 degrees, roll on slightly just before it, and rise slightly off the seat, then pull off to check tires and rims.",
+    "Railroad tracks can be crossed at angles as sharp as 45 degrees without changing course, parallel trolley tracks and seams need a quick, sharp turn of at least 45 degrees, and grooves or gratings call for steady speed and direction.",
+    "Swerve by pressing the handgrip on the side you want to go, then the opposite grip to straighten, keeping your knees on the tank, letting the bike lean beneath you, and never braking mid-swerve.",
+    "For a quick stop use both brakes firmly and steadily, release and gently reapply a locked front wheel, keep a locked rear wheel locked if you're going straight, and straighten up before braking hard in a curve.",
+    "Face protection and proper clothing reduce injuries from insects and debris, and if you're struck, keep watching the road until you can stop safely, then check the bike for damage.",
+    "In heavy traffic don't swerve into another lane to miss an animal, since hitting an animal is more survivable than hitting a vehicle, and lose a chasing dog by downshifting, approaching slowly, then speeding away; never kick at it.",
+    "If handling turns poor, suspect a tire: avoid sudden braking, ride straight, shift weight back for a front failure, stay seated with no weight shift for a rear one, and brake gradually with the good tire.",
+    "Twist a stuck throttle back and forth to free it, and if that fails, use the engine cut-off switch with the clutch pulled in; if the engine seizes, usually from low oil pressure, pull in the clutch and let the engine cool before restarting.",
+    "A wobble usually comes from improper loading, unsuitable accessories, or incorrect tire pressure; grip firmly, close the throttle, avoid braking or accelerating, and shift your weight forward and down.",
+    "Chain slippage often shows up first when accelerating hard or climbing hills, and if the chain breaks, close the throttle and brake gently to a stop at the road's edge."
+  ],
+  "questions": [
+    {
+      "id": "m6-01",
+      "q": "When riding on wet pavement, where in the lane does the manual recommend you ride?",
+      "options": [
+        "In the center of the lane, away from both edges",
+        "Directly on the painted lane markings",
+        "In the tire tracks of vehicles ahead",
+        "Close to the edge of the road"
+      ],
+      "answer": 2,
+      "explanation": "Oil dropped by passing vehicles builds up in the middle of the lane, so the tire tracks of the traffic ahead are the safer path on wet roads. Painted lines are slick, and dirt and gravel tend to gather along the road edge.",
+      "page": 28,
+      "volatile": false
+    },
+    {
+      "id": "m6-02",
+      "q": "Which braking method does the manual recommend on slippery surfaces?",
+      "options": [
+        "Use only the rear brake, since the front brake is too risky on slick pavement",
+        "Use only the front brake, since it provides most of the stopping power",
+        "Apply both brakes hard and fast before you lose more traction",
+        "Use both brakes, applying them gradually"
+      ],
+      "answer": 3,
+      "explanation": "Using both brakes is one of the manual's precautions for slick surfaces; the front brake can still be trusted, and building pressure gradually helps keep the wheels from locking and skidding.",
+      "page": 28,
+      "volatile": false
+    },
+    {
+      "id": "m6-03",
+      "q": "You cannot avoid riding over an ice-covered section of road. What does the manual advise?",
+      "options": [
+        "Stay upright and go as slowly as possible, feet skimming the surface",
+        "Keep your normal speed so momentum carries you across the ice quickly",
+        "Lean the motorcycle slightly and keep both feet firmly on the footpegs",
+        "Brake steadily the whole way across so your speed stays as low as possible"
+      ],
+      "answer": 0,
+      "explanation": "Stay straight up and crawl across with your feet lightly touching the surface so you can steady the bike if it starts to go down, and hold off braking until you are past the ice.",
+      "page": 28,
+      "volatile": false
+    },
+    {
+      "id": "m6-04",
+      "q": "A piece of lumber is lying in your lane, and you don't have the time or space to go around it. At what angle should you ride over it?",
+      "options": [
+        "At a 45-degree angle",
+        "At a 90-degree angle",
+        "At a shallow angle so the tires ease onto it gradually",
+        "At a 30-degree angle"
+      ],
+      "answer": 1,
+      "explanation": "When an obstacle can't be avoided, the manual says to meet it head-on at 90 degrees, with speed reduced and the motorcycle upright.",
+      "page": 29,
+      "volatile": false
+    },
+    {
+      "id": "m6-05",
+      "q": "As you ride over an obstacle you could not avoid, how should you position your body?",
+      "options": [
+        "Stay firmly seated and lean back to keep the front wheel down",
+        "Lean forward over the tank with your elbows locked",
+        "Rise slightly off the seat with your weight on the footpegs",
+        "Shift your weight onto the handlebars to keep the front tire planted"
+      ],
+      "answer": 2,
+      "explanation": "Lifting slightly off the seat with your weight on the pegs lets your knees and elbows absorb the jolt and makes it less likely you'll be thrown from the motorcycle.",
+      "page": 29,
+      "volatile": false
+    },
+    {
+      "id": "m6-06",
+      "q": "Railroad tracks cross the road ahead at a 45-degree angle to your path. What does the manual recommend?",
+      "options": [
+        "Change your path so you cross the tracks at a 90-degree angle",
+        "Speed up and cross while the motorcycle is leaned over",
+        "Turn so you cross them at a very shallow angle, almost parallel to the rails",
+        "Keep to your normal path and cross; angles as sharp as 45 degrees are safe"
+      ],
+      "answer": 3,
+      "explanation": "The manual says railroad tracks can be crossed safely at angles down to 45 degrees and discourages changing course to take them at 90 degrees, which can put you in oncoming traffic.",
+      "page": 29,
+      "volatile": false
+    },
+    {
+      "id": "m6-07",
+      "q": "A trolley track or pavement seam runs parallel to your path, and you need to cross it. What should you do?",
+      "options": [
+        "Make a quick, sharp turn across it at 45 degrees or more",
+        "Ease across it gradually at a shallow angle to avoid any sudden movement",
+        "Ride along on top of it until you reach the point where you want to turn",
+        "Speed up so the tires skip across it at any angle"
+      ],
+      "answer": 0,
+      "explanation": "Parallel tracks and seams act as edge traps that can upset your balance and control, so cross them with a quick, sharp turn at 45 degrees or more.",
+      "page": 30,
+      "volatile": false
+    },
+    {
+      "id": "m6-08",
+      "q": "Your motorcycle begins to weave as you ride across a metal bridge grating. What should you do?",
+      "options": [
+        "Hold your speed and direction and avoid sudden moves",
+        "Brake firmly right away to slow down before the weaving gets any worse",
+        "Accelerate hard so you spend as little time on the grating as possible",
+        "Change lanes to get off the grating and onto solid pavement sooner"
+      ],
+      "answer": 0,
+      "explanation": "The weaving feeling from grooves and gratings is normally not dangerous as long as you avoid abrupt or extreme inputs and hold your speed and line until you reach solid pavement.",
+      "page": 30,
+      "volatile": false
+    },
+    {
+      "id": "m6-09",
+      "q": "According to the manual, how do you perform a swerve?",
+      "options": [
+        "Lean your body toward the open space while holding the handlebars straight",
+        "Press the handgrip on the side you want to go, then press the opposite grip to straighten once past the hazard",
+        "Press the handgrip on the side opposite the direction you want to go, then let the motorcycle straighten on its own",
+        "Apply both brakes firmly while turning the handlebars toward the open space"
+      ],
+      "answer": 1,
+      "explanation": "A little pressure on the grip toward your escape side makes the bike lean and change direction quickly, and pressure on the other grip brings it back. Let the motorcycle lean beneath you rather than leaning with it.",
+      "page": 30,
+      "volatile": false
+    },
+    {
+      "id": "m6-10",
+      "q": "You need to swerve around a hazard and also slow down. How should you handle braking?",
+      "options": [
+        "Brake firmly during the swerve so you slow down while changing direction",
+        "Keep light, steady pressure on the rear brake throughout the swerve",
+        "Don't brake while swerving; do your braking before or after the swerve",
+        "Apply the front brake as the motorcycle begins to lean"
+      ],
+      "answer": 2,
+      "explanation": "Braking in the middle of a swerve can cause a skid, so keep the two actions separate; the manual's illustrations show swerve-then-brake and brake-then-swerve.",
+      "page": 30,
+      "volatile": false
+    },
+    {
+      "id": "m6-11",
+      "q": "During a quick stop, your front wheel locks. What should you do?",
+      "options": [
+        "Hold the front brake steady until the motorcycle stops",
+        "Release the front brake immediately, then reapply it gently",
+        "Release both brakes and coast to a stop",
+        "Press harder on the rear brake to balance the locked front wheel"
+      ],
+      "answer": 1,
+      "explanation": "A locked front wheel has to be released right away; then squeeze the front brake back on gently so you keep slowing.",
+      "page": 31,
+      "volatile": false
+    },
+    {
+      "id": "m6-12",
+      "q": "While making a quick stop in a straight line, your rear wheel locks. What does the manual recommend?",
+      "options": [
+        "Keep it locked until you come to a complete stop",
+        "Release the rear brake immediately, then gently reapply it",
+        "Release the rear brake fully and finish stopping with only the front brake",
+        "Pump the rear brake rapidly until the wheel begins turning again"
+      ],
+      "answer": 0,
+      "explanation": "When you are traveling straight, leave a locked rear wheel locked until you stop; you can often still control the motorcycle in that situation.",
+      "page": 31,
+      "volatile": false
+    },
+    {
+      "id": "m6-13",
+      "q": "You must stop quickly while riding through a curve. If you have the chance, what should you do first?",
+      "options": [
+        "Straighten the motorcycle, then brake firmly and steadily",
+        "Brake hard with the front brake while staying leaned over in the curve",
+        "Lean further into the curve and slow down using only the rear brake",
+        "Hold your lean angle and rely on downshifting alone to slow down"
+      ],
+      "answer": 0,
+      "explanation": "Get the bike upright before braking hard. If there's no chance to straighten it, apply both brakes gradually and build pressure until you stop.",
+      "page": 31,
+      "volatile": false
+    },
+    {
+      "id": "m6-14",
+      "q": "A pebble thrown up by a passing vehicle strikes you in the face. What should you do?",
+      "options": [
+        "Turn your head to see where it came from so you can avoid it next time",
+        "Stop right away where you are, even if you are still in a travel lane",
+        "Keep riding to your destination and inspect the motorcycle once you arrive",
+        "Keep focused on the road until you can stop safely, then check for damage"
+      ],
+      "answer": 3,
+      "explanation": "Keep your attention on the road until a safe place to stop comes up; once you're off to the side, inspect the motorcycle and fix anything needed before riding on.",
+      "page": 31,
+      "volatile": false
+    },
+    {
+      "id": "m6-15",
+      "q": "In heavy, congested traffic, an animal runs into your lane. What does the manual recommend?",
+      "options": [
+        "Swerve into the next lane, since hitting the animal is the bigger danger",
+        "Avoid it if you can, but don't swerve into another lane to do so",
+        "Hold your line and make no attempt to avoid it",
+        "Move into the oncoming lane if it has the most open space"
+      ],
+      "answer": 1,
+      "explanation": "Make every effort to miss the animal, but in congested traffic don't swerve into a neighboring lane, because your odds of surviving are better against an animal than against another vehicle.",
+      "page": 31,
+      "volatile": false
+    },
+    {
+      "id": "m6-16",
+      "q": "A dog starts chasing your motorcycle. What does the manual recommend?",
+      "options": [
+        "Kick at the dog when it gets close enough to keep it away from your leg",
+        "Accelerate hard as soon as you see the dog, before it can reach you",
+        "Downshift, approach it slowly, then speed up to leave it behind",
+        "Stop the motorcycle and wait for the dog to lose interest"
+      ],
+      "answer": 2,
+      "explanation": "Kicking can cost you your balance and control. Instead, slow down and approach in a lower gear, then accelerate briskly once you reach the dog so you leave it behind.",
+      "page": 31,
+      "volatile": false
+    },
+    {
+      "id": "m6-17",
+      "q": "Your front tire fails while you are riding. How does the manual say you should shift your weight?",
+      "options": [
+        "Forward, over the handlebars, to keep the front tire planted",
+        "Toward the rear of the motorcycle",
+        "Don't shift it at all; just remain seated",
+        "Stand up on the footpegs"
+      ],
+      "answer": 1,
+      "explanation": "A front tire failure hurts steering and control, so moving your weight rearward adds balance and stability. Staying seated with no weight shift is the advice for a rear tire failure.",
+      "page": 49,
+      "volatile": false
+    },
+    {
+      "id": "m6-18",
+      "q": "Your rear tire goes flat while you are riding. After gripping the handlebars firmly and holding a straight course, how should you brake?",
+      "options": [
+        "Apply both brakes hard",
+        "Apply the rear brake firmly",
+        "Use neither brake and coast to a stop",
+        "Apply the front brake gradually"
+      ],
+      "answer": 3,
+      "explanation": "Once you know which tire failed, brake gradually with the tire that is still good and avoid sudden braking, easing toward the road edge where it's safe to stop.",
+      "page": 49,
+      "volatile": false
+    },
+    {
+      "id": "m6-19",
+      "q": "Your throttle sticks while you are riding. What does the manual say to try first?",
+      "options": [
+        "Roll the throttle back and forth a few times to try to free it",
+        "Check the throttle cable with one hand while you keep riding",
+        "Apply both brakes hard while leaving the clutch engaged",
+        "Continue at the stuck speed and have the throttle checked after the ride"
+      ],
+      "answer": 0,
+      "explanation": "Rolling the throttle back and forth may free the cable and give you back control of the engine. Inspect the cable only after you are safely stopped, and don't ride on until the throttle works properly.",
+      "page": 49,
+      "volatile": false
+    },
+    {
+      "id": "m6-20",
+      "q": "You have twisted a stuck throttle back and forth, but it will not come free. What should you do next?",
+      "options": [
+        "Keep twisting the throttle until it frees, however long it takes",
+        "Hit the engine cut-off switch, then let the clutch lever out",
+        "Lock up the rear brake until the motorcycle stops",
+        "Hold the clutch in and use the engine cut-off switch"
+      ],
+      "answer": 3,
+      "explanation": "Killing the engine with the cut-off switch while the clutch is pulled in takes power away from the rear wheel so you can regain control and stop safely.",
+      "page": 49,
+      "volatile": false
+    },
+    {
+      "id": "m6-21",
+      "q": "The front wheel and handlebars suddenly start shaking from side to side (a wobble). What should you do?",
+      "options": [
+        "Accelerate smoothly to power your way out of the wobble",
+        "Hold the grips firmly and close the throttle, but don't brake",
+        "Brake firmly to stop as quickly as you can",
+        "Loosen your grip and let the handlebars shake until the wobble settles"
+      ],
+      "answer": 1,
+      "explanation": "Speeding up makes a wobble worse, and braking can too, so hold the grips firmly and roll off the throttle to bring your speed down.",
+      "page": 50,
+      "volatile": false
+    },
+    {
+      "id": "m6-22",
+      "q": "To help regain control during a wobble, where should you shift your body weight?",
+      "options": [
+        "As far back on the seat as possible",
+        "Up off the seat, standing on the footpegs",
+        "As far forward and as low as you can",
+        "Side to side, against the direction of the shaking"
+      ],
+      "answer": 2,
+      "explanation": "Moving your weight as far forward and low as you can reduces the shaking and helps you regain control; then stop safely and look for the cause.",
+      "page": 50,
+      "volatile": false
+    },
+    {
+      "id": "m6-23",
+      "q": "You suddenly lose all power to the rear wheel, a sign that your chain has broken. What should you do?",
+      "options": [
+        "Pull in the clutch and keep downshifting until you find a gear that still drives the wheel",
+        "Brake hard with the rear brake to stop right where you are",
+        "Close the throttle and brake gently to a stop at the edge of the road",
+        "Open the throttle further to see whether power to the wheel returns"
+      ],
+      "answer": 2,
+      "explanation": "A broken chain cuts drive to the rear wheel instantly; close the throttle and brake gently as you move to the edge of the road to stop.",
+      "page": 50,
+      "volatile": false
+    },
+    {
+      "id": "m6-24",
+      "q": "Your engine seizes while you are riding. What should you do?",
+      "options": [
+        "Apply the rear brake hard to lock the rear wheel",
+        "Downshift to a lower gear to free up the engine",
+        "Try to restart the engine right away while rolling",
+        "Pull in the clutch and hold it in"
+      ],
+      "answer": 3,
+      "explanation": "Holding the clutch in separates the seized engine from the rear wheel. Once you're safely stopped, step away and let the engine cool before trying to restart.",
+      "page": 50,
+      "volatile": false
+    }
+  ]
+}

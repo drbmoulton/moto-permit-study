@@ -1,0 +1,250 @@
+{
+  "id": "m7",
+  "title": "Passengers, Cargo, Groups & Night",
+  "manualPages": [
+    32,
+    33,
+    34,
+    35
+  ],
+  "summary": [
+    "Extra weight from a passenger or heavy load changes handling, balance, acceleration and stopping distance, so practice with light loads first.",
+    "Massachusetts law requires every motorcycle passenger to wear a US DOT approved helmet.",
+    "A passenger should mount only after the engine is running, sit close without interfering with control, hold the rider's waist or hips, and keep feet on the footpegs even when stopped.",
+    "Passengers should stay directly behind the rider, lean with the rider in turns, and keep talking and moving to a minimum.",
+    "With a passenger, leave a bigger space cushion for slowing and stopping, and adjust speed on rough, sloped or curved roads; suspension and tire pressure may need adjusting.",
+    "Secure cargo low and over the axles; loads behind the rear axle upset balance and affect braking, and saddlebag loads should be balanced side to side; elastic cords help keep loads from shifting.",
+    "If a group has more than five or six riders, split it into two smaller groups.",
+    "Put inexperienced riders near the front of a group, make sure everyone knows the route, and signal lane changes early.",
+    "Ride in a staggered formation with at least two seconds between each rider and the one directly ahead in the same track; switch to single file for curves, turns and freeway entry or exit, and never ride side by side.",
+    "When a staggered group passes a vehicle, riders pass one at a time, starting with the leader.",
+    "At night, slow down, use your headlight fully and increase following distance; Massachusetts requires headlights from a half hour after sunset to a half hour before sunrise.",
+    "When pulling off the road, signal early, check that the surface is firm, slow down on soft shoulders, park well away from traffic, and use care with the kickstand on soft or sloped ground."
+  ],
+  "questions": [
+    {
+      "id": "m7-01",
+      "q": "Under Massachusetts law, what must every motorcycle passenger wear?",
+      "options": [
+        "A US DOT approved helmet",
+        "Eye protection only",
+        "A reflective vest",
+        "Over-the-ankle boots"
+      ],
+      "answer": 0,
+      "explanation": "Massachusetts requires all passengers to wear a helmet approved by the US DOT. Protective clothing and face protection are recommended on top of that.",
+      "page": 32,
+      "volatile": false
+    },
+    {
+      "id": "m7-02",
+      "q": "When should a passenger climb onto the motorcycle?",
+      "options": [
+        "Before the rider gets on",
+        "Before the engine is started",
+        "After the engine has been started",
+        "Only after the rider has started moving slowly"
+      ],
+      "answer": 2,
+      "explanation": "The manual says passengers should get on after the engine is already running.",
+      "page": 32,
+      "volatile": false
+    },
+    {
+      "id": "m7-03",
+      "q": "Where should a passenger keep their feet while the motorcycle is stopped?",
+      "options": [
+        "On the ground to help balance the bike",
+        "Firmly on the footpegs",
+        "Resting on the rear frame",
+        "Wherever is most comfortable"
+      ],
+      "answer": 1,
+      "explanation": "Passengers should keep their feet planted on the footpegs at all times, including at stops.",
+      "page": 32,
+      "volatile": false
+    },
+    {
+      "id": "m7-04",
+      "q": "How should a passenger behave in turns and curves?",
+      "options": [
+        "Lean the opposite way to keep the bike upright",
+        "Sit straight up and stay still",
+        "Shift to the outside of the seat",
+        "Stay directly behind the rider and lean with the rider"
+      ],
+      "answer": 3,
+      "explanation": "The passenger should stay in line behind the rider and lean along with the rider through turns.",
+      "page": 32,
+      "volatile": false
+    },
+    {
+      "id": "m7-05",
+      "q": "When carrying a passenger, how should you change the way you stop or slow down?",
+      "options": [
+        "Brake later, since the extra weight adds traction",
+        "Leave a larger space cushion",
+        "Use only the rear brake",
+        "Make no change; stopping is unaffected"
+      ],
+      "answer": 1,
+      "explanation": "The added weight changes how the bike handles and stops, so the manual says to allow more space when slowing or stopping.",
+      "page": 32,
+      "volatile": false
+    },
+    {
+      "id": "m7-06",
+      "q": "If you need to talk to your passenger while riding, what does the manual suggest?",
+      "options": [
+        "Turn your head fully around so they can hear you",
+        "Pull over every time",
+        "Turn your head slightly while keeping your focus on the road ahead",
+        "Have the passenger lean forward over your shoulder"
+      ],
+      "answer": 2,
+      "explanation": "A slight head turn is suggested, as long as you keep watching the road and traffic ahead.",
+      "page": 32,
+      "volatile": false
+    },
+    {
+      "id": "m7-07",
+      "q": "What adjustments may be needed on the motorcycle when carrying a passenger?",
+      "options": [
+        "Minor changes to suspension and tire pressure",
+        "Moving the rider's seating position far forward",
+        "Removing the mirrors",
+        "Lowering the headlight beam"
+      ],
+      "answer": 0,
+      "explanation": "Depending on the passenger's weight, small suspension and tire pressure adjustments may be needed. The manual also says riders should not have to change their own seating position.",
+      "page": 32,
+      "volatile": false
+    },
+    {
+      "id": "m7-08",
+      "q": "Where is the best place to carry cargo on a motorcycle?",
+      "options": [
+        "High on the rear seat frame",
+        "Behind the rear axle",
+        "On the handlebars",
+        "Low and over the wheel axles"
+      ],
+      "answer": 3,
+      "explanation": "Keeping loads low and over the axles keeps the bike stable. Loads behind the rear axle hurt balance and braking.",
+      "page": 33,
+      "volatile": false
+    },
+    {
+      "id": "m7-09",
+      "q": "What can happen if saddlebags are loaded unevenly?",
+      "options": [
+        "The motorcycle may pull to one side",
+        "The headlight may aim too high",
+        "The engine may overheat",
+        "The horn may stop working"
+      ],
+      "answer": 0,
+      "explanation": "An uneven load between the bags can make the motorcycle pull toward one side.",
+      "page": 33,
+      "volatile": false
+    },
+    {
+      "id": "m7-10",
+      "q": "What danger does overloading saddlebags create?",
+      "options": [
+        "Bags rubbing the paint",
+        "Bags catching in the wheel or chain and locking the rear wheel",
+        "Reduced fuel economy only",
+        "A dimmer taillight"
+      ],
+      "answer": 1,
+      "explanation": "Overloaded bags can get caught in the wheel or chain, which can lock the rear wheel and cause a skid.",
+      "page": 33,
+      "volatile": false
+    },
+    {
+      "id": "m7-11",
+      "q": "A group of eight motorcyclists wants to ride together. What does the manual recommend?",
+      "options": [
+        "Ride side by side in pairs",
+        "Ride as one group with the most experienced rider last",
+        "Split into two separate groups",
+        "Ride as one group in single file at all times"
+      ],
+      "answer": 2,
+      "explanation": "When a group grows beyond five or six riders, it should be divided into two smaller groups.",
+      "page": 33,
+      "volatile": false
+    },
+    {
+      "id": "m7-12",
+      "q": "Where should inexperienced riders be placed in a group?",
+      "options": [
+        "At the very back",
+        "In the lead position",
+        "Riding alongside an experienced rider",
+        "Toward the front, where experienced riders can watch them"
+      ],
+      "answer": 3,
+      "explanation": "The manual says to place newer riders near the front so more experienced riders behind them can keep an eye on them.",
+      "page": 33,
+      "volatile": false
+    },
+    {
+      "id": "m7-13",
+      "q": "In a staggered formation, what is the minimum gap between the first rider and the third rider, who follows in the same track?",
+      "options": [
+        "One second",
+        "Two seconds",
+        "Three seconds",
+        "Four seconds"
+      ],
+      "answer": 1,
+      "explanation": "In a staggered group, each rider keeps at least two seconds behind the rider directly ahead in the same part of the lane.",
+      "page": 34,
+      "volatile": false
+    },
+    {
+      "id": "m7-14",
+      "q": "When should a group switch from a staggered formation to single file?",
+      "options": [
+        "When approaching turns or curves and when entering or exiting freeways",
+        "Only in heavy rain",
+        "Whenever traffic is light",
+        "Only when stopped at traffic lights"
+      ],
+      "answer": 0,
+      "explanation": "Riders should leave the stagger and ride single file for turns and curves and when getting on or off freeways.",
+      "page": 34,
+      "volatile": false
+    },
+    {
+      "id": "m7-15",
+      "q": "How should a group in staggered formation pass another vehicle?",
+      "options": [
+        "All riders pass at the same time",
+        "The last rider passes first, then the others move up",
+        "Riders pair up side by side and pass together",
+        "One rider at a time, starting with the leader"
+      ],
+      "answer": 3,
+      "explanation": "The leader passes first when there is room and returns to the lane, then each remaining rider passes the same way, one at a time.",
+      "page": 34,
+      "volatile": false
+    },
+    {
+      "id": "m7-16",
+      "q": "Under Massachusetts law, when must motorcyclists use their headlights?",
+      "options": [
+        "From sunset to sunrise",
+        "From one hour after sunset to one hour before sunrise",
+        "From one-half hour after sunset to one-half hour before sunrise",
+        "Only when streetlights are off"
+      ],
+      "answer": 2,
+      "explanation": "Massachusetts requires headlights from a half hour after sunset to a half hour before sunrise.",
+      "page": 35,
+      "volatile": false
+    }
+  ]
+}
