@@ -18,13 +18,13 @@
     "By law a motorcycle has a seat or saddle and is built to run on no more than three wheels touching the ground.",
     "Mopeds (motorized bicycles) are limited to 30 mph and 50 cc by design and may not be ridden faster than 25 mph; motorized scooters may not be ridden faster than 20 mph or between sunset and sunrise.",
     "A limited use vehicle (top speed over 30 but not over 40 mph) needs a Class M license or permit if it is a motorcycle and may not use any road with a speed limit above 40 mph or limited-access highways.",
-    "You must be at least 16, apply, show valid ID, pay a fee, and pass a knowledge test to get a motorcycle learner's permit; applicants without a Class D license must also pass the Class D knowledge test.",
+    "To get a motorcycle learner's permit you must be at least 16, fill out an application, show valid ID, pay the fee, and pass the knowledge test; if you have no Class D license, you must pass the Class D knowledge test as well.",
     "Permit holders may ride only from sunrise to sunset and may never carry passengers.",
-    "You can apply for a Class M license at 16 and a half, and the permit converts to a license only after passing the road test or completing the MREP course.",
-    "Junior operators (under 18) must hold the permit six months with a clean record, take driver's education and the MREP course, and may not drive between 12:30 a.m. and 5:00 a.m.",
+    "At 16 and a half you can apply for a Class M license, as long as your license or right to operate has not been revoked; the permit converts to a license only after you pass the road test or complete the MREP course.",
+    "Junior operators (under 18) must hold the permit for at least six months with a clean record before the road test, complete driver's education and the MREP basic rider course, and may not drive between 12:30 a.m. and 5:00 a.m.",
     "Failing the motorcycle road test twice means you must complete an approved rider training course before scheduling another road test.",
-    "For the road test the motorcycle must be safe, registered, and inspected, and the rider must wear a DOT helmet meeting FMVSS No. 218 plus eye protection unless the bike has a windshield or screen.",
-    "Taking the road test on a trike or limited use vehicle earns a Class M license with a 'J' restriction limiting you to that type of vehicle.",
+    "For the road test the motorcycle must be safe, registered, insured, and inspected, and the rider must wear a DOT helmet meeting FMVSS No. 218 plus eye protection unless the bike has a windshield or screen.",
+    "The manual says that if you take the road test on a trike or a limited use vehicle, your Class M license carries a 'J' restriction that limits you to that type of vehicle.",
     "The road test may include figure-eights and 360-degree circles in both directions without putting a foot down, along with starts, stops, turns, traffic, intersections, and hills."
   ],
   "questions": [
@@ -52,7 +52,7 @@
         "Any time, but only on roads posted 40 mph or less"
       ],
       "answer": 2,
-      "explanation": "Permit holders may operate a motorcycle only in daylight, from sunrise to sunset.",
+      "explanation": "Permit holders may operate a motorcycle only in daylight, from sunrise to sunset. The manual makes no exception for riding with a licensed rider.",
       "page": 7,
       "volatile": false
     },
@@ -61,12 +61,12 @@
       "q": "May a motorcycle learner's permit holder carry a passenger?",
       "options": [
         "No, passengers are prohibited for permit holders",
-        "Yes, if the passenger holds a Class M license",
+        "No, unless the passenger holds a Class M license",
         "Yes, during daylight hours only",
         "Yes, if the passenger is over 18"
       ],
       "answer": 0,
-      "explanation": "Riders on a learner's permit are not allowed to carry any passengers.",
+      "explanation": "Riders on a learner's permit are not allowed to carry any passengers, not even one who holds a motorcycle license.",
       "page": 7,
       "volatile": false
     },
@@ -74,27 +74,27 @@
       "id": "m1-04",
       "q": "What happens if you fail the Class M road test twice?",
       "options": [
-        "You must wait one year before retesting",
-        "You must retake the knowledge test",
-        "Your learner's permit is revoked",
-        "You must complete an approved basic rider course before scheduling another road test"
+        "You must wait at least one year before scheduling another road test",
+        "You must retake and pass the knowledge test before scheduling another road test",
+        "Your learner's permit is revoked and you must apply for a new one",
+        "You must complete an approved rider training course before scheduling another road test"
       ],
       "answer": 3,
       "explanation": "After two failed motorcycle road tests, the RMV requires completion of an approved rider training course before another road test can be booked.",
       "page": 10,
-      "volatile": false
+      "volatile": true
     },
     {
       "id": "m1-05",
-      "q": "A 17-year-old wants a Massachusetts motorcycle license. Which course must they complete?",
+      "q": "A 17-year-old wants a Massachusetts motorcycle license. Which rider training course must they complete?",
       "options": [
-        "An advanced rider course",
+        "The Massachusetts Rider Education Program experienced rider course",
         "The Massachusetts Rider Education Program basic rider course",
-        "A three-wheel rider course",
+        "An advanced street-riding course at a private school",
         "No course is required if they pass the road test"
       ],
       "answer": 1,
-      "explanation": "Anyone under 18 is required to successfully complete the MREP basic rider course to get a motorcycle license.",
+      "explanation": "Anyone under 18 is required to successfully complete the MREP basic rider course to get a motorcycle license. The experienced rider course teaches advanced techniques, but it is not the required one.",
       "page": 2,
       "volatile": false
     },
@@ -114,15 +114,15 @@
     },
     {
       "id": "m1-07",
-      "q": "A rider under 18 may not operate a motor vehicle during which hours?",
+      "q": "Under the Junior Operator's License rules, a driver under 18 may not drive during which hours?",
       "options": [
         "12:30 a.m. to 5:00 a.m.",
-        "Sunset to sunrise",
+        "1:00 a.m. to 6:00 a.m.",
         "11:00 p.m. to 6:00 a.m.",
         "Midnight to 4:00 a.m."
       ],
       "answer": 0,
-      "explanation": "Operators under 18 are barred from driving between 12:30 a.m. and 5:00 a.m.",
+      "explanation": "The manual's Junior Operator's License rules bar drivers under 18 from driving between 12:30 a.m. and 5:00 a.m. A motorcycle learner's permit is stricter still: permit holders of any age may ride only from sunrise to sunset.",
       "page": 7,
       "volatile": false
     },
@@ -132,11 +132,11 @@
       "options": [
         "Exactly two",
         "No more than four",
-        "Two, plus an optional sidecar wheel only if registered separately",
+        "Exactly three",
         "No more than three"
       ],
       "answer": 3,
-      "explanation": "The legal definition covers motor vehicles with a seat or saddle built to run on no more than three wheels touching the ground.",
+      "explanation": "The legal definition covers motor vehicles with a seat or saddle built to run on no more than three wheels touching the ground, so it includes both two-wheeled bikes and three-wheeled trikes.",
       "page": 4,
       "volatile": false
     },
@@ -152,7 +152,7 @@
       "answer": 1,
       "explanation": "Moped riders must not exceed 25 mph, even though a moped can be built to reach up to 30 mph.",
       "page": 4,
-      "volatile": false
+      "volatile": true
     },
     {
       "id": "m1-10",
@@ -164,9 +164,9 @@
         "It must be registered with the RMV"
       ],
       "answer": 2,
-      "explanation": "Motorized scooters are capped at 20 mph; they also cannot carry passengers, use limited-access highways, or be registered by the RMV.",
+      "explanation": "Motorized scooters are capped at 20 mph. The manual also says they cannot carry passengers, use limited-access highways, or be registered by the RMV.",
       "page": 5,
-      "volatile": false
+      "volatile": true
     },
     {
       "id": "m1-11",
@@ -174,39 +174,25 @@
       "options": [
         "Any road with a speed limit above 40 mph",
         "Any road with a speed limit above 30 mph",
-        "Only interstate highways",
+        "Any road with more than two travel lanes",
         "Any road after sunset"
       ],
       "answer": 0,
       "explanation": "Limited use vehicles may not be driven on limited-access or express highways or on any road posted above 40 mph.",
       "page": 6,
-      "volatile": false
+      "volatile": true
     },
     {
       "id": "m1-12",
       "q": "When is a motorcycle operator NOT required to wear eyeglasses, goggles, or a face shield?",
       "options": [
-        "When riding below 30 mph",
-        "When riding during daylight hours",
+        "When riding below 30 mph on local roads",
+        "When riding in daylight and clear weather",
         "When wearing a DOT-approved helmet",
         "When the motorcycle has a windshield or screen"
       ],
       "answer": 3,
-      "explanation": "Eye protection is required unless the motorcycle is equipped with a windshield or screen.",
-      "page": 9,
-      "volatile": false
-    },
-    {
-      "id": "m1-13",
-      "q": "Massachusetts requires motorcycle helmets to comply with which standard?",
-      "options": [
-        "Federal Motor Vehicle Safety Standard No. 108",
-        "Federal Motor Vehicle Safety Standard No. 218",
-        "Snell M2015 only",
-        "Any helmet sold by a licensed dealer"
-      ],
-      "answer": 1,
-      "explanation": "Helmets must meet the US DOT's FMVSS No. 218 and carry stickers showing compliance inside and out.",
+      "explanation": "Eye protection is required unless the motorcycle is equipped with a windshield or screen. As safety advice, though, the manual says a windshield cannot take the place of a faceshield or goggles (page 14).",
       "page": 9,
       "volatile": false
     },
@@ -214,15 +200,15 @@
       "id": "m1-14",
       "q": "During the Class M road test, how must you perform figure-eights and 360-degree circles?",
       "options": [
-        "In both directions without your feet touching the roadway",
+        "In both directions, without your feet touching the roadway",
         "In one direction only, with one foot down allowed",
-        "At a minimum speed of 15 mph",
-        "With a passenger on board"
+        "In one direction only, without your feet touching the roadway",
+        "In both directions, with a foot down allowed in tight turns"
       ],
       "answer": 0,
       "explanation": "The examiner may ask for figure-eights and full circles in both directions, completed without putting your feet down.",
       "page": 10,
-      "volatile": false
+      "volatile": true
     },
     {
       "id": "m1-15",
@@ -237,6 +223,20 @@
       "explanation": "Cancelling or rescheduling less than 72 hours before the test time results in the road test fee being charged.",
       "page": 11,
       "volatile": true
+    },
+    {
+      "id": "m1-16",
+      "q": "How can you tell that a motorcycle helmet meets the federal safety standard Massachusetts requires?",
+      "options": [
+        "It comes with an attached face shield",
+        "It carries stickers inside and outside",
+        "It is a bright color for visibility",
+        "It weighs at least three pounds"
+      ],
+      "answer": 1,
+      "explanation": "Helmets that meet the federal standard required by state law are labeled with stickers on both the inside and the outside. A face shield, a bright color or a helmet's weight doesn't show that it meets the standard.",
+      "page": 9,
+      "volatile": false
     }
   ]
 }

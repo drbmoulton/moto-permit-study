@@ -5,7 +5,7 @@ A study app for the Massachusetts Class M (motorcycle) learner's permit knowledg
 ## What's in it
 
 - **Nine study sections** that follow the manual, each with key points, the manual pages to read, and a section test that shows the answer and explanation after every question.
-- **Practice tests** that match the real one: 25 questions in proportion to the manual's sections, a 25-minute timer, no feedback until the end, and pass at 18. The results screen breaks the score down by section and lets you review every question.
+- **Practice tests** that match the real one: 25 questions drawn from every section in proportion to its share of the question bank, a 25-minute timer, no feedback until the end, and pass at 18. The results screen breaks the score down by section and lets you review every question.
 - **Quick 10**: a short mixed set, starting with questions you got wrong and ones you haven't seen.
 - **Missed questions**: everything you got wrong the last time you saw it, overall or per section.
 - **The manual itself**: every answer cites its page, and the page opens inside the app.
@@ -30,7 +30,7 @@ src/app.html                 the app (HTML, CSS, JS); __BANK__ is replaced at bu
 manual/                      the manual PDF and one image per page (pages/pNN.webp, by PDF page)
 scripts/build.py             validates the bank, then builds dist/artifact.html and index.html
 scripts/test_logic.js        checks scoring, question picking and progress merging
-review/                      notes from the independent review of each section
+review/                      independent review notes for each section and the app; decisions.md records how open questions were settled
 ```
 
 Each question looks like this:
@@ -51,14 +51,14 @@ Each question looks like this:
 
 ## Editing questions
 
-1. Edit the section's file in `content/`.
+1. Edit the section's file in `content/`. Never reorder an existing question's options or change its `answer`: saved practice tests store the index of the option chosen. To rewrite a question substantially, remove it and add the new one under the section's next unused id; the app ignores ids that no longer exist.
 2. Run `python3 scripts/build.py`. It refuses to build if a question is malformed (wrong option count, answer out of range, a page outside the section, a duplicate id) and warns about likely duplicates or answers that give themselves away by length.
 3. Run `node scripts/test_logic.js`.
 4. Commit `content/`, `index.html` and `dist/artifact.html`.
 
 ## Hosting
 
-- **Claude artifact**: `dist/artifact.html` is published with the `manual/` files alongside it.
+- **Claude artifact**: `dist/artifact.html` is published with the `manual/` files alongside it, declaring the `user` and `db` capabilities (without them everyone saves in the browser only).
 - **GitHub Pages**: in the repository's Settings → Pages, deploy from the `main` branch, root folder. `index.html` is the complete page.
 
 Not affiliated with the Massachusetts RMV.

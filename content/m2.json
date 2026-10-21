@@ -9,22 +9,23 @@
   ],
   "summary": [
     "Before a trip, check the bike's equipment, get familiar with the machine, use face and eye protection, and wear proper gear.",
-    "Massachusetts requires that required safety equipment, such as horn, mirror, fenders, muffler, brakes, and lights, be in good working order.",
+    "Massachusetts law sets minimum equipment standards, and the operator must keep all safety equipment, including the horn, rearview mirror, fenders, muffler, brakes, and lights, in good working order.",
     "The front needs a properly aimed white headlight; the rear needs a red taillight, a stoplight, and a white plate light, and a sidecar needs a white forward light.",
-    "A bike set up for passengers must have a secure passenger seat and separate footpegs, and handlebars may not rise above the seated operator's shoulders.",
+    "Every bike needs a secure seat for its operator, and one set up for passengers also needs a secure passenger seat and separate footpegs. On any bike, handlebars may not rise above the operator's shoulders when properly seated.",
     "Helmets are mandatory for both riders and passengers in Massachusetts and prevent brain injury about 67% of the time.",
-    "Every helmet sold in the U.S. must meet Federal Motor Vehicle Safety Standard No. 218; the two main types are three-quarter and full-face.",
-    "A helmet should fit snugly, have no cracks, loose padding, frayed straps, or exposed metal, and be securely fastened whenever you ride.",
-    "A full, shatter-resistant faceshield gives the most protection; goggles protect only the eyes, and a windshield is never a substitute for either.",
-    "Tinted eye protection should not be worn at night or in other low-light conditions.",
+    "Every motorcycle helmet sold in the U.S. must meet Federal Motor Vehicle Safety Standard (FMVSS) No. 218; the two main types are three-quarter and full-face.",
+    "A helmet should fit snugly, show no defects such as cracks, frayed straps, loose padding, or exposed metal, and be securely fastened every time you ride.",
+    "A full, shatter-resistant faceshield protects best; goggles protect only the eyes. For safety, a windshield is no substitute for either, even though the law on page 9 lets an operator skip eye protection if the bike has a windshield or screen.",
+    "Don't wear tinted eye protection at night or at any other time when light is low.",
     "Jackets and pants should fully cover arms and legs, boots should cover the ankles, and gloves should be leather or a durable synthetic.",
+    "Wear a jacket even on warm days to prevent dehydration. In cold or wet weather, dress to stay warm and dry; being numb from the cold hurts control, and long cold rides can lead to severe chill, fatigue, or even hypothermia.",
     "Do a complete pre-ride check every time: tires, fluids, lights, turn signals, clutch and throttle, mirrors, brakes (one at a time), and horn.",
     "On an unfamiliar or borrowed bike, check all controls, learn the gear pattern, and ride cautiously until you know how it handles."
   ],
   "questions": [
     {
       "id": "m2-01",
-      "q": "Under Massachusetts law, what color light must the front of a motorcycle be fitted with?",
+      "q": "Under Massachusetts law, what color must the headlight on the front of a motorcycle be?",
       "options": [
         "Amber",
         "White",
@@ -40,13 +41,13 @@
       "id": "m2-02",
       "q": "Which set of lights must the rear of a motorcycle have?",
       "options": [
-        "An amber taillight and a white stoplight",
-        "A red taillight only",
+        "A white taillight, a stoplight, and a red license plate light",
+        "A white taillight and a stoplight; a plate light is optional",
         "A red taillight, a stoplight, and a white license plate light",
-        "A white taillight and a red license plate light"
+        "An amber taillight, a stoplight, and a white license plate light"
       ],
       "answer": 2,
-      "explanation": "The rear must carry a red tail light, a stoplight, and a white light that illuminates the plate.",
+      "explanation": "At the rear, the manual requires a red taillight, a stoplight, and a white lamp that shines on the license plate.",
       "page": 12,
       "volatile": false
     },
@@ -55,12 +56,12 @@
       "q": "How high may motorcycle handlebars be in Massachusetts?",
       "options": [
         "No higher than the operator's shoulders when properly seated",
-        "No higher than the top of the operator's helmet",
-        "No higher than 15 inches above the seat",
-        "There is no height limit"
+        "No higher than the top of the operator's helmet when seated",
+        "No higher than 15 inches above the top of the operator's seat",
+        "Any height, as long as the operator can reach the grips"
       ],
       "answer": 0,
-      "explanation": "Handlebars must not rise above the operator's shoulders when the operator is seated properly.",
+      "explanation": "Handlebars must not rise above the operator's shoulders when the operator is seated properly. That is the legal limit; separately, page 16 advises setting the bars so your hands are level with or below your elbows.",
       "page": 12,
       "volatile": false
     },
@@ -68,10 +69,10 @@
       "id": "m2-04",
       "q": "If a motorcycle is equipped to carry passengers, what must it have?",
       "options": [
-        "A backrest and grab handles",
+        "A passenger backrest and sturdy grab handles on both sides",
         "A secure passenger seat and separate passenger footpegs",
-        "A sidecar or trailer hitch",
-        "A second set of mirrors"
+        "A sidecar or a trailer hitch to carry the added weight",
+        "A second set of rearview mirrors and a louder horn"
       ],
       "answer": 1,
       "explanation": "A motorcycle that carries passengers needs a secure seat for them and separate footpegs.",
@@ -82,9 +83,9 @@
       "id": "m2-05",
       "q": "Who is required to wear a helmet on a motorcycle in Massachusetts?",
       "options": [
-        "Only operators under 18",
-        "Only the operator",
-        "Only passengers",
+        "Only operators and passengers under 18",
+        "The operator, but not a passenger",
+        "Everyone except adults over 21 with health insurance",
         "Both the operator and any passenger"
       ],
       "answer": 3,
@@ -102,7 +103,7 @@
         "90% of the time"
       ],
       "answer": 2,
-      "explanation": "The manual cites NHTSA data that helmets prevent brain injury roughly 67 percent of the time.",
+      "explanation": "The manual says that although a helmet can't prevent many other kinds of injury, it is effective in preventing brain injury about 67 percent of the time.",
       "page": 13,
       "volatile": false
     },
@@ -116,7 +117,7 @@
         "SAE J1100"
       ],
       "answer": 0,
-      "explanation": "FMVSS No. 218 sets the minimum protection level that all helmets sold in the U.S. must provide.",
+      "explanation": "The manual says every motorcycle helmet sold in the U.S. must meet FMVSS No. 218, the performance standard that sets a helmet's minimum level of protection. The manual ties VESC-8 to shatter-resistant faceshields, not to helmets.",
       "page": 13,
       "volatile": false
     },
@@ -126,7 +127,7 @@
       "options": [
         "Half-shell and modular",
         "Three-quarter and full-face",
-        "Open-face and half-shell",
+        "Fiberglass and polycarbonate",
         "Motocross and touring"
       ],
       "answer": 1,
@@ -138,9 +139,9 @@
       "id": "m2-09",
       "q": "Before buying a used helmet, what should you first make sure of?",
       "options": [
-        "That it is less than two years old",
-        "That it has a tinted visor",
-        "That it has never been worn by a passenger",
+        "That it is less than two years old, based on its date of manufacture",
+        "That it comes with a tinted visor for bright daytime riding",
+        "That it has never been worn by a passenger, only by an operator",
         "That its manufacturer or distributor will re-inspect it for damage"
       ],
       "answer": 3,
@@ -153,26 +154,26 @@
       "q": "Which type of eye and face protection does the manual recommend for the best protection?",
       "options": [
         "A full, shatter-resistant faceshield",
-        "A tall windshield",
-        "Shatter-resistant sunglasses",
-        "Prescription eyeglasses"
+        "A tall windshield that reaches eye level",
+        "Well-fitted, shatter-resistant goggles",
+        "Prescription eyeglasses with side shields"
       ],
       "answer": 0,
-      "explanation": "The manual recommends a full faceshield to protect the eyes and face from the elements and road hazards.",
+      "explanation": "The manual recommends a full faceshield because it protects the whole face, not just the eyes; goggles, glasses, and windshields all give less protection.",
       "page": 13,
       "volatile": false
     },
     {
       "id": "m2-11",
-      "q": "Which statement about windshields is correct according to the manual?",
+      "q": "For protecting your eyes and face, which statement about windshields is correct according to the manual?",
       "options": [
-        "A windshield replaces the need for goggles",
-        "A windshield is acceptable eye protection during the day only",
+        "A windshield protects your eyes just as well as goggles do",
+        "Most windshields will keep the wind out of a rider's eyes",
         "A windshield is not a substitute for a faceshield or goggles",
-        "A windshield gives more protection than a faceshield"
+        "A windshield gives more protection than a full faceshield"
       ],
       "answer": 2,
-      "explanation": "The manual states plainly that a windshield cannot stand in for a faceshield or goggles.",
+      "explanation": "A windshield can't take the place of a faceshield or goggles, and most windshields won't keep wind out of your eyes. That is safety advice: the legal rule on page 9 lets an operator skip eye protection if the bike has a windshield or screen.",
       "page": 14,
       "volatile": false
     },
@@ -180,13 +181,13 @@
       "id": "m2-12",
       "q": "When should tinted eye protection NOT be worn?",
       "options": [
-        "In bright sunlight",
+        "In bright midday sun with strong glare",
         "At night or whenever little light is available",
-        "On the highway",
-        "When it is raining in daylight"
+        "At highway speeds, where the wind is strongest",
+        "When riding through heavy daytime city traffic"
       ],
       "answer": 1,
-      "explanation": "Tinted protection reduces vision, so the manual says not to use it at night or in other low-light conditions.",
+      "explanation": "Tint cuts the light reaching your eyes, so the manual says not to wear it at night or in other low-light conditions.",
       "page": 14,
       "volatile": false
     },
@@ -194,13 +195,13 @@
       "id": "m2-13",
       "q": "Which is a requirement for effective eye and faceshield protection?",
       "options": [
-        "It must be tinted",
-        "It must seal tightly so no air passes through",
+        "It must be tinted dark enough to cut the glare from other vehicles",
+        "It must seal tightly against the face so no air passes through",
         "It must be free of scratches and give a clear view to either side",
-        "It must be attached to the windshield"
+        "It must fit so closely that eyeglasses cannot be worn under it"
       ],
       "answer": 2,
-      "explanation": "Effective protection must be scratch-free and provide clear side vision; it should also let air through to reduce fogging.",
+      "explanation": "Effective eye and face protection must be scratch-free and give a clear view to the sides; it must also let air through to limit fogging and leave room for glasses if you need them.",
       "page": 14,
       "volatile": false
     },
@@ -209,9 +210,9 @@
       "q": "According to the manual, what should riding boots or shoes be like?",
       "options": [
         "High enough to cover the ankles, with hard, durable, slip-resistant soles",
-        "Low-cut for easier shifting",
-        "Soft-soled with tall heels for better reach",
-        "Laced loosely with the laces left outside"
+        "Low-cut, below the ankles, with thin soles to give a better feel of the pegs",
+        "Soft, flexible soles and tall heels that hook securely on the footpegs",
+        "Loosely laced, with long laces left outside so they are easy to adjust"
       ],
       "answer": 0,
       "explanation": "Footwear should cover and support the ankles, have tough slip-resistant soles, short heels, and tucked-in laces.",
@@ -222,10 +223,10 @@
       "id": "m2-15",
       "q": "During a pre-ride check, how should you test the brakes?",
       "options": [
-        "Apply both brakes together while rolling downhill",
-        "Try the front and rear brakes one at a time and make sure each feels firm and holds the motorcycle",
-        "Pump the rear brake only until it feels firm",
-        "Brakes only need to be checked at the annual inspection"
+        "Apply both brakes together while rolling slowly and check that the bike stops straight",
+        "Try the front and rear brakes one at a time; each should feel firm and hold the bike",
+        "Pump only the rear brake until it feels firm, since the front brake needs no check",
+        "Don't test them; brakes only need checking at the annual safety inspection"
       ],
       "answer": 1,
       "explanation": "The checklist says to test each brake separately and confirm it is firm and holds the bike when fully applied.",
@@ -236,13 +237,13 @@
       "id": "m2-16",
       "q": "You are about to ride a borrowed motorcycle. What does the manual advise?",
       "options": [
-        "Skip the safety checks since the owner maintains it",
-        "Ride at normal speed to learn its handling quickly",
+        "Skip the usual safety checks, since the owner is responsible for keeping it maintained",
+        "Do your usual checks, then ride at your normal pace and following distance",
         "Check the controls, learn the gear pattern, and ride very cautiously until familiar with it",
-        "Only check the fuel level"
+        "Don't bother checking the controls, since they work the same way on every motorcycle"
       ],
       "answer": 2,
-      "explanation": "On an unfamiliar bike you should do all your usual checks, learn the controls and shift pattern, and ride carefully until you know how it handles.",
+      "explanation": "On an unfamiliar bike, do all your usual checks and learn the controls and shift pattern. Then ride more carefully than usual, not at your normal pace: accelerate gently, slow more for turns, and leave extra room until you know how it handles.",
       "page": 15,
       "volatile": false
     }

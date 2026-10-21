@@ -7,17 +7,17 @@
     27
   ],
   "summary": [
-    "A cushion of space around the motorcycle gives you time to react and is your best protection in a crash situation.",
+    "A cushion of space around the motorcycle gives you time to avoid hazards and is your best protection against serious injury or death in a crash.",
     "Keep at least a two-second following distance, measured by counting from when the vehicle ahead passes a fixed object until you reach it.",
     "If you reach the fixed object before finishing the two-second count, you are too close and should slow down.",
     "Use a four-second or greater gap when the area is unfamiliar, traffic is heavy, or the road is slippery.",
     "If someone tailgates you, open up more space ahead and, when possible, change lanes to let them by.",
-    "To pass, start from the left portion of your lane at a safe following distance, check mirrors and do a head check before signaling, and move quickly through the other driver's blind spot.",
+    "To pass, start from the left portion of your lane at a safe following distance, check for oncoming traffic and hazards, use your mirrors and a head check before signaling, and move quickly through the other driver's blind spot.",
     "After passing, check mirrors and do a head check again before signaling and returning to your lane.",
     "When being passed, ride in the center of your lane to avoid being sideswiped, hit by debris, or pushed by wind blast.",
     "Intersections are among the most dangerous places for riders; pick a visible lane position and assume any vehicle that could enter your path will.",
-    "When riding past parked cars, use the left portion of the lane to stay clear of opening doors, pedestrians, and cars pulling out or making U-turns.",
-    "Riding alongside another vehicle within a single marked lane is prohibited; ride in the lane center to discourage drivers from squeezing in, and do not ride between rows of stopped vehicles.",
+    "When riding past parked cars, use the left portion of the lane to stay clear of drivers getting out and pedestrians stepping out, and approach cars pulling out or making U-turns with caution.",
+    "The manual prohibits riding beside a car within one marked lane; ride in the lane center to discourage drivers from squeezing by, and don't ride between rows of stopped vehicles.",
     "Avoid riding next to cars in adjacent lanes, and never assume merging drivers see you—give them plenty of room."
   ],
   "questions": [
@@ -28,7 +28,7 @@
         "One second",
         "Two seconds",
         "Three seconds",
-        "Five seconds"
+        "Four seconds"
       ],
       "answer": 1,
       "explanation": "The manual recommends the two-second rule as the baseline following distance to give extra reaction time.",
@@ -37,11 +37,11 @@
     },
     {
       "id": "m5-02",
-      "q": "Using the two-second rule, you reach the fixed object before you finish counting \"one one-thousand, two one-thousand.\" What should you do?",
+      "q": "You check your following distance against a fixed object and reach it before you finish the recommended count. What should you do?",
       "options": [
         "Maintain your speed; the count is only a guideline",
         "Change lanes immediately",
-        "Slow down until you have more distance from the vehicle ahead",
+        "Slow down until there is enough space ahead",
         "Flash your brake light at the vehicle ahead"
       ],
       "answer": 2,
@@ -51,15 +51,15 @@
     },
     {
       "id": "m5-03",
-      "q": "When should a rider increase following distance to four seconds or more?",
+      "q": "When does the manual recommend a following distance of four seconds or more?",
       "options": [
-        "Only when riding with a passenger",
-        "Only at night",
-        "Whenever traveling below 30 mph",
-        "When the area is unfamiliar, traffic is heavy, or the pavement is slippery"
+        "Whenever you are riding slower than 30 mph",
+        "On familiar, uncrowded roads with dry pavement",
+        "Whenever you have less than a year of riding experience",
+        "On unfamiliar, congested, or slippery roads"
       ],
       "answer": 3,
-      "explanation": "The manual calls for a four-second or larger cushion when the area is unfamiliar, traffic is congested, or the road surface is slippery.",
+      "explanation": "The manual calls for four seconds or more when conditions are unfavorable: an unfamiliar area, heavy congestion, or slippery pavement. Unfamiliar here means the area you are riding in, not how long you have been riding.",
       "page": 25,
       "volatile": false
     },
@@ -67,13 +67,13 @@
       "id": "m5-04",
       "q": "A vehicle is tailgating you. What does the manual recommend?",
       "options": [
-        "Tap your brakes repeatedly to warn the driver",
-        "Speed up to pull away from the vehicle",
-        "Increase your distance from the vehicle ahead and change lanes to let the driver pass when you can",
-        "Move to the right edge of the lane and stop"
+        "Speed up to pull away from the tailgating vehicle",
+        "Slow to a stop at the edge of the lane so it can go by",
+        "Open up space ahead and change lanes to let it pass",
+        "Keep your speed and lane position, and ignore it"
       ],
       "answer": 2,
-      "explanation": "More space ahead gives you room to handle an emergency with a tailgater behind, and changing lanes lets the driver get by safely.",
+      "explanation": "The manual says to add space between you and the vehicles ahead, giving you a cushion for an emergency, and to change lanes when you can so the driver can pass. It also suggests flashing your brake light before you slow. Speeding up shrinks that cushion, and stopping with someone close behind is risky.",
       "page": 25,
       "volatile": false
     },
@@ -87,7 +87,7 @@
         "On the shoulder to get a better view"
       ],
       "answer": 0,
-      "explanation": "Starting a pass from the left portion of the lane at a safe following distance makes you more visible and lets you see ahead.",
+      "explanation": "The manual says to set up a pass from the left portion of your lane, at a safe following distance, which makes you more visible.",
       "page": 26,
       "volatile": false
     },
@@ -95,13 +95,13 @@
       "id": "m5-06",
       "q": "When there is enough room to pass, what should you do before signaling and accelerating into the passing lane?",
       "options": [
-        "Sound your horn",
-        "Close the gap with the vehicle ahead",
-        "Downshift two gears",
+        "Use your mirrors only and skip the head check",
+        "Close the gap to the vehicle you plan to pass",
+        "Move to the right portion of your lane",
         "Check your mirrors and do a quick head check"
       ],
       "answer": 3,
-      "explanation": "Mirrors plus a head check let you confirm traffic behind and to the sides before you signal and move over.",
+      "explanation": "The manual asks for both mirrors and a quick head check, so you know what traffic is behind and beside you before you signal and move over.",
       "page": 26,
       "volatile": false
     },
@@ -149,15 +149,15 @@
     },
     {
       "id": "m5-10",
-      "q": "Why does riding in the center of the lane help when you are being passed by a larger vehicle?",
+      "q": "Why does the manual's recommended lane position help when a larger vehicle is passing you?",
       "options": [
-        "It lets the passing driver use part of your lane",
-        "It reduces the risk of a sideswipe, flying debris, and wind gusts that can upset stability",
-        "It makes it easier to pass the vehicle back",
-        "It keeps you out of the oily strip in the lane"
+        "It leaves room for the passing driver to share your lane",
+        "It guards against sideswipes, debris, and wind gusts",
+        "It puts you in a better spot to pass the vehicle back",
+        "It keeps your tires out of the oily strip in the lane"
       ],
       "answer": 1,
-      "explanation": "The center position keeps space between you and the passing vehicle, protecting against sideswipes, debris, and wind blast from large vehicles.",
+      "explanation": "Riding in the center of the lane leaves a cushion between you and the passing vehicle, which protects you from a sideswipe, road debris, and wind gusts that can upset your control. It does not keep you out of oil: the manual notes that oil builds up in the lane center.",
       "page": 26,
       "volatile": false
     },
@@ -207,10 +207,10 @@
       "id": "m5-14",
       "q": "Which of these is a hazard the manual specifically mentions when passing parked vehicles?",
       "options": [
-        "Drivers or pedestrians stepping out from between vehicles",
-        "Wind blast from parked trucks",
-        "Grooved pavement near parking meters",
-        "Low-hanging tree branches"
+        "A pedestrian stepping out between parked cars",
+        "Wind blast from trucks parked along the curb",
+        "Glare off the windshields of parked cars",
+        "Exhaust fumes from cars idling at the curb"
       ],
       "answer": 0,
       "explanation": "The manual warns that drivers exiting their cars and pedestrians stepping between parked vehicles can cause problems, along with cars pulling out or making U-turns.",
@@ -219,15 +219,15 @@
     },
     {
       "id": "m5-15",
-      "q": "In Massachusetts, may a motorcycle ride alongside another motor vehicle within the same marked travel lane?",
+      "q": "According to the manual, may you ride alongside a car within the same marked travel lane?",
       "options": [
         "Yes, if both drivers agree",
         "Yes, but only in heavy traffic",
         "No, it is prohibited",
-        "Yes, if the motorcycle stays to the right edge"
+        "Yes, if you keep to the right edge of the lane"
       ],
       "answer": 2,
-      "explanation": "The manual states riders are prohibited from riding next to motor vehicles within a single marked lane, because every vehicle is entitled to the full lane.",
+      "explanation": "The manual says riders are prohibited from riding beside motor vehicles within a marked lane, and that every vehicle may use the full width of its lane. Riding beside another motorcycle is covered separately by the special rules, which allow no more than two abreast.",
       "page": 27,
       "volatile": false
     },
@@ -251,11 +251,11 @@
       "options": [
         "Stay beside it so the driver keeps you in view",
         "Move onto the lane line so you are more visible",
-        "Adjust your speed to open up space between you and the vehicle",
+        "Adjust your speed to open a gap between you",
         "Sound your horn and hold your position"
       ],
       "answer": 2,
-      "explanation": "A car alongside may suddenly change direction into you, so change your speed until there is an adequate space cushion.",
+      "explanation": "A vehicle in the next lane may change direction without warning and force you into danger, so the manual says to adjust your speed until there is a safe cushion of space.",
       "page": 27,
       "volatile": false
     },

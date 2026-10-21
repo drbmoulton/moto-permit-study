@@ -82,6 +82,19 @@ assert.ok(ab.q['m2-02'], 'answers only on one side are kept');
 assert.deepStrictEqual(plain(ab.tests.map((t) => t.id)), ['x', 'y'], 'tests unioned once each');
 assert.deepStrictEqual(JSON.parse(JSON.stringify(ab.sections.m2)), { best: 14, last: 12, total: 16, n: 2, at: 20 });
 assert.strictEqual(L.canon(L.mergeStates(ab, ab)), L.canon(ab), 'merge is idempotent');
+// Every save merges with the copy already stored (another tab may have written it); nothing stored changes nothing.
+assert.strictEqual(L.canon(L.mergeStates(ab, null)), L.canon(ab), 'merging with nothing stored keeps progress as is');
+const tabA = L.emptyState(); L.recordAnswer(tabA, 'm1-01', true, 10);
+const tabB = L.emptyState(); L.recordAnswer(tabB, 'm1-02', false, 20);
+assert.deepStrictEqual(plain(Object.keys(L.mergeStates(tabB, tabA).q).sort()), ['m1-01', 'm1-02'], "a second tab's save keeps the first tab's answers");
+// Account snapshots are frozen: merging one in and then recording more progress must not write into it.
+const deepFreeze = (o) => { if (o && typeof o === 'object') { Object.values(o).forEach(deepFreeze); Object.freeze(o); } return o; };
+const frozen = deepFreeze(plain(ab));
+const live = L.mergeStates(L.emptyState(), frozen);
+L.recordAnswer(live, 'm2-01', true, 300);
+L.recordSection(live, 'm2', 15, 16, 300);
+live.tests.push({ id: 'z', at: 3, dur: 5, score: 18, total: 25, timedOut: false, byMod: {}, items: [] });
+assert.strictEqual(L.canon(frozen), L.canon(ab), 'frozen snapshot data left untouched');
 assert.strictEqual(L.canon(L.normalize('junk')), L.canon(L.emptyState()));
 assert.strictEqual(L.canon(L.normalize({ q: { x: 5 }, tests: [null, { id: 3 }] })), L.canon(L.emptyState()));
 

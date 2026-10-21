@@ -20,19 +20,20 @@
   ],
   "summary": [
     "Ride no more than two abreast, never between lanes of traffic or along lane lines, enter restricted lanes only to set up a turn, and stay off highways and expressways unless your motorcycle can safely hold the minimum posted speed.",
-    "When two or more lanes run in your direction, keep right except to pass, turn left, or get around a blocked right lane; never change lanes inside an intersection, and use a breakdown lane for travel only where a highway opens it at rush hour.",
+    "When two or more lanes run in your direction, keep right except to pass, turn left, or get around a blocked right lane; keep right and slow down at a curve you can't see around, never change lanes inside an intersection, and use a breakdown lane for travel only where a highway opens it at rush hour.",
     "Pass on the left, and only when you need to and can do it safely; never go over the speed limit to pass, and never pass using a shoulder, breakdown lane, or sidewalk.",
     "When joining a highway, yield to traffic already on it and match its speed; give your exit signal 500 or more feet ahead of the ramp, and if you miss your exit, continue to the next one rather than stopping or backing up.",
-    "Signal at least 100 feet before a turn (500 feet on a highway), turn right on red only after a full stop and yielding unless a sign forbids it, and make a U-turn only from the lane nearest the center line, never on a hilltop, near a curve, or anywhere visibility is under 500 feet.",
-    "You never claim the right-of-way, you only yield it: give way to pedestrians walking in or crossing the road, come to a full stop for a blind pedestrian using a white cane or guide dog, and yield even when another driver ignores the rules.",
+    "Signal at least 100 feet before a turn (500 feet on a highway); turn right on red only after a full stop and after yielding, and never where NO TURN ON RED is posted; and make a U-turn only from the lane nearest the center line, never on a hilltop, near a curve, or anywhere visibility is under 500 feet.",
+    "You never claim the right-of-way, you only yield it: give way to pedestrians walking in or crossing the road, come to a full stop for a blind pedestrian using a white cane or guide dog and stay stopped until they have crossed, and yield even when another driver ignores the rules.",
     "Yield to traffic from your right at uncontrolled intersections; at a four-way stop yield to anyone who stopped first and to the vehicle on your right if you stop together; and yield to oncoming traffic when turning left and to vehicles already in a rotary.",
-    "Whichever direction you are traveling, stop for a school bus or pupil transport vehicle showing flashing red lights and an extended stop sign unless it is on the far side of a barrier-divided highway; the manual lists a $250 fine and license suspension for a first violation.",
+    "Whichever direction you are traveling, stop for a school bus or pupil transport vehicle showing flashing red lights and an extended stop sign unless it is on the far side of a barrier-divided highway; the manual says a first violation can bring a $250 fine and license suspension.",
     "Stay at least 8 feet from a trolley's passenger step while riders board or exit, yield to a funeral procession until it has fully passed, and pull over and stop if an animal you are passing appears frightened.",
-    "In business or residential districts, park no more than 12 inches from the curb unless angled parking is allowed, and never closer than 20 feet to an intersection or 10 feet to a fire hydrant; unpaid parking tickets block license and registration renewals.",
+    "Never park within 20 feet of an intersection or within 10 feet of a hydrant or fire lane; in business or residential districts, park no more than 12 inches from the curb unless angled parking is allowed; unpaid parking tickets block license and registration renewals.",
     "Driving on a bet, drag racing, littering, bypassing a muffler, and sending or reading electronic messages while riding are all illegal.",
     "Alcohol, a depressant, slows reflexes and distorts vision and judgment even as it inflates confidence; a 12-oz beer, 4-oz glass of wine, or 1 oz of 80-proof liquor can each raise an average person's BAC by about 0.02%, and only time brings it down.",
     "A BAC of 0.08% or higher is over the legal limit (0.02% for riders under 21); under implied consent, testing over the limit or refusing a breath or blood test gets your license seized on the spot, and OUI laws cover drugs too, with prescription and over-the-counter medicines able to impair you just like illegal drugs.",
-    "The manual lists a $500 to $5,000 fine and a 1-year suspension for a first OUI, a 1- to 5-year license loss for any drug conviction even with no vehicle involved, a 30-day suspension for adults with three speeding violations in a year, and 90 days for a junior operator's first speeding conviction."
+    "For a first OUI, the manual lists a $500 to $5,000 fine, up to 2½ years in prison, and a 1-year license suspension, which a court may cut to 45 to 90 days (over 21) or 210 days (under 21) if you complete an alcohol education course; the manual also lists a 1- to 5-year license loss for any drug conviction, even one with no vehicle involved, though a 2016 law ended most of those automatic suspensions.",
+    "The manual lists a 30-day suspension for riders 18 and older with three speeding violations within any one-year period, and a 90-day suspension for a junior operator's first speeding conviction."
   ],
   "questions": [
     {
@@ -40,12 +41,12 @@
       "q": "On a road with two or more lanes in your direction, when may you leave the right lane?",
       "options": [
         "When you plan to turn right at the next intersection",
-        "When you are riding in a group",
+        "When riding in a group, at night, or with a passenger",
         "When passing, turning left, or if the right lane is blocked",
-        "Whenever it is dark out"
+        "When you reach a curve and cannot see the road ahead"
       ],
       "answer": 2,
-      "explanation": "The right lane is the default on multi-lane roads. You leave it only to pass, to make a left turn, or when something blocks the right lane.",
+      "explanation": "The right lane is the default on multi-lane roads. You leave it only to pass, to make a left turn, or when something blocks the right lane. At a curve you can't see around, the manual says the opposite: keep right and slow down.",
       "page": 48,
       "volatile": false
     },
@@ -81,13 +82,13 @@
       "id": "m9-04",
       "q": "When may you ride in a lane posted as restricted?",
       "options": [
-        "Whenever traffic in your lane is moving slowly",
+        "Only when traffic in your lane is moving slowly",
         "Only when preparing to make a turn",
-        "Whenever you need to pass a slower vehicle",
-        "Whenever the restricted lane is empty"
+        "Only when you need to pass a slower vehicle",
+        "Only when the restricted lane is empty"
       ],
       "answer": 1,
-      "explanation": "A lane posted as restricted is off-limits except when you are moving into position to make a turn.",
+      "explanation": "The manual's special rules for motorcycles keep you out of a lane posted as restricted except when you are moving into position to make a turn. Slow traffic, a need to pass, or an empty lane does not change that. A lane posted as open to motorcycles, such as the Southeast Expressway (I-93) HOV lane, is not restricted for you.",
       "page": 51,
       "volatile": false
     },
@@ -196,10 +197,10 @@
         "You, because you are on the other driver's left",
         "The vehicle on your right",
         "Whichever vehicle is larger",
-        "Whichever driver waves the other through"
+        "Whichever driver makes eye contact first"
       ],
       "answer": 1,
-      "explanation": "At an all-way stop, yield to anyone who stopped before you, and to the driver directly to your right if you both stopped at the same moment. Making eye contact helps you judge what other drivers intend.",
+      "explanation": "At an all-way stop, yield to anyone who stopped before you, and to the driver directly to your right if you both stopped at the same moment. Eye contact helps you read what other drivers intend, but it does not decide who goes first.",
       "page": 55,
       "volatile": false
     },
@@ -227,7 +228,7 @@
         "Sound your horn and continue at a reduced speed"
       ],
       "answer": 0,
-      "explanation": "Traffic in both directions must stop for a school bus with flashing red lights and its stop sign out. Even once the signals end, pull away slowly and keep watching for children.",
+      "explanation": "On an undivided road like this one, traffic in both directions must stop for a school bus with flashing red lights and its stop sign out. Even once the signals end, pull away slowly and keep watching for children.",
       "page": 56,
       "volatile": false
     },
@@ -347,9 +348,9 @@
       "id": "m9-23",
       "q": "Before a ride, you take an over-the-counter cold medicine. What does the manual say about medicines like this?",
       "options": [
-        "They are safe to ride on because no prescription is needed",
-        "They matter only if you have also been drinking",
-        "They affect you only if you take more than the label dose",
+        "They are safe to ride on because they are sold without a prescription",
+        "They affect your riding only if you have also been drinking alcohol",
+        "They affect you only if you take more than the dose on the label",
         "They can slow your reactions and dull your vision and motor skills"
       ],
       "answer": 3,
@@ -367,7 +368,7 @@
         "8 years"
       ],
       "answer": 1,
-      "explanation": "A first OUI conviction carries a 1-year license suspension, a $500 to $5,000 fine, and up to 2½ years in prison; a court may let you shorten the suspension by completing an alcohol education course.",
+      "explanation": "A first OUI conviction carries a 1-year license suspension, a $500 to $5,000 fine, and up to 2½ years in prison. A court may let you take an alcohol education course that cuts the suspension to 45 to 90 days if you are over 21, or 210 days if you are under 21.",
       "page": 61,
       "volatile": true
     },

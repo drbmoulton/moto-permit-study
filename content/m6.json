@@ -18,9 +18,9 @@
     "If you must ride over an obstacle, slow down, stay upright, meet it at 90 degrees, roll on slightly just before it, and rise slightly off the seat, then pull off to check tires and rims.",
     "Railroad tracks can be crossed at angles as sharp as 45 degrees without changing course, parallel trolley tracks and seams need a quick, sharp turn of at least 45 degrees, and grooves or gratings call for steady speed and direction.",
     "Swerve by pressing the handgrip on the side you want to go, then the opposite grip to straighten, keeping your knees on the tank, letting the bike lean beneath you, and never braking mid-swerve.",
-    "For a quick stop use both brakes firmly and steadily, release and gently reapply a locked front wheel, keep a locked rear wheel locked if you're going straight, and straighten up before braking hard in a curve.",
+    "For a quick stop use both brakes firmly and steadily, release the front brake at once and reapply it gently if the front wheel locks, keep a locked rear wheel locked if you're going straight, and straighten up before braking hard in a curve.",
     "Face protection and proper clothing reduce injuries from insects and debris, and if you're struck, keep watching the road until you can stop safely, then check the bike for damage.",
-    "In heavy traffic don't swerve into another lane to miss an animal, since hitting an animal is more survivable than hitting a vehicle, and lose a chasing dog by downshifting, approaching slowly, then speeding away; never kick at it.",
+    "Try hard not to hit an animal, but in heavy traffic don't swerve into another lane to miss it, since hitting an animal is more survivable than hitting a vehicle; lose a chasing dog by downshifting, approaching slowly, then speeding away, and never kick at it.",
     "If handling turns poor, suspect a tire: avoid sudden braking, ride straight, shift weight back for a front failure, stay seated with no weight shift for a rear one, and brake gradually with the good tire.",
     "Twist a stuck throttle back and forth to free it, and if that fails, use the engine cut-off switch with the clutch pulled in; if the engine seizes, usually from low oil pressure, pull in the clutch and let the engine cool before restarting.",
     "A wobble usually comes from improper loading, unsuitable accessories, or incorrect tire pressure; grip firmly, close the throttle, avoid braking or accelerating, and shift your weight forward and down.",
@@ -101,13 +101,13 @@
       "id": "m6-06",
       "q": "Railroad tracks cross the road ahead at a 45-degree angle to your path. What does the manual recommend?",
       "options": [
-        "Change your path so you cross the tracks at a 90-degree angle",
+        "Change your path to cross at 90 degrees, since smaller angles are unsafe",
         "Speed up and cross while the motorcycle is leaned over",
         "Turn so you cross them at a very shallow angle, almost parallel to the rails",
         "Keep to your normal path and cross; angles as sharp as 45 degrees are safe"
       ],
       "answer": 3,
-      "explanation": "The manual says railroad tracks can be crossed safely at angles down to 45 degrees and discourages changing course to take them at 90 degrees, which can put you in oncoming traffic.",
+      "explanation": "The manual says railroad tracks can be crossed safely at angles down to 45 degrees and discourages changing course to take them at 90 degrees, which can put you in oncoming traffic. Railroad tracks also appear in the manual's list of obstacles to meet at 90 degrees, but the part written specifically about tracks says not to change course for that.",
       "page": 29,
       "volatile": false
     },
@@ -261,7 +261,7 @@
         "Stand up on the footpegs"
       ],
       "answer": 1,
-      "explanation": "A front tire failure hurts steering and control, so moving your weight rearward adds balance and stability. Staying seated with no weight shift is the advice for a rear tire failure.",
+      "explanation": "The manual recommends moving your weight toward the rear when the front tire fails: a front failure hurts steering and control, and shifting back adds balance and stability. For a rear tire failure, it says to stay seated without shifting your weight.",
       "page": 49,
       "volatile": false
     },
@@ -270,12 +270,12 @@
       "q": "Your rear tire goes flat while you are riding. After gripping the handlebars firmly and holding a straight course, how should you brake?",
       "options": [
         "Apply both brakes hard",
-        "Apply the rear brake firmly",
+        "Apply the rear brake gradually",
         "Use neither brake and coast to a stop",
         "Apply the front brake gradually"
       ],
       "answer": 3,
-      "explanation": "Once you know which tire failed, brake gradually with the tire that is still good and avoid sudden braking, easing toward the road edge where it's safe to stop.",
+      "explanation": "The manual's rule is to brake gradually with the tire that is still good. With a flat rear tire, the good tire is the front, so use the front brake. Avoid sudden braking, and as you slow, move carefully toward the road edge where it's safe to stop.",
       "page": 49,
       "volatile": false
     },
@@ -295,10 +295,10 @@
     },
     {
       "id": "m6-20",
-      "q": "You have twisted a stuck throttle back and forth, but it will not come free. What should you do next?",
+      "q": "Your throttle is stuck, and your first attempt to free it has not worked. What should you do next?",
       "options": [
-        "Keep twisting the throttle until it frees, however long it takes",
-        "Hit the engine cut-off switch, then let the clutch lever out",
+        "Keep riding at the stuck speed until you can exit the road",
+        "Use the engine cut-off switch without pulling in the clutch",
         "Lock up the rear brake until the motorcycle stops",
         "Hold the clutch in and use the engine cut-off switch"
       ],

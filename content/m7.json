@@ -15,8 +15,8 @@
     "With a passenger, leave a bigger space cushion for slowing and stopping, and adjust speed on rough, sloped or curved roads; suspension and tire pressure may need adjusting.",
     "Secure cargo low and over the axles; loads behind the rear axle upset balance and affect braking, and saddlebag loads should be balanced side to side; elastic cords help keep loads from shifting.",
     "If a group has more than five or six riders, split it into two smaller groups.",
-    "Put inexperienced riders near the front of a group, make sure everyone knows the route, and signal lane changes early.",
-    "Ride in a staggered formation with at least two seconds between each rider and the one directly ahead in the same track; switch to single file for curves, turns and freeway entry or exit, and never ride side by side.",
+    "Put inexperienced riders toward the front of a group, where more experienced riders can watch them; make sure everyone knows the route, and signal lane changes early.",
+    "Ride in a staggered formation: the leader on the left side of the lane, the second rider just behind on the right, and at least two seconds between each rider and the one directly ahead in the same track. Switch to single file for curves, turns and freeway entry or exit, and avoid pairing up side by side.",
     "When a staggered group passes a vehicle, riders pass one at a time, starting with the leader.",
     "At night, slow down, use your headlight fully and increase following distance; Massachusetts requires headlights from a half hour after sunset to a half hour before sunrise.",
     "When pulling off the road, signal early, check that the surface is firm, slow down on soft shoulders, park well away from traffic, and use care with the kickstand on soft or sloped ground."
@@ -69,7 +69,7 @@
       "q": "How should a passenger behave in turns and curves?",
       "options": [
         "Lean the opposite way to keep the bike upright",
-        "Sit straight up and stay still",
+        "Sit upright even as the rider leans into the turn",
         "Shift to the outside of the seat",
         "Stay directly behind the rider and lean with the rider"
       ],
@@ -96,7 +96,7 @@
       "id": "m7-06",
       "q": "If you need to talk to your passenger while riding, what does the manual suggest?",
       "options": [
-        "Turn your head fully around so they can hear you",
+        "Turn your head fully around so the passenger can hear you clearly",
         "Pull over every time",
         "Turn your head slightly while keeping your focus on the road ahead",
         "Have the passenger lean forward over your shoulder"
@@ -113,7 +113,7 @@
         "Minor changes to suspension and tire pressure",
         "Moving the rider's seating position far forward",
         "Removing the mirrors",
-        "Lowering the headlight beam"
+        "Raising the handlebars above shoulder height"
       ],
       "answer": 0,
       "explanation": "Depending on the passenger's weight, small suspension and tire pressure adjustments may be needed. The manual also says riders should not have to change their own seating position.",
@@ -139,12 +139,12 @@
       "q": "What can happen if saddlebags are loaded unevenly?",
       "options": [
         "The motorcycle may pull to one side",
-        "The headlight may aim too high",
+        "The turn signals may stop flashing",
         "The engine may overheat",
         "The horn may stop working"
       ],
       "answer": 0,
-      "explanation": "An uneven load between the bags can make the motorcycle pull toward one side.",
+      "explanation": "An uneven load between the bags can make the motorcycle pull toward one side, so keep the weight in each bag about the same.",
       "page": 33,
       "volatile": false
     },
@@ -152,10 +152,10 @@
       "id": "m7-10",
       "q": "What danger does overloading saddlebags create?",
       "options": [
-        "Bags rubbing the paint",
+        "Bags squeezing the fuel line and starving the engine of fuel",
         "Bags catching in the wheel or chain and locking the rear wheel",
-        "Reduced fuel economy only",
-        "A dimmer taillight"
+        "Bags pressing on the throttle cable so the throttle sticks open",
+        "Bags jamming the shift lever so you cannot change gears"
       ],
       "answer": 1,
       "explanation": "Overloaded bags can get caught in the wheel or chain, which can lock the rear wheel and cause a skid.",
@@ -167,7 +167,7 @@
       "q": "A group of eight motorcyclists wants to ride together. What does the manual recommend?",
       "options": [
         "Ride side by side in pairs",
-        "Ride as one group with the most experienced rider last",
+        "Ride as one group with the newest riders at the back",
         "Split into two separate groups",
         "Ride as one group in single file at all times"
       ],
@@ -181,8 +181,8 @@
       "q": "Where should inexperienced riders be placed in a group?",
       "options": [
         "At the very back",
-        "In the lead position",
-        "Riding alongside an experienced rider",
+        "In a separate group made up of other new riders",
+        "Side by side with an experienced rider who can coach them",
         "Toward the front, where experienced riders can watch them"
       ],
       "answer": 3,
@@ -200,7 +200,7 @@
         "Four seconds"
       ],
       "answer": 1,
-      "explanation": "In a staggered group, each rider keeps at least two seconds behind the rider directly ahead in the same part of the lane.",
+      "explanation": "The manual puts the third rider directly behind the leader, at least two seconds back, and the fourth rider the same distance behind the second; the Staggering diagram on p.33 marks both gaps as two seconds. The manual gives no figure for the diagonal gap to the second rider.",
       "page": 34,
       "volatile": false
     },
@@ -209,12 +209,12 @@
       "q": "When should a group switch from a staggered formation to single file?",
       "options": [
         "When approaching turns or curves and when entering or exiting freeways",
-        "Only in heavy rain",
-        "Whenever traffic is light",
-        "Only when stopped at traffic lights"
+        "On long, straight stretches of road and while cruising on freeways",
+        "Whenever traffic is light and there are no other vehicles nearby",
+        "Only when the group is stopped at traffic lights or stop signs"
       ],
       "answer": 0,
-      "explanation": "Riders should leave the stagger and ride single file for turns and curves and when getting on or off freeways.",
+      "explanation": "Riders should leave the stagger and ride single file for turns and curves and when getting on or off freeways. The rest of the time, including straight roads and the freeway itself, the manual recommends the staggered formation.",
       "page": 34,
       "volatile": false
     },
@@ -228,7 +228,7 @@
         "One rider at a time, starting with the leader"
       ],
       "answer": 3,
-      "explanation": "The leader passes first when there is room and returns to the lane, then each remaining rider passes the same way, one at a time.",
+      "explanation": "When there is room, the leader passes first and promptly returns to the original lane; each remaining rider then passes the same way, one at a time. Once past, riders keep their original lane positions.",
       "page": 34,
       "volatile": false
     },
@@ -242,7 +242,7 @@
         "Only when streetlights are off"
       ],
       "answer": 2,
-      "explanation": "Massachusetts requires headlights from a half hour after sunset to a half hour before sunrise.",
+      "explanation": "Massachusetts law requires headlights from a half hour after sunset until a half hour before sunrise, so the legal requirement starts 30 minutes after sunset, not at sunset. Beyond the law, the manual recommends always riding with your headlight on (p.20).",
       "page": 35,
       "volatile": false
     }

@@ -12,14 +12,14 @@
     "Sit at a distance where your arms are slightly bent when you hold the handlebars, so you can turn them without stretching.",
     "Grip the handlegrips firmly and begin with your wrists flat to avoid adding too much throttle by accident.",
     "Set the handlebars so your hands are level with or lower than your elbows, press your knees against the tank, and keep your feet on the footpegs near the controls with toes not pointing down.",
-    "The recommended turning sequence is Slow, Look, Lean, Roll.",
+    "The recommended turning sequence is Slow, Look, Lean, Roll. Get your speed down before the turn, closing the throttle and using both brakes if needed.",
     "To lean, press the handgrip on the side you want to go: press left to go left, press right to go right; faster or tighter turns need more lean.",
-    "Turn your head (not your shoulders) to look through the turn, keep eyes level with the horizon, and avoid slowing down once in the turn.",
+    "Turn your head (not your shoulders) to look through the turn, keeping your eyes level with the horizon. Once in the turn, roll on the throttle to hold a steady speed or speed up gradually rather than slowing down.",
     "In normal turns rider and motorcycle lean together; in slow, tight turns only the motorcycle leans while the body stays upright.",
-    "The front brake supplies at least three-quarters of stopping power; use both brakes at the same time on every stop.",
-    "Braking while leaned is possible with proper technique, but less traction is left for stopping, so too much brake can cause a skid.",
-    "Downshift through every gear as you slow, stay in first while stopped, and finish gear changes before entering a turn.",
-    "On a hill, hold the bike with the front brake to start and select first, then switch to the foot brake to free the right hand for the throttle and ease out the clutch."
+    "The front brake can supply at least three-quarters of the stopping power. Use both brakes together whenever you slow down or stop, squeezing the front lever and pressing the rear pedal, since grabbing or jamming them can lock the brakes and cost you control.",
+    "With the right technique you can use the front brake while leaned in a turn, but leaning uses up some traction, leaving less for stopping, so too much brake can cause a skid.",
+    "Downshift through every gear as you slow, but only when you are going slowly enough for the lower gear, since too fast can make the bike lurch and the rear wheel skid; going downhill or shifting into first, you may need to brake before you can shift safely. Stay in first while stopped. Shift before a turn when you can, and mid-turn only if you can do it smoothly.",
+    "On a hill, hold the bike with the front brake while you start the engine and select first, then switch to the foot brake so your right hand can work the throttle. Open the throttle slightly, ease the clutch out gradually, and let go of the foot brake when the engine starts to slow, which means it is taking hold."
   ],
   "questions": [
     {
@@ -41,9 +41,9 @@
       "q": "How close to the handlebars should you sit?",
       "options": [
         "Close enough that your arms are slightly bent when holding the grips",
-        "Far enough back that your arms are locked straight",
+        "Far enough back that your arms are fully straight and locked at the elbows",
         "So close that your elbows touch your knees",
-        "As far back on the seat as possible for stability"
+        "As far back on the seat as possible, to keep the motorcycle more stable"
       ],
       "answer": 0,
       "explanation": "Slightly bent arms let you turn the handlebars without stretching to reach them.",
@@ -71,7 +71,7 @@
         "So your hands are above your shoulders",
         "So your hands are even with or below your elbows",
         "So your arms are fully straight",
-        "So your hands are level with your chin"
+        "So your hands are level with or higher than your chin"
       ],
       "answer": 1,
       "explanation": "The manual says to position the bars so your hands sit level with or lower than your elbows.",
@@ -97,12 +97,12 @@
       "q": "Which is correct foot positioning while riding?",
       "options": [
         "Feet firmly on the footpegs, near the controls, toes not pointed down",
-        "Toes pointed downward so you can reach the ground quickly",
-        "Feet dragging lightly along the ground in slow turns",
+        "Toes pointed downward so they can touch the ground quickly when needed",
+        "Feet dragging lightly along the ground to help balance in slow turns",
         "Feet off the pegs and away from the controls until needed"
       ],
       "answer": 0,
-      "explanation": "Keep feet on the pegs near the controls; dragging feet or pointing toes down risks them catching on the road.",
+      "explanation": "Keep both feet planted on the pegs, near the controls; a dragged foot or a downward-pointing toe can catch on the road and hurt you or cost you control. The manual's one exception is snow or ice you cannot avoid, where you creep across with your feet skimming the surface.",
       "page": 16,
       "volatile": false
     },
@@ -116,7 +116,7 @@
         "Slow, Look, Lean, Roll"
       ],
       "answer": 3,
-      "explanation": "The manual's turning sequence is Slow, Look, Lean, Roll.",
+      "explanation": "The manual's turning sequence is Slow, Look, Lean, Roll. Many rider courses, including the MSF's, call the third step Press; the manual's word is Lean.",
       "page": 17,
       "volatile": false
     },
@@ -124,10 +124,10 @@
       "id": "m3-08",
       "q": "When looking through a turn, you should:",
       "options": [
-        "Look down at the road just in front of your front tire",
+        "Look down at the road just in front of your front tire until the turn ends",
         "Turn just your head, not your shoulders, and keep your eyes level with the horizon",
-        "Turn your shoulders and tilt your head with the motorcycle",
-        "Keep your eyes fixed straight ahead until the turn is complete"
+        "Turn your shoulders along with your head, and tilt your head to match the lean",
+        "Keep your head still and your eyes fixed straight ahead until the turn is complete"
       ],
       "answer": 1,
       "explanation": "Look where you want to go by turning your head only, keeping your eyes level with the horizon.",
@@ -167,7 +167,7 @@
       "q": "In a slow, tight turn, how should you position your body?",
       "options": [
         "Lean your body farther than the motorcycle",
-        "Lean your body opposite to a normal turn and keep the bike upright",
+        "Keep the motorcycle upright and lean only your body into the turn",
         "Lean together with the motorcycle at the same angle",
         "Keep your body upright and lean only the motorcycle"
       ],
@@ -186,7 +186,7 @@
         "Almost none; the rear brake does most of the work"
       ],
       "answer": 2,
-      "explanation": "The front brake is the more powerful of the two and can provide at least three-quarters of stopping power.",
+      "explanation": "The manual says the front brake is the stronger of the two and can supply three-quarters or more of your total stopping power.",
       "page": 18,
       "volatile": false
     },
@@ -214,7 +214,7 @@
         "Apply both brakes at the same time"
       ],
       "answer": 3,
-      "explanation": "The idea that the rear brake should go first is a myth; the sooner the front brake is applied, the sooner you slow down.",
+      "explanation": "Apply both brakes at once. The common belief that the rear brake should go first is wrong: the sooner the front brake goes on, the sooner it starts slowing you.",
       "page": 18,
       "volatile": false
     },
@@ -236,13 +236,13 @@
       "id": "m3-16",
       "q": "Which statement about braking while the motorcycle is leaned in a turn is correct?",
       "options": [
-        "The front brake must never be used in a turn",
-        "Leaning increases the traction available for stopping",
+        "The front brake must never be used in a turn, because even a light touch of it will cause a skid",
+        "Leaning increases the traction available, so you can brake harder than when upright",
         "The front brake can be used with proper technique, but less traction is available for stopping",
-        "Only the rear brake can be used safely in a turn"
+        "Hard braking is safe while leaned, as long as you use only the rear brake"
       ],
       "answer": 2,
-      "explanation": "When leaned, some traction is used for cornering, so too much brake can cause a skid; the front brake is still usable with proper technique.",
+      "explanation": "Leaning uses some of your traction for cornering, so less is left for stopping and too much braking with either brake can cause a skid. The front brake can still be used in a turn if your technique is right.",
       "page": 18,
       "volatile": false
     },
@@ -251,8 +251,8 @@
       "q": "When slowing down or stopping, how should you handle the gears?",
       "options": [
         "Shift down through all the gears and remain in first while stopped",
-        "Shift directly into neutral and coast to a stop",
-        "Stay in the current gear until fully stopped",
+        "Shift straight into neutral and coast, staying in neutral while stopped",
+        "Stay in your current gear, then shift to neutral once you have stopped",
         "Skip to second gear and hold the clutch in"
       ],
       "answer": 0,
@@ -266,25 +266,25 @@
       "options": [
         "The front wheel may lift off the ground",
         "The motorcycle may lurch and the rear wheel may skid",
-        "The front brake may lock",
+        "The front brake may lock and the front tire may skid",
         "The engine will automatically shift back up"
       ],
       "answer": 1,
-      "explanation": "Downshifting at too high a speed can make the bike lurch and the rear wheel skid, so make sure you are slow enough first.",
+      "explanation": "Downshifting at too high a speed can make the bike lurch and the rear wheel skid, so make sure you are slow enough first. The manual links a lifting front wheel to letting the clutch out too fast on a hill start, not to downshifting.",
       "page": 18,
       "volatile": false
     },
     {
       "id": "m3-19",
-      "q": "What is the recommended practice for shifting gears and turns?",
+      "q": "What is the recommended practice for shifting gears in relation to a turn?",
       "options": [
         "Upshift in the middle of every turn to keep speed steady",
-        "Downshift at the apex of the turn for more control",
-        "Shift whenever needed in a turn, because it has no effect on traction",
+        "Downshift partway through the turn for more control",
+        "Shift in the turn whenever you like, since it does not affect traction",
         "Change gears before entering the turn"
       ],
       "answer": 3,
-      "explanation": "Shift before the turn when possible; a sudden change in power mid-turn can lock or spin the rear wheel and cause a skid.",
+      "explanation": "The manual recommends changing gears before you enter a turn. Shift in a turn only when you have to and only if you can do it smoothly, because an abrupt change in power at the rear wheel can make it lock or spin and cause a skid.",
       "page": 18,
       "volatile": false
     },
@@ -292,10 +292,10 @@
       "id": "m3-20",
       "q": "When starting on a hill, after using the front brake to hold the motorcycle while you start the engine and shift into first, what should you do next?",
       "options": [
-        "Release all brakes and quickly let out the clutch",
-        "Keep holding the front brake while opening the throttle",
+        "Release both brakes together and let the clutch out quickly to get moving",
+        "Keep squeezing the front brake lever while you open the throttle with the same hand",
         "Switch to the foot brake to hold the bike so your right hand can operate the throttle",
-        "Roll backward slightly to build momentum"
+        "Let the motorcycle roll back slightly so that it builds momentum before you pull away"
       ],
       "answer": 2,
       "explanation": "Moving to the foot brake frees your right hand for the throttle; release the foot brake once the engine begins to slow and take hold.",

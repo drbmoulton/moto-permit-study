@@ -569,12 +569,18 @@ dl.stats { margin: 0; }
   var store = {
     mode: lsWorks() ? 'device' : 'memory',
     state: L.normalize(lsGet(LS_PROGRESS)),
-    ref: null, writing: false, dirty: false, timer: null
+    ref: null, writing: false, dirty: false, timer: null, fails: 0
   };
+
+  /* Store codes after which writing again cannot succeed. Anything else (unavailable, a rate budget, a code this
+     page doesn't know) is treated as transient, as the db contract asks. */
+  var DB_FATAL = { invalid_argument: 1, quota_exceeded: 1, revoked: 1, not_granted: 1, capability_disabled: 1, capability_removed: 1, transform_error: 1 };
 
   function hasData(s) { return Object.keys(s.q).length > 0 || s.tests.length > 0; }
 
   function touch() {
+    // Another tab of this page may have saved since this one loaded: keep its progress instead of overwriting it.
+    store.state = L.mergeStates(store.state, lsGet(LS_PROGRESS));
     store.state.updatedAt = Date.now();
     lsSet(LS_PROGRESS, store.state);
     if (store.ref) scheduleRemote(900);
@@ -606,15 +612,17 @@ dl.stats { margin: 0; }
     function attempt(retry) {
       return ref.set(body).then(function () { return true; }, function (e) {
         var code = e && e.code;
-        if (code === 'unavailable' && retry) return sleep(600 + Math.random() * 900).then(function () { return attempt(false); });
-        if (code === 'unavailable' || code === 'resource_exhausted') { store.dirty = true; return false; }
-        detachAccount();
+        if (!code || DB_FATAL[code]) { detachAccount(); return false; }
+        if (code !== 'resource_exhausted' && retry) return sleep(600 + Math.random() * 900).then(function () { return attempt(false); });
+        store.dirty = true;
         return false;
       });
     }
     return attempt(true).then(function (ok) {
       store.writing = false;
-      if (store.ref && store.dirty) scheduleRemote(1500);
+      store.fails = ok ? 0 : store.fails + 1;
+      // After a failed write, wait longer each time: a busy store or a used-up budget won't clear in a second.
+      if (store.ref && store.dirty) scheduleRemote(Math.min(60000, 1500 * Math.pow(2, store.fails)));
       return ok;
     });
   }
@@ -633,7 +641,7 @@ dl.stats { margin: 0; }
         var ref;
         try { ref = db.doc('data/users/' + uid + '/progress'); } catch (e) { return null; }
         return ref.get().catch(function (e) {
-          if (e && e.code === 'unavailable') return sleep(700 + Math.random() * 900).then(function () { return ref.get(); });
+          if (e && e.code && !DB_FATAL[e.code]) return sleep(700 + Math.random() * 900).then(function () { return ref.get(); });
           throw e;
         }).then(function (snap) {
           var remote = snap.exists ? L.normalize(snap.data()) : null;
@@ -678,8 +686,26 @@ dl.stats { margin: 0; }
   }
 
   function refreshPassive() {
-    if (view.name === 'home' || view.name === 'module') render();
+    if (view.name !== 'home' && view.name !== 'module') return;
+    // Re-rendering replaces every element; put keyboard focus back on the same control afterwards.
+    var a = document.activeElement, sel = null, n = 0;
+    if (a && a !== document.body && $app.contains(a)) {
+      sel = a.matches('h1[tabindex]') ? 'h1[tabindex]' : a.hasAttribute('data-action') ? ['action', 'id', 'p', 'pdf'].map(function (k) {
+        var v = a.getAttribute('data-' + k); return v === null ? '' : '[data-' + k + '="' + v + '"]';
+      }).join('') : null;
+      if (sel) n = Array.prototype.indexOf.call($app.querySelectorAll(sel), a);
+    }
+    render();
+    var el = sel && $app.querySelectorAll(sel)[n];
+    if (el) { try { el.focus({ preventScroll: true }); } catch (e) { el.focus(); } }
   }
+
+  // Another tab of this page saved progress: show it here too.
+  window.addEventListener('storage', function (e) {
+    if (e.key !== LS_PROGRESS) return;
+    var m = L.mergeStates(store.state, lsGet(LS_PROGRESS));
+    if (L.canon(m) !== L.canon(store.state)) { store.state = m; refreshPassive(); }
+  });
 
   // ---------------------------------------------------------------- helpers
   function esc(s) {
@@ -865,7 +891,7 @@ dl.stats { margin: 0; }
       '<h1 tabindex="-1">' + right + ' of ' + total + ' right</h1>' +
       '<p>' + (total ? Math.round(right / total * 100) : 0) + '%. The practice test needs 72% (18 of 25) to pass.</p></header>';
     h += '<div class="actions">';
-    if (wrong.length) h += '<button class="btn primary" type="button" data-action="retry-wrong">Retry the ' + plural(wrong.length, 'one') + ' you missed</button>';
+    if (wrong.length) h += '<button class="btn primary" type="button" data-action="retry-wrong">Retry the ' + (wrong.length === 1 ? 'one' : wrong.length) + ' you missed</button>';
     h += '<button class="btn" type="button" data-action="' + (quiz.modId ? 'module' : 'home') + '" data-id="' + (quiz.modId || '') + '">' + (quiz.modId ? 'Back to section' : 'Home') + '</button></div>';
     if (wrong.length) {
       h += '<section class="panel" aria-labelledby="rv-h"><h2 id="rv-h">Questions you missed</h2><ul class="review">';
@@ -911,7 +937,9 @@ dl.stats { margin: 0; }
       '<p class="result-line"><span class="mono">' + t.score + ' of ' + t.total + '</span> correct · 18 needed</p>' +
       '<p class="result-line">' + (t.timedOut ? 'Time ran out' : 'Time used <span class="mono">' + L.fmtClock(t.dur) + '</span>') + '</p>' +
       '</div></section>';
-    h += '<div class="actions"><button class="btn primary" type="button" data-action="exam-start">Take another practice test</button>' +
+    // Reached from "Review your last practice test" while another is in progress: offer that one, never replace it.
+    h += '<div class="actions">' + (exam ? '<button class="btn primary" type="button" data-action="exam-resume">Resume practice test</button>'
+      : '<button class="btn primary" type="button" data-action="exam-start">Take another practice test</button>') +
       '<button class="btn" type="button" data-action="home">Home</button></div>';
     h += '<section class="panel" aria-labelledby="bs-h"><h2 id="bs-h">By section</h2><table class="bytable"><tbody>';
     MODULES.forEach(function (m) {
@@ -1021,6 +1049,7 @@ dl.stats { margin: 0; }
   function finishExam(timedOut) {
     if (!exam) return;
     stopTimer();
+    if (!$sheet.hidden) closeSheet(false); // time ran out while "Finish with N blank?" was open
     var now = Date.now();
     var items = exam.items.map(function (it, i) { var a = exam.answers[i]; return [it.qid, a === null ? null : it.perm[a]]; });
     var sc = L.scoreItems(items, function (id) { return QBY[id].answer; }, function (id) { return QBY[id].mod; });
@@ -1093,12 +1122,14 @@ dl.stats { margin: 0; }
     document.getElementById('sheet-cancel').textContent = o.cancel;
     sheetReturn = document.activeElement;
     $sheet.hidden = false;
+    $app.inert = true; // keep Tab inside the sheet
     document.getElementById('sheet-cancel').focus();
     return new Promise(function (res) { sheetResolve = res; });
   }
   function closeSheet(v) {
     if ($sheet.hidden) return;
     $sheet.hidden = true;
+    $app.inert = false;
     var r = sheetResolve; sheetResolve = null;
     if (sheetReturn && document.contains(sheetReturn)) sheetReturn.focus();
     if (r) r(v);
@@ -1127,8 +1158,10 @@ dl.stats { margin: 0; }
     $vimg.src = pdfSrc(vPdf);
     $vimg.alt = pdfLabel(vPdf) + ' of the Massachusetts Motorcycle Manual';
     document.getElementById('viewer-title').textContent = pdfLabel(vPdf);
-    document.getElementById('viewer-prev').disabled = vPdf <= 1;
-    document.getElementById('viewer-next').disabled = vPdf >= PDF_LAST;
+    var prev = document.getElementById('viewer-prev'), next = document.getElementById('viewer-next'), had = document.activeElement;
+    prev.disabled = vPdf <= 1;
+    next.disabled = vPdf >= PDF_LAST;
+    if (had && had.disabled) (had === prev ? next : prev).focus(); // a focused button that turns disabled drops focus
     $vbody.scrollTop = 0; $vbody.scrollLeft = 0;
     [vPdf - 1, vPdf + 1].forEach(function (n) { if (n >= 1 && n <= PDF_LAST) { var i = new Image(); i.src = pdfSrc(n); } });
   }
@@ -1137,11 +1170,13 @@ dl.stats { margin: 0; }
     vReturn = document.activeElement;
     showPdfPage(pdfPage);
     $viewer.hidden = false;
+    $app.inert = true; // keep Tab inside the viewer
     document.documentElement.classList.add('lock');
     document.getElementById('viewer-close').focus();
   }
   function closeViewer() {
     $viewer.hidden = true;
+    $app.inert = false;
     document.documentElement.classList.remove('lock');
     if (vReturn && document.contains(vReturn)) vReturn.focus();
   }

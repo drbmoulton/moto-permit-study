@@ -8,6 +8,7 @@ Outputs
 Usage
   python3 scripts/build.py           validate, then build
   python3 scripts/build.py --check   validate only
+  python3 scripts/build.py --check --only m4   validate one section
 """
 import difflib
 import json
@@ -22,10 +23,10 @@ BANNED = re.compile(r"\b(all|none|both) of the above\b|\bboth [a-d] and [a-d]\b|
 FIRST_PAGE, LAST_PAGE = 1, 64  # printed page numbers in the 2015 manual
 
 
-def validate():
+def validate(only=None):
     errors, warnings, modules = [], [], []
     seen_ids = set()
-    for mid in MODULE_IDS:
+    for mid in ([only] if only else MODULE_IDS):
         path = ROOT / "content" / f"{mid}.json"
         try:
             d = json.loads(path.read_text(encoding="utf-8"))
@@ -137,7 +138,15 @@ def build(modules):
 
 
 def main():
-    modules, errors, warnings = validate()
+    only = None
+    if "--only" in sys.argv:
+        i = sys.argv.index("--only")
+        only = sys.argv[i + 1] if i + 1 < len(sys.argv) else None
+        if only not in MODULE_IDS:
+            sys.exit(f"--only takes one of {', '.join(MODULE_IDS)}")
+        if "--check" not in sys.argv:
+            sys.exit("--only can only be used with --check")
+    modules, errors, warnings = validate(only)
     total = sum(len(m["questions"]) for m in modules)
     for w in warnings:
         print("warning:", w)

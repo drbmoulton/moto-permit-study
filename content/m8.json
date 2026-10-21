@@ -85,7 +85,7 @@
         "40 mph"
       ],
       "answer": 1,
-      "explanation": "When no other limit is posted, the manual's defaults are 20 mph in school zones, 30 mph in thickly settled or business districts, 40 mph outside them, and 50 mph on highways outside them.",
+      "explanation": "When no other limit is posted, the manual's defaults are 20 mph in school zones, 30 mph in thickly settled or business districts, 40 mph outside them, and 50 mph on highways outside them. Many Massachusetts cities and towns have since lowered the 30 mph default to 25 mph, so watch the signs; for the test, the manual's figure is 30.",
       "page": 37,
       "volatile": true
     },
@@ -127,7 +127,7 @@
         "The signal is changing to red; stop if you can do so safely"
       ],
       "answer": 3,
-      "explanation": "A steady yellow warns that red is next, so stop if you can do it safely. A rider who is already waiting at the intersection or stop line must not go.",
+      "explanation": "A steady yellow warns that red is next, so stop if you can do it safely. A rider who is already waiting at the intersection or stop line must not go. Do not confuse it with a flashing yellow, which is only a warning to proceed with caution.",
       "page": 38,
       "volatile": false
     },
@@ -264,7 +264,7 @@
         "The vehicle on the left",
         "A motorcycle, since it can clear the intersection fastest",
         "The first vehicle in the intersection",
-        "The vehicle on the wider road"
+        "The largest vehicle, since it needs the most room"
       ],
       "answer": 2,
       "explanation": "With an ALL WAY (or 4-WAY) plate under each STOP sign, everyone approaching must stop, and the vehicle that is first in the intersection goes first.",
@@ -275,9 +275,9 @@
       "id": "m8-18",
       "q": "You see an orange diamond-shaped sign ahead. What does it tell you?",
       "options": [
-        "A school zone is just ahead",
+        "A school zone is just ahead, so watch for children",
         "Construction or maintenance work is ahead, so take extra care",
-        "A recreational or scenic area is coming up",
+        "A recreational or scenic area is ahead, so watch for its entrance",
         "Motorist services such as gas and food are available"
       ],
       "answer": 1,
@@ -387,9 +387,9 @@
       "id": "m8-26",
       "q": "What does a white diamond painted in a traffic lane mean?",
       "options": [
-        "A pedestrian crosswalk is coming up just ahead",
+        "A pedestrian crosswalk is just ahead, so be ready to stop",
         "Passing is permitted in this section of road",
-        "A railroad crossing is coming up ahead",
+        "A railroad crossing is ahead, so slow down and look for trains",
         "The lane is restricted, such as to HOV, buses or bicycles"
       ],
       "answer": 3,

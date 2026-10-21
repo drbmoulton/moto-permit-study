@@ -11,17 +11,17 @@
   ],
   "summary": [
     "Riders should scan 10 to 15 seconds ahead along their path of travel.",
-    "Drivers involved in motorcycle crashes most often say they did not see the rider; a motorcycle's small size also makes it seem farther away and slower than it really is.",
-    "Most motorcycle crashes happen in daylight, so bright clothing (orange, red, yellow, green) and reflective tape or a reflective vest improve visibility.",
-    "Keeping the headlight on at all times is the best way to be noticed; in daylight it makes a motorcycle twice as noticeable to oncoming drivers, and using high beam in daytime adds visibility.",
-    "A motorcycle brake light is less noticeable than a car's, so flash it before slowing or stopping, especially when being tailgated.",
-    "Know the hand signals: left arm straight out for a left turn, forearm bent upward for a right turn, and arm angled downward for slowing or stopping.",
+    "Drivers involved in motorcycle crashes often say they did not see the rider; a motorcycle's small size also makes it seem farther away and slower than it really is.",
+    "Most motorcycle crashes happen in daylight, so dress to be seen: bright orange, red, yellow or green jackets or vests and reflective tape on your helmet and gear help; if you won't wear bright colors, consider a reflective vest.",
+    "Keeping the headlight on at all times is the best way to be noticed; research shows a daytime headlight makes a motorcycle twice as noticeable to oncoming drivers, and the manual suggests riders consider using high beam in daylight for extra visibility.",
+    "A motorcycle brake light is usually less noticeable than a car's, so flash it before slowing or stopping, especially when being tailgated.",
+    "Know the hand signals and routinely use them along with your electronic signals; the manual's drawing shows an arm held straight out for a left turn, a forearm bent upward for a right turn, and an arm angled downward to slow or stop.",
     "Turn signals tell others your intentions and make you more visible; use them for every lane change even when no one seems to be around, and always cancel them afterward.",
-    "Use the horn when another vehicle may be moving into your lane, but be ready to stop or swerve as well.",
+    "Be prepared to use the horn in an emergency or when a vehicle entering your lane may not leave you room to get by safely; be ready to stop or swerve if a driver in the next lane is closing fast on another vehicle and may try to pass, a parked car's door opens, or a pedestrian or bicyclist is in the street.",
     "Each lane offers three paths of travel; choose a position that keeps you out of blind spots and visible in the mirrors of vehicles ahead, and pass through blind spots quickly.",
     "SPIDER stands for Scan, Predict, Identify, Decide, Execute, Rely.",
-    "In the city look one-half to one full block ahead; on the highway look as far ahead as you safely can, and watch for oil and gravel on curves and ramps.",
-    "Check mirrors every few seconds, use a head check before changing lanes, and remember convex mirrors make vehicles behind seem farther away than they are; intersections are the greatest danger."
+    "In city riding, look between half a block and a full block ahead; on the highway, look as far ahead as you can while keeping control, and watch curves and ramps for oil and gravel.",
+    "Check mirrors every few seconds, and closely when slowing or stopping (if a vehicle following you is dangerously close, it can be safer to keep going than to stop); turn your head to look before changing lanes; convex mirrors make vehicles behind seem farther away than they are; and intersections, meaning anywhere traffic can cross your path, are the greatest danger."
   ],
   "questions": [
     {
@@ -40,7 +40,7 @@
     },
     {
       "id": "m4-02",
-      "q": "In crashes involving motorcycles, what do other drivers most often cite as the leading cause?",
+      "q": "In crashes involving motorcycles, what do other drivers often cite as the leading cause?",
       "options": [
         "They did not see the rider",
         "The rider was speeding",
@@ -59,7 +59,7 @@
         "It seems closer and faster than it is",
         "It seems farther away and slower than it is",
         "It seems closer but slower than it is",
-        "Its size has no effect on how drivers judge it"
+        "It seems farther away but faster than it is"
       ],
       "answer": 1,
       "explanation": "Smaller vehicles appear more distant and slower-moving than they really are, so drivers can misjudge a rider's distance and speed.",
@@ -99,7 +99,7 @@
       "q": "What is the best way to alert other drivers to your presence on a motorcycle?",
       "options": [
         "Sound your horn often",
-        "Ride in the left part of the lane",
+        "Ride close behind the vehicle ahead",
         "Keep your headlight on at all times",
         "Rev your engine at intersections"
       ],
@@ -110,7 +110,7 @@
     },
     {
       "id": "m4-07",
-      "q": "According to research cited in the manual, how much more noticeable is a motorcycle with its headlight on during daylight?",
+      "q": "According to research cited in the manual, how much more noticeable to oncoming drivers is a motorcycle with its headlight on during daylight?",
       "options": [
         "About 10 percent more",
         "About 50 percent more",
@@ -126,10 +126,10 @@
       "id": "m4-08",
       "q": "When is it especially important to flash your brake light before slowing?",
       "options": [
-        "When the road ahead is clear",
+        "When no other vehicles are behind you",
         "When you are being followed too closely",
-        "When riding with a passenger",
-        "When parking at a curb"
+        "When you are wearing brightly colored gear",
+        "When you are riding below the speed limit"
       ],
       "answer": 1,
       "explanation": "A tailgater may be focused only on your motorcycle and unaware of hazards ahead, so flashing the brake light warns them you are slowing.",
@@ -140,13 +140,13 @@
       "id": "m4-09",
       "q": "Which hand signal indicates a left turn?",
       "options": [
-        "Left arm extended straight out",
-        "Left forearm bent upward",
-        "Left arm angled downward",
-        "Right arm extended straight out"
+        "Arm held straight out to the side",
+        "Arm out to the side, forearm bent up",
+        "Arm out to the side, angled downward",
+        "Arm raised straight up over the head"
       ],
       "answer": 0,
-      "explanation": "The manual's illustration shows a left turn signaled with the left arm held straight out horizontally.",
+      "explanation": "In the manual's drawing, a left turn is an arm held straight out to the side. A forearm bent upward means a right turn, and an arm angled downward means slow or stop.",
       "page": 20,
       "volatile": false
     },
@@ -168,10 +168,10 @@
       "id": "m4-11",
       "q": "Why is a turn signal that is left blinking dangerous?",
       "options": [
-        "It drains the battery quickly",
-        "A driver may pull into your path expecting you to turn",
-        "It is a moving violation in every case",
-        "It hides your brake light"
+        "It makes your motorcycle harder for drivers to see",
+        "It may lead a driver to pull into your path",
+        "It tells other drivers you are about to speed up",
+        "It hides your brake light from drivers behind you"
       ],
       "answer": 1,
       "explanation": "An uncanceled signal can lead a driver to expect your turn and move into your path, so check your instrument panel after turning.",
@@ -180,15 +180,15 @@
     },
     {
       "id": "m4-12",
-      "q": "A driver in the next lane is quickly approaching another vehicle and may pull into your lane. Besides being ready to use your horn, what should you be prepared to do?",
+      "q": "A driver in the next lane is closing fast on another vehicle and may cut into your lane. Besides being ready to use your horn, what should you be prepared to do?",
       "options": [
         "Speed up to block the driver",
-        "Move onto the shoulder and stop",
+        "Pull alongside the driver and stay there",
         "Be ready to stop or swerve",
-        "Flash your headlight and hold your speed"
+        "Move closer to the vehicle ahead"
       ],
       "answer": 2,
-      "explanation": "The manual says the horn helps in this situation, but the rider should also be ready to stop or swerve away from danger.",
+      "explanation": "The manual's horn section names this as one of the situations where you should be prepared to stop or swerve away from danger, since the driver may cut into your lane.",
       "page": 21,
       "volatile": false
     },
@@ -203,20 +203,6 @@
       ],
       "answer": 3,
       "explanation": "Each marked lane offers a rider three paths of travel for choosing a visible position.",
-      "page": 21,
-      "volatile": false
-    },
-    {
-      "id": "m4-14",
-      "q": "When passing another vehicle, how should you handle the driver's blind spot?",
-      "options": [
-        "Get through it as quickly as possible",
-        "Stay in it until the driver signals",
-        "Slow down to match the vehicle's speed",
-        "Sound your horn and ride alongside"
-      ],
-      "answer": 0,
-      "explanation": "Riders should avoid lingering in blind spots; decide early, approach carefully, and once alongside speed up and pass quickly.",
       "page": 21,
       "volatile": false
     },
@@ -244,7 +230,7 @@
         "As far as the next traffic light only"
       ],
       "answer": 0,
-      "explanation": "The manual recommends looking one-half block to one full block ahead in city riding.",
+      "explanation": "In city traffic, the manual advises keeping your eyes between half a block and a full block ahead.",
       "page": 23,
       "volatile": false
     },
@@ -254,8 +240,8 @@
       "options": [
         "On long straightaways",
         "On curves and ramps",
-        "In parking lots only",
-        "On freshly painted crosswalks only"
+        "On steep uphill grades",
+        "On roads with low speed limits"
       ],
       "answer": 1,
       "explanation": "Curves and ramps are singled out as places where oil and gravel tend to collect.",
@@ -281,12 +267,12 @@
       "q": "Before changing lanes, what should a responsible rider do in addition to checking mirrors?",
       "options": [
         "Turn the head to check for vehicles",
-        "Sound the horn",
-        "Flash the high beam",
-        "Tap the rear brake"
+        "Sound the horn before moving over",
+        "Flash the high beam at the car ahead",
+        "Turn on the hazard flashers briefly"
       ],
       "answer": 0,
-      "explanation": "The manual says to include a head turn to visually check for vehicles approaching or trying to pass before a lane change.",
+      "explanation": "Before changing lanes, the manual says to turn your head and look for any vehicle coming up behind you or trying to pass, rather than relying on mirrors alone.",
       "page": 24,
       "volatile": false
     },
@@ -294,14 +280,28 @@
       "id": "m4-20",
       "q": "According to the manual, which location poses the greatest danger to a motorcycle rider?",
       "options": [
-        "Highway on-ramps",
-        "Parking lots",
+        "Tunnels",
+        "Open highways",
         "Intersections",
         "Bridges"
       ],
       "answer": 2,
       "explanation": "Intersections, meaning any place traffic may cross your path, are described as the greatest danger.",
       "page": 24,
+      "volatile": false
+    },
+    {
+      "id": "m4-21",
+      "q": "You are riding behind another vehicle. Where should you position your motorcycle?",
+      "options": [
+        "Where the driver can see you in the vehicle's mirrors",
+        "Close behind the vehicle, where it blocks the wind",
+        "On the lane line, so you can slip past slow traffic",
+        "Off a rear corner, in the driver's blind spot"
+      ],
+      "answer": 0,
+      "explanation": "Pick a spot in your lane where the driver in front can see you in their mirrors, not one of their blind spots, and use your lights along with your lane position to help others notice you.",
+      "page": 21,
       "volatile": false
     }
   ]
