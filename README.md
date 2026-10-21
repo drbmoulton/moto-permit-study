@@ -8,6 +8,7 @@ A study app for the Massachusetts Class M (motorcycle) learner's permit knowledg
 - **The manual's numbers**: the percentages, distances, speeds, BAC levels, fees, fines and suspension lengths a test writer could ask about have their own questions, since the real test asks a lot of them. `review/stats-coverage.md` maps every figure in the manual to the question that tests it and says why the rest are left out.
 - **Practice tests** that match the real one: 25 questions drawn from every section in proportion to its share of the question bank, a 25-minute timer, no feedback until the end, and pass at 18. The results screen breaks the score down by section and lets you review every question.
 - **Quick 10**: a short mixed set, starting with questions you got wrong and ones you haven't seen.
+- **Numbers drill**: 20 questions on the manual's figures and statistics (speeds, distances, BAC levels, fines, suspensions, "most crashes happen in daylight"), picked the same way as Quick 10 from every section.
 - **Missed questions**: everything you got wrong the last time you saw it, overall or per section.
 - **The manual itself**: every answer cites its page, and the page opens inside the app.
 
@@ -44,11 +45,12 @@ Each question looks like this:
   "answer": 2,
   "explanation": "Why, in a sentence or two.",
   "page": 49,
-  "volatile": false
+  "volatile": false,
+  "stat": false
 }
 ```
 
-`page` is the printed page number in the manual. The PDF page is that number plus 7. `answer` is the index of the correct option; options are shuffled each time a question is shown, so never write "all of the above".
+`page` is the printed page number in the manual. The PDF page is that number plus 7. `stat` puts the question in the numbers drill: set it to true when the question asks for a figure or a statistic from the manual (a number, percentage, distance, time, speed, fee, fine, BAC level or penalty, or a claim like "most often" or "twice as noticeable"), and false when it asks for a rule, a name or a procedure. `answer` is the index of the correct option; options are shuffled each time a question is shown, so never write "all of the above".
 
 ## Editing questions
 

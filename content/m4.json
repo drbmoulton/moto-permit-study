@@ -36,7 +36,8 @@
       "answer": 2,
       "explanation": "The manual lists scanning 10 to 15 seconds ahead as one of the ways to reduce your chance of a crash.",
       "page": 19,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m4-02",
@@ -50,7 +51,8 @@
       "answer": 0,
       "explanation": "Drivers frequently say a lack of rider visibility was the main cause of the crash.",
       "page": 19,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m4-03",
@@ -64,7 +66,8 @@
       "answer": 1,
       "explanation": "Smaller vehicles appear more distant and slower-moving than they really are, so drivers can misjudge a rider's distance and speed.",
       "page": 19,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m4-04",
@@ -78,7 +81,8 @@
       "answer": 3,
       "explanation": "The manual states that most motorcycle crashes occur in daylight, which is why bright clothing matters even during the day.",
       "page": 20,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m4-05",
@@ -92,7 +96,8 @@
       "answer": 1,
       "explanation": "A reflective vest is recommended as a way to alert drivers to your presence when you are not wearing bright colors.",
       "page": 20,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m4-06",
@@ -106,7 +111,8 @@
       "answer": 2,
       "explanation": "Keeping the headlight on at all times is described as the best way to make drivers aware of you.",
       "page": 20,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m4-07",
@@ -120,7 +126,8 @@
       "answer": 3,
       "explanation": "Research shows a daytime headlight makes a motorcycle twice as noticeable to oncoming drivers.",
       "page": 20,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m4-08",
@@ -134,7 +141,8 @@
       "answer": 1,
       "explanation": "A tailgater may be focused only on your motorcycle and unaware of hazards ahead, so flashing the brake light warns them you are slowing.",
       "page": 20,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m4-09",
@@ -148,7 +156,8 @@
       "answer": 0,
       "explanation": "In the manual's drawing, a left turn is an arm held straight out to the side. A forearm bent upward means a right turn, and an arm angled downward means slow or stop.",
       "page": 20,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m4-10",
@@ -162,7 +171,8 @@
       "answer": 3,
       "explanation": "The manual recommends always signaling a lane change, even when no vehicle may be present.",
       "page": 20,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m4-11",
@@ -176,7 +186,8 @@
       "answer": 1,
       "explanation": "An uncanceled signal can lead a driver to expect your turn and move into your path, so check your instrument panel after turning.",
       "page": 21,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m4-12",
@@ -190,7 +201,8 @@
       "answer": 2,
       "explanation": "The manual's horn section names this as one of the situations where you should be prepared to stop or swerve away from danger, since the driver may cut into your lane.",
       "page": 21,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m4-13",
@@ -204,7 +216,8 @@
       "answer": 3,
       "explanation": "Each marked lane offers a rider three paths of travel for choosing a visible position.",
       "page": 21,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m4-15",
@@ -218,7 +231,8 @@
       "answer": 2,
       "explanation": "SPIDER stands for Scan, Predict, Identify, Decide, Execute, and Rely.",
       "page": 22,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m4-16",
@@ -232,7 +246,8 @@
       "answer": 0,
       "explanation": "In city traffic, the manual advises keeping your eyes between half a block and a full block ahead.",
       "page": 23,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m4-17",
@@ -246,7 +261,8 @@
       "answer": 1,
       "explanation": "Curves and ramps are singled out as places where oil and gravel tend to collect.",
       "page": 23,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m4-18",
@@ -260,7 +276,8 @@
       "answer": 3,
       "explanation": "Convex mirrors show more of the road behind but make vehicles appear more distant, so practice judging distance with them.",
       "page": 24,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m4-19",
@@ -274,7 +291,8 @@
       "answer": 0,
       "explanation": "Before changing lanes, the manual says to turn your head and look for any vehicle coming up behind you or trying to pass, rather than relying on mirrors alone.",
       "page": 24,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m4-20",
@@ -288,7 +306,8 @@
       "answer": 2,
       "explanation": "Intersections, meaning any place traffic may cross your path, are described as the greatest danger.",
       "page": 24,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m4-21",
@@ -302,7 +321,8 @@
       "answer": 0,
       "explanation": "Pick a spot in your lane where the driver in front can see you in their mirrors, not one of their blind spots, and use your lights along with your lane position to help others notice you.",
       "page": 21,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m4-22",
@@ -316,7 +336,8 @@
       "answer": 2,
       "explanation": "Motorcycle brake lights are usually harder to notice than a car's, particularly with the taillight on, so flash yours before you slow or stop.",
       "page": 20,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m4-23",
@@ -330,7 +351,8 @@
       "answer": 1,
       "explanation": "Besides showing your intentions, turn signals make you more visible: a driver behind you is more likely to notice a turn signal than a taillight.",
       "page": 20,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m4-24",
@@ -344,7 +366,8 @@
       "answer": 0,
       "explanation": "Checking your mirrors every few seconds lets you respond safely when traffic conflicts or hazards come up. Check them with extra care whenever you slow down or make a sudden stop.",
       "page": 24,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     }
   ]
 }

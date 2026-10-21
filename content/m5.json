@@ -33,7 +33,8 @@
       "answer": 1,
       "explanation": "The manual recommends the two-second rule as the baseline following distance to give extra reaction time.",
       "page": 25,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m5-02",
@@ -47,7 +48,8 @@
       "answer": 2,
       "explanation": "Reaching the object before the count ends means you are following too closely, so you should slow down to open the gap.",
       "page": 25,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m5-03",
@@ -61,7 +63,8 @@
       "answer": 3,
       "explanation": "The manual calls for four seconds or more when conditions are unfavorable: an unfamiliar area, heavy congestion, or slippery pavement. Unfamiliar here means the area you are riding in, not how long you have been riding.",
       "page": 25,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m5-04",
@@ -75,7 +78,8 @@
       "answer": 2,
       "explanation": "The manual says to add space between you and the vehicles ahead, giving you a cushion for an emergency, and to change lanes when you can so the driver can pass. It also suggests flashing your brake light before you slow. Speeding up shrinks that cushion, and stopping with someone close behind is risky.",
       "page": 25,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m5-05",
@@ -89,7 +93,8 @@
       "answer": 0,
       "explanation": "The manual says to set up a pass from the left portion of your lane, at a safe following distance, which makes you more visible.",
       "page": 26,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m5-06",
@@ -103,7 +108,8 @@
       "answer": 3,
       "explanation": "The manual asks for both mirrors and a quick head check, so you know what traffic is behind and beside you before you signal and move over.",
       "page": 26,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m5-07",
@@ -117,7 +123,8 @@
       "answer": 1,
       "explanation": "The manual says to move quickly through the other driver's blind spot so you are not lingering where you cannot be seen.",
       "page": 26,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m5-08",
@@ -131,7 +138,8 @@
       "answer": 0,
       "explanation": "After passing, the manual calls for checking mirrors and doing head checks before signaling and moving back.",
       "page": 26,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m5-09",
@@ -145,7 +153,8 @@
       "answer": 2,
       "explanation": "Riding in the center of the lane while being passed gives a cushion of space on both sides.",
       "page": 26,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m5-10",
@@ -159,7 +168,8 @@
       "answer": 1,
       "explanation": "Riding in the center of the lane leaves a cushion between you and the passing vehicle, which protects you from a sideswipe, road debris, and wind gusts that can upset your control. It does not keep you out of oil: the manual notes that oil builds up in the lane center.",
       "page": 26,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m5-11",
@@ -173,7 +183,8 @@
       "answer": 3,
       "explanation": "The manual advises that if a vehicle is able to enter your path at an intersection, you should assume it will.",
       "page": 26,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m5-12",
@@ -187,7 +198,8 @@
       "answer": 1,
       "explanation": "Because intersections are among the most dangerous places for riders, pick a lane position that makes you more visible to other drivers.",
       "page": 26,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m5-13",
@@ -201,7 +213,8 @@
       "answer": 3,
       "explanation": "The left portion of the lane keeps you away from opening doors, pedestrians stepping out, and cars pulling away from the curb.",
       "page": 27,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m5-14",
@@ -215,7 +228,8 @@
       "answer": 0,
       "explanation": "The manual warns that drivers exiting their cars and pedestrians stepping between parked vehicles can cause problems, along with cars pulling out or making U-turns.",
       "page": 27,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m5-15",
@@ -229,7 +243,8 @@
       "answer": 2,
       "explanation": "The manual says riders are prohibited from riding beside motor vehicles within a marked lane, and that every vehicle may use the full width of its lane. Riding beside another motorcycle is covered separately by the special rules, which allow no more than two abreast.",
       "page": 27,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m5-16",
@@ -243,7 +258,8 @@
       "answer": 0,
       "explanation": "Riding in the center of the lane makes it harder and less tempting for a driver to share the lane with you.",
       "page": 27,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m5-17",
@@ -257,7 +273,8 @@
       "answer": 2,
       "explanation": "A vehicle in the next lane may change direction without warning and force you into danger, so the manual says to adjust your speed until there is a safe cushion of space.",
       "page": 27,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m5-18",
@@ -271,7 +288,8 @@
       "answer": 3,
       "explanation": "The manual warns not to assume a merging driver will notice you and advises giving entering vehicles ample room.",
       "page": 27,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     }
   ]
 }

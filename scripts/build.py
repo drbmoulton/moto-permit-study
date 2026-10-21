@@ -18,7 +18,7 @@ import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 MODULE_IDS = [f"m{i}" for i in range(1, 11)]
-QUESTION_KEYS = {"id", "q", "options", "answer", "explanation", "page", "volatile"}
+QUESTION_KEYS = {"id", "q", "options", "answer", "explanation", "page", "volatile", "stat"}
 BANNED = re.compile(r"\b(all|none|both) of the above\b|\bboth [a-d] and [a-d]\b|\bneither [a-d] nor [a-d]\b", re.I)
 FIRST_PAGE, LAST_PAGE = 1, 64  # printed page numbers in the 2015 manual
 
@@ -87,6 +87,8 @@ def validate(only=None):
                 errors.append(f"{w}: page {q['page']} is outside this section's manualPages")
             if not isinstance(q["volatile"], bool):
                 errors.append(f"{w}: volatile must be true or false")
+            if not isinstance(q["stat"], bool):
+                errors.append(f"{w}: stat must be true or false")
             lens = [len(o) for o in opts]
             if lens[q["answer"]] > 1.3 * max(l for i, l in enumerate(lens) if i != q["answer"]):
                 longest_tells += 1
@@ -97,7 +99,7 @@ def validate(only=None):
             "title": d.get("title", mid),
             "manualPages": pages,
             "summary": summary or [],
-            "questions": [{k: q[k] for k in ("id", "q", "options", "answer", "explanation", "page", "volatile")} for q in qs if QUESTION_KEYS <= set(q)],
+            "questions": [{k: q[k] for k in ("id", "q", "options", "answer", "explanation", "page", "volatile", "stat")} for q in qs if QUESTION_KEYS <= set(q)],
         })
 
     flat = [(m["id"], q) for m in modules for q in m["questions"]]
@@ -148,11 +150,14 @@ def main():
             sys.exit("--only can only be used with --check")
     modules, errors, warnings = validate(only)
     total = sum(len(m["questions"]) for m in modules)
+    stats = sum(1 for m in modules for q in m["questions"] if q["stat"] is True)
+    if modules and not only and stats < 20:
+        warnings.append(f"only {stats} questions are marked stat; the numbers drill asks 20")
     for w in warnings:
         print("warning:", w)
     for e in errors:
         print("ERROR:", e)
-    print(f"{total} questions in {len(modules)} sections; {len(errors)} errors, {len(warnings)} warnings")
+    print(f"{total} questions ({stats} on figures) in {len(modules)} sections; {len(errors)} errors, {len(warnings)} warnings")
     if errors:
         sys.exit(1)
     if "--check" in sys.argv:

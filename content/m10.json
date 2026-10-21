@@ -33,7 +33,8 @@
       "answer": 2,
       "explanation": "Your liver and kidneys need time to process alcohol, and there is no shortcut. Coffee, a cold shower, exercise, or food may make you feel more alert, but they don't change how fast alcohol leaves your body.",
       "page": 59,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m10-02",
@@ -47,7 +48,8 @@
       "answer": 0,
       "explanation": "A 12-ounce beer and a 4-ounce glass of wine hold about the same amount of alcohol, as does a standard serving of 80-proof liquor.",
       "page": 60,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m10-03",
@@ -61,7 +63,8 @@
       "answer": 2,
       "explanation": "Operators 21 and older who test at 0.08% or higher are over the Massachusetts legal limit.",
       "page": 60,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m10-04",
@@ -75,7 +78,8 @@
       "answer": 0,
       "explanation": "For operators under 21, a BAC of just 0.02% is over the legal limit.",
       "page": 60,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m10-05",
@@ -89,7 +93,8 @@
       "answer": 3,
       "explanation": "Every licensed operator has already agreed to breath or blood testing in certain situations. If you refuse, or test over the limit, the officer is required to take your license right away and the suspension or revocation notice takes effect at once, though you can ask for a hearing.",
       "page": 60,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m10-06",
@@ -103,7 +108,8 @@
       "answer": 3,
       "explanation": "Nearly any drug can affect your riding; illegal drugs, prescription medicines, and over-the-counter remedies all slow your reactions and impair your vision and motor skills. Massachusetts OUI laws cover drugs as well as alcohol.",
       "page": 60,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m10-07",
@@ -117,7 +123,8 @@
       "answer": 1,
       "explanation": "The manual's table lists a 1-year license suspension for a first OUI conviction. A court may let you shorten it by completing an alcohol education course.",
       "page": 61,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m10-08",
@@ -131,7 +138,8 @@
       "answer": 0,
       "explanation": "For operators 18 and older, three speeding violations inside any one-year period trigger a mandatory 30-day suspension, plus a reinstatement fee.",
       "page": 62,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m10-09",
@@ -145,7 +153,8 @@
       "answer": 1,
       "explanation": "Junior operators lose their permit or license for 90 days for a first speeding conviction and for one year for any later one; they must also retake the learner's permit exam.",
       "page": 63,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m10-10",
@@ -159,7 +168,8 @@
       "answer": 2,
       "explanation": "Even a single drink can affect your riding, and the effects are stronger if you are tired, upset, or haven't eaten. No one is immune; the safest choice is not to ride at all after drinking.",
       "page": 59,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m10-11",
@@ -173,7 +183,8 @@
       "answer": 3,
       "explanation": "Your BAC depends on your body weight, how much you drank, how much you ate beforehand, how long you've been drinking, and how fast your body processes alcohol. The type of drink doesn't matter: what counts is how much alcohol you take in over a given time.",
       "page": 59,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m10-12",
@@ -187,7 +198,8 @@
       "answer": 1,
       "explanation": "The manual counts 1 ounce of 80-proof liquor as one drink.",
       "page": 60,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m10-13",
@@ -201,7 +213,8 @@
       "answer": 2,
       "explanation": "Each standard drink can push an average person's BAC up by about 0.02%, and drinking faster than your body can clear the alcohol makes your BAC climb.",
       "page": 60,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m10-14",
@@ -215,7 +228,8 @@
       "answer": 1,
       "explanation": "Drink more than one drink per hour and your BAC starts to climb, because your liver and kidneys can't keep pace.",
       "page": 60,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m10-15",
@@ -229,7 +243,8 @@
       "answer": 1,
       "explanation": "Melanie's Law substantially toughened both the penalties and the license sanctions for operating under the influence (OUI).",
       "page": 60,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m10-16",
@@ -243,7 +258,8 @@
       "answer": 2,
       "explanation": "The manual says any drug conviction, in Massachusetts or another state, costs you your license for 1 to 5 years, even if no vehicle was involved. A 2016 Massachusetts law ended most automatic license suspensions for drug convictions that don't involve driving.",
       "page": 60,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m10-17",
@@ -257,7 +273,8 @@
       "answer": 1,
       "explanation": "The manual's OUI table lists a 2-year license suspension for a second offense.",
       "page": 61,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m10-18",
@@ -271,7 +288,8 @@
       "answer": 3,
       "explanation": "The manual's OUI table lists an 8-year license suspension for a third offense.",
       "page": 61,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m10-19",
@@ -285,7 +303,8 @@
       "answer": 0,
       "explanation": "The manual's OUI table lists a 10-year license suspension for a fourth offense.",
       "page": 61,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m10-20",
@@ -299,7 +318,8 @@
       "answer": 2,
       "explanation": "A fifth OUI offense means losing your license for life.",
       "page": 61,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m10-21",
@@ -313,7 +333,8 @@
       "answer": 1,
       "explanation": "For a first offense, the table lists a fine of $500 to $5,000 and up to 2½ years in prison.",
       "page": 61,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m10-22",
@@ -327,7 +348,8 @@
       "answer": 1,
       "explanation": "The manual's table says completing the course can reduce a first offender's suspension to 45 to 90 days for riders over 21, or to 210 days for riders under 21.",
       "page": 61,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m10-23",
@@ -341,7 +363,8 @@
       "answer": 0,
       "explanation": "Three surchargeable events within two years means you have 90 days to finish a driver retraining program, or your license is suspended until you do. Reinstatement costs $100.",
       "page": 62,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m10-24",
@@ -355,7 +378,8 @@
       "answer": 1,
       "explanation": "Seven surchargeable events (moving violations and surchargeable accidents combined) within three years bring a 60-day suspension and a $100 reinstatement fee.",
       "page": 62,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m10-25",
@@ -369,7 +393,8 @@
       "answer": 2,
       "explanation": "A Habitual Traffic Offender loses their license for 4 years and pays a $500 reinstatement fee.",
       "page": 62,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m10-26",
@@ -383,7 +408,8 @@
       "answer": 2,
       "explanation": "You become a Habitual Traffic Offender with three major moving violations, or any combination of twelve major or minor ones, within five years.",
       "page": 62,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m10-27",
@@ -397,7 +423,8 @@
       "answer": 1,
       "explanation": "If your license or right to operate has been suspended or revoked in another state, Massachusetts suspends your license until that out-of-state suspension is resolved. Reinstatement costs $100.",
       "page": 62,
-      "volatile": true
+      "volatile": true,
+      "stat": false
     },
     {
       "id": "m10-28",
@@ -411,7 +438,8 @@
       "answer": 1,
       "explanation": "A first conviction for violating the night or passenger restriction costs a junior operator 60 days, a second costs 180 days, and later ones cost a year; repeat offenses also require a Driver Attitudinal Retraining course. A junior operator convicted of using a mobile phone or other electronic device faces the same 60-day, 180-day, one-year ladder.",
       "page": 64,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m10-29",
@@ -425,7 +453,8 @@
       "answer": 2,
       "explanation": "A junior operator's first drag racing conviction brings a one-year suspension and a $500 reinstatement fee; a second or later one brings three years and a $1,000 fee. Every offense also means retaking the learner's permit exam and completing a Driver Attitudinal Retraining course.",
       "page": 63,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m10-30",
@@ -439,7 +468,8 @@
       "answer": 0,
       "explanation": "The manual says each standard drink holds about half an ounce of alcohol.",
       "page": 60,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m10-31",
@@ -453,7 +483,8 @@
       "answer": 1,
       "explanation": "The table lists the third, fourth, and fifth OUI offenses as felonies; the first and second are not.",
       "page": 61,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m10-32",
@@ -467,7 +498,8 @@
       "answer": 1,
       "explanation": "For a second offense, the table lists a $600 to $10,000 fine and 30 days to 2½ years in prison.",
       "page": 61,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m10-33",
@@ -481,7 +513,8 @@
       "answer": 2,
       "explanation": "For a third offense, the table lists a $1,000 to $15,000 fine and 150 days to 5 years in prison.",
       "page": 61,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m10-34",
@@ -495,7 +528,8 @@
       "answer": 3,
       "explanation": "For a fourth offense, the table lists a $1,500 to $25,000 fine and 1 to 5 years in prison.",
       "page": 61,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m10-35",
@@ -509,7 +543,8 @@
       "answer": 1,
       "explanation": "For a fifth offense, the table lists a $2,000 to $50,000 fine and 2 to 5 years in prison.",
       "page": 61,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m10-36",
@@ -523,7 +558,8 @@
       "answer": 1,
       "explanation": "Massachusetts passed Melanie's Law in October 2005.",
       "page": 60,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     }
   ]
 }

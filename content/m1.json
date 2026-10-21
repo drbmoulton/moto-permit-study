@@ -41,7 +41,8 @@
       "answer": 1,
       "explanation": "An applicant for a motorcycle learner's permit must be at least 16 years old.",
       "page": 7,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m1-02",
@@ -55,7 +56,8 @@
       "answer": 2,
       "explanation": "Permit holders may operate a motorcycle only in daylight, from sunrise to sunset. The manual makes no exception for riding with a licensed rider.",
       "page": 7,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m1-03",
@@ -69,7 +71,8 @@
       "answer": 0,
       "explanation": "Riders on a learner's permit are not allowed to carry any passengers, not even one who holds a motorcycle license.",
       "page": 7,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m1-04",
@@ -83,7 +86,8 @@
       "answer": 3,
       "explanation": "After two failed motorcycle road tests, the RMV requires completion of an approved rider training course before another road test can be booked.",
       "page": 10,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m1-05",
@@ -97,7 +101,8 @@
       "answer": 1,
       "explanation": "Anyone under 18 is required to successfully complete the MREP basic rider course to get a motorcycle license. The experienced rider course teaches advanced techniques, but it is not the required one.",
       "page": 2,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m1-06",
@@ -111,7 +116,8 @@
       "answer": 2,
       "explanation": "Junior operators must have held the learner's permit for at least six months, with a clean record over that period, before the road test.",
       "page": 7,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m1-07",
@@ -125,7 +131,8 @@
       "answer": 0,
       "explanation": "The manual's Junior Operator's License rules bar drivers under 18 from driving between 12:30 a.m. and 5:00 a.m. A motorcycle learner's permit is stricter still: permit holders of any age may ride only from sunrise to sunset.",
       "page": 7,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m1-08",
@@ -139,7 +146,8 @@
       "answer": 3,
       "explanation": "The legal definition covers motor vehicles with a seat or saddle built to run on no more than three wheels touching the ground, so it includes both two-wheeled bikes and three-wheeled trikes.",
       "page": 4,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m1-09",
@@ -153,7 +161,8 @@
       "answer": 1,
       "explanation": "Moped riders must not ride faster than 25 mph, whatever the moped itself can do.",
       "page": 4,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m1-10",
@@ -167,7 +176,8 @@
       "answer": 2,
       "explanation": "Motorized scooters are capped at 20 mph. The manual also says they cannot carry passengers, use limited-access highways, or be registered by the RMV.",
       "page": 5,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m1-11",
@@ -181,7 +191,8 @@
       "answer": 0,
       "explanation": "Limited use vehicles may not be driven on limited-access or express highways or on any road posted above 40 mph.",
       "page": 6,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m1-12",
@@ -195,7 +206,8 @@
       "answer": 3,
       "explanation": "Eye protection is required unless the motorcycle is equipped with a windshield or screen. As safety advice, though, the manual says a windshield cannot take the place of a faceshield or goggles (page 14).",
       "page": 9,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m1-14",
@@ -209,7 +221,8 @@
       "answer": 0,
       "explanation": "The examiner may ask for figure-eights and full circles in both directions, completed without putting your feet down.",
       "page": 10,
-      "volatile": true
+      "volatile": true,
+      "stat": false
     },
     {
       "id": "m1-15",
@@ -223,7 +236,8 @@
       "answer": 2,
       "explanation": "Cancelling or rescheduling less than 72 hours before the test time results in the road test fee being charged.",
       "page": 11,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m1-16",
@@ -237,7 +251,8 @@
       "answer": 1,
       "explanation": "Helmets that meet the federal standard required by state law are labeled with stickers on both the inside and the outside. A face shield, a bright color or a helmet's weight doesn't show that it meets the standard.",
       "page": 9,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m1-17",
@@ -251,7 +266,8 @@
       "answer": 1,
       "explanation": "The manual describes the basic rider course as roughly 15 hours: 5 hours of classroom teaching and 10 hours of riding. To graduate you must attend every session and pass both a written test and a riding skills evaluation.",
       "page": 2,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m1-18",
@@ -265,7 +281,8 @@
       "answer": 2,
       "explanation": "A moped is built to go no faster than 30 mph, has an engine of no more than 50 cubic centimeters, and has an automatic transmission.",
       "page": 4,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m1-19",
@@ -279,7 +296,8 @@
       "answer": 3,
       "explanation": "Breaking any of the moped riding rules, such as using an off-street recreational path or skipping the helmet, can bring a fine of up to $100.",
       "page": 5,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m1-20",
@@ -293,7 +311,8 @@
       "answer": 1,
       "explanation": "By definition, a limited use vehicle has a top speed above 30 mph but not above 40 mph. Whether it is treated as a motorcycle or a passenger vehicle comes down to its number of wheels.",
       "page": 6,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m1-21",
@@ -307,7 +326,8 @@
       "answer": 2,
       "explanation": "A limited use vehicle needs a 17-character vehicle identification number (VIN), a certificate of origin, and a manufacturer's statement that it satisfies the federal safety standards for its class. The manual sets no engine-size limit for a limited use vehicle.",
       "page": 6,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m1-22",
@@ -321,7 +341,8 @@
       "answer": 2,
       "explanation": "You must be at least 16½ to apply for the Class M license, and your license or right to operate must not have been revoked. Applicants under 18 also fall under the junior operator rules.",
       "page": 7,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m1-23",
@@ -335,7 +356,8 @@
       "answer": 3,
       "explanation": "The manual lists $30 for a permit application, which covers a 2-year permit for Class B, C, D or M. The manual notes that all fees can change.",
       "page": 8,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m1-24",
@@ -349,7 +371,8 @@
       "answer": 2,
       "explanation": "The manual's fee table lists $15 to add a motorcycle endorsement to a license you already hold.",
       "page": 8,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m1-25",
@@ -363,7 +386,8 @@
       "answer": 1,
       "explanation": "Motorcycles registered in Massachusetts need a safety inspection every year. For the road test you must show the examiner the registration and a valid inspection sticker.",
       "page": 9,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m1-26",
@@ -377,7 +401,8 @@
       "answer": 2,
       "explanation": "The manual's fee table lists $50 for a Class M license, which is good for 5 years.",
       "page": 8,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m1-27",
@@ -391,7 +416,8 @@
       "answer": 2,
       "explanation": "The manual lists a $35 license application and road test fee, the same for every license class.",
       "page": 8,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m1-28",
@@ -405,7 +431,8 @@
       "answer": 2,
       "explanation": "If you don't hold a Class D license, the manual says you must pass both a Class D and a Class M knowledge test.",
       "page": 7,
-      "volatile": true
+      "volatile": true,
+      "stat": false
     }
   ]
 }

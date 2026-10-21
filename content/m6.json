@@ -39,7 +39,8 @@
       "answer": 2,
       "explanation": "Oil dropped by passing vehicles builds up in the middle of the lane, so the tire tracks of the traffic ahead are the safer path on wet roads. Painted lines are slick, and dirt and gravel tend to gather along the road edge.",
       "page": 28,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m6-02",
@@ -53,7 +54,8 @@
       "answer": 3,
       "explanation": "Using both brakes is one of the manual's precautions for slick surfaces; the front brake can still be trusted, and building pressure gradually helps keep the wheels from locking and skidding.",
       "page": 28,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m6-03",
@@ -67,7 +69,8 @@
       "answer": 0,
       "explanation": "Stay straight up and crawl across with your feet lightly touching the surface so you can steady the bike if it starts to go down, and hold off braking until you are past the ice.",
       "page": 28,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m6-04",
@@ -81,7 +84,8 @@
       "answer": 1,
       "explanation": "When an obstacle can't be avoided, the manual says to meet it head-on at 90 degrees, with speed reduced and the motorcycle upright.",
       "page": 29,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m6-05",
@@ -95,7 +99,8 @@
       "answer": 2,
       "explanation": "Lifting slightly off the seat with your weight on the pegs lets your knees and elbows absorb the jolt and makes it less likely you'll be thrown from the motorcycle.",
       "page": 29,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m6-06",
@@ -109,7 +114,8 @@
       "answer": 3,
       "explanation": "The manual says railroad tracks can be crossed safely at angles down to 45 degrees and discourages changing course to take them at 90 degrees, which can put you in oncoming traffic. Railroad tracks also appear in the manual's list of obstacles to meet at 90 degrees, but the part written specifically about tracks says not to change course for that.",
       "page": 29,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m6-07",
@@ -123,7 +129,8 @@
       "answer": 0,
       "explanation": "Parallel tracks and seams act as edge traps that can upset your balance and control, so cross them with a quick, sharp turn at 45 degrees or more.",
       "page": 30,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m6-08",
@@ -137,7 +144,8 @@
       "answer": 0,
       "explanation": "The weaving feeling from grooves and gratings is normally not dangerous as long as you avoid abrupt or extreme inputs and hold your speed and line until you reach solid pavement.",
       "page": 30,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m6-09",
@@ -151,7 +159,8 @@
       "answer": 1,
       "explanation": "A little pressure on the grip toward your escape side makes the bike lean and change direction quickly, and pressure on the other grip brings it back. Let the motorcycle lean beneath you rather than leaning with it.",
       "page": 30,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m6-10",
@@ -165,7 +174,8 @@
       "answer": 2,
       "explanation": "Braking in the middle of a swerve can cause a skid, so keep the two actions separate; the manual's illustrations show swerve-then-brake and brake-then-swerve.",
       "page": 30,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m6-11",
@@ -179,7 +189,8 @@
       "answer": 1,
       "explanation": "A locked front wheel has to be released right away; then squeeze the front brake back on gently so you keep slowing.",
       "page": 31,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m6-12",
@@ -193,7 +204,8 @@
       "answer": 0,
       "explanation": "When you are traveling straight, leave a locked rear wheel locked until you stop; you can often still control the motorcycle in that situation.",
       "page": 31,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m6-13",
@@ -207,7 +219,8 @@
       "answer": 0,
       "explanation": "Get the bike upright before braking hard. If there's no chance to straighten it, apply both brakes gradually and build pressure until you stop.",
       "page": 31,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m6-14",
@@ -221,7 +234,8 @@
       "answer": 3,
       "explanation": "Keep your attention on the road until a safe place to stop comes up; once you're off to the side, inspect the motorcycle and fix anything needed before riding on.",
       "page": 31,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m6-15",
@@ -235,7 +249,8 @@
       "answer": 1,
       "explanation": "Make every effort to miss the animal, but in congested traffic don't swerve into a neighboring lane to do it.",
       "page": 31,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m6-16",
@@ -249,7 +264,8 @@
       "answer": 2,
       "explanation": "Kicking can cost you your balance and control. Instead, slow down and approach in a lower gear, then accelerate briskly once you reach the dog so you leave it behind.",
       "page": 31,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m6-17",
@@ -263,7 +279,8 @@
       "answer": 1,
       "explanation": "The manual recommends moving your weight toward the rear when the front tire fails: a front failure hurts steering and control, and shifting back adds balance and stability. For a rear tire failure, it says to stay seated without shifting your weight.",
       "page": 49,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m6-18",
@@ -277,7 +294,8 @@
       "answer": 3,
       "explanation": "The manual's rule is to brake gradually with the tire that is still good. With a flat rear tire, the good tire is the front, so use the front brake. Avoid sudden braking, and as you slow, move carefully toward the road edge where it's safe to stop.",
       "page": 49,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m6-19",
@@ -291,7 +309,8 @@
       "answer": 0,
       "explanation": "Rolling the throttle back and forth may free the cable and give you back control of the engine. Inspect the cable only after you are safely stopped, and don't ride on until the throttle works properly.",
       "page": 49,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m6-20",
@@ -305,7 +324,8 @@
       "answer": 3,
       "explanation": "Killing the engine with the cut-off switch while the clutch is pulled in takes power away from the rear wheel so you can regain control and stop safely.",
       "page": 49,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m6-21",
@@ -319,7 +339,8 @@
       "answer": 1,
       "explanation": "Speeding up makes a wobble worse, and braking can too, so hold the grips firmly and roll off the throttle to bring your speed down.",
       "page": 50,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m6-22",
@@ -333,7 +354,8 @@
       "answer": 2,
       "explanation": "Moving your weight as far forward and low as you can reduces the shaking and helps you regain control; then stop safely and look for the cause.",
       "page": 50,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m6-23",
@@ -347,7 +369,8 @@
       "answer": 2,
       "explanation": "A broken chain cuts drive to the rear wheel instantly; close the throttle and brake gently as you move to the edge of the road to stop.",
       "page": 50,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m6-24",
@@ -361,7 +384,8 @@
       "answer": 3,
       "explanation": "Holding the clutch in separates the seized engine from the rear wheel. Once you're safely stopped, step away and let the engine cool before trying to restart.",
       "page": 50,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m6-25",
@@ -375,7 +399,8 @@
       "answer": 2,
       "explanation": "The manual says a wobble usually comes from improper loading, unsuitable accessories, or incorrect tire pressure. Other common causes include loose wheel bearings or spokes, bent or misaligned wheels, a poorly mounted or unsuitable windshield or fairing, uneven weight distribution, and overloading.",
       "page": 49,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m6-26",
@@ -389,7 +414,8 @@
       "answer": 1,
       "explanation": "Without enough oil and lubricant, moving parts rub and create friction that can overheat the engine until it seizes. The manual says low oil pressure is the usual cause, so check your oil and lubricant levels routinely.",
       "page": 50,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m6-27",
@@ -403,7 +429,8 @@
       "answer": 1,
       "explanation": "The manual defines a swerve as any sudden change in direction, made as two fast turns in a row or a quick sideways shift.",
       "page": 30,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m6-28",
@@ -417,7 +444,8 @@
       "answer": 1,
       "explanation": "The manual says a rider is likelier to survive a collision with an animal than one with a motor vehicle.",
       "page": 31,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     }
   ]
 }

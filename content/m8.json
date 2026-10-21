@@ -45,7 +45,8 @@
       "answer": 3,
       "explanation": "Posted limits are set for ideal conditions. When rain or another hazard is present you must slow below the limit to a speed that is reasonable for the conditions, and you may never go above it.",
       "page": 36,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m8-02",
@@ -59,7 +60,8 @@
       "answer": 1,
       "explanation": "The manual gives 45 mph as the lowest speed allowed on Massachusetts interstates and other limited-access highways.",
       "page": 36,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m8-03",
@@ -73,7 +75,8 @@
       "answer": 2,
       "explanation": "Near schools the default limit is 20 mph. It may be marked with flashing yellow lights or apply only during certain hours, so watch carefully for school zone signs.",
       "page": 37,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m8-04",
@@ -87,7 +90,8 @@
       "answer": 1,
       "explanation": "Where no other limit is posted, the manual treats anything over 30 mph as unreasonable in thickly settled or business districts. Many Massachusetts cities and towns have since lowered that default to 25 mph, so watch the signs; for the test, the manual's figure is 30.",
       "page": 37,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m8-05",
@@ -101,7 +105,8 @@
       "answer": 2,
       "explanation": "A left on red is permitted only when going from one one-way street onto another, and only after a full stop and yielding to pedestrians and vehicles.",
       "page": 37,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m8-06",
@@ -115,7 +120,8 @@
       "answer": 0,
       "explanation": "Treat a flashing red light just like a STOP sign: stop completely, follow the right-of-way rules, and continue only when it is safe.",
       "page": 38,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m8-07",
@@ -129,7 +135,8 @@
       "answer": 3,
       "explanation": "A steady yellow warns that red is next, so stop if you can do it safely. A rider who is already waiting at the intersection or stop line must not go. Do not confuse it with a flashing yellow, which is only a warning to proceed with caution.",
       "page": 38,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m8-08",
@@ -143,7 +150,8 @@
       "answer": 2,
       "explanation": "A flashing yellow is a warning, not an order to stop: continue carefully, stay alert and check both directions as you cross. A steady yellow is the one that means the signal is changing to red.",
       "page": 38,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m8-09",
@@ -157,7 +165,8 @@
       "answer": 0,
       "explanation": "A green light lets you go only after yielding and only if you can clear the intersection completely. Never pull in where you would end up blocking it.",
       "page": 38,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m8-10",
@@ -171,7 +180,8 @@
       "answer": 3,
       "explanation": "Blacked-out signals turn the intersection into an all-way stop: stop, then go when it is safe. If the signals are flashing instead, follow the flashing-light rules.",
       "page": 39,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m8-11",
@@ -185,7 +195,8 @@
       "answer": 1,
       "explanation": "A green light lets you go only after yielding, and riders must give way to anyone stepping into or walking in a crosswalk along their path.",
       "page": 39,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m8-12",
@@ -199,7 +210,8 @@
       "answer": 2,
       "explanation": "One of the laws for riders is that your motorcycle must never block a crosswalk. The other three choices are all things the manual requires you to do.",
       "page": 39,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m8-13",
@@ -213,7 +225,8 @@
       "answer": 0,
       "explanation": "The rider laws require you to give way to pedestrians whenever your signal shows red, including when red and yellow are lit together.",
       "page": 39,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m8-14",
@@ -227,7 +240,8 @@
       "answer": 3,
       "explanation": "The rider laws forbid overtaking any vehicle that is slowing down or stopped for a pedestrian, so stay back instead of going around it.",
       "page": 39,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m8-15",
@@ -241,7 +255,8 @@
       "answer": 1,
       "explanation": "Stopping does not end your duty: with a red signal you must still give way to pedestrians, and a right on red is legal only after a full stop and yielding to anyone in your path.",
       "page": 39,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m8-16",
@@ -255,7 +270,8 @@
       "answer": 1,
       "explanation": "Sign colors are coded: brown marks recreational, historic and scenic sites, blue marks motorist services, green gives directions, and orange warns of construction or maintenance.",
       "page": 40,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m8-17",
@@ -269,7 +285,8 @@
       "answer": 2,
       "explanation": "With an ALL WAY (or 4-WAY) plate under each STOP sign, everyone approaching must stop, and the vehicle that is first in the intersection goes first.",
       "page": 40,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m8-18",
@@ -283,7 +300,8 @@
       "answer": 1,
       "explanation": "Orange signs warn of construction or maintenance work. They may show familiar warning symbols, but they call for extra caution because conditions around work zones can change fast.",
       "page": 42,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m8-19",
@@ -297,7 +315,8 @@
       "answer": 3,
       "explanation": "On the manual's chart of sign shapes, the pennant marks a no-passing zone, meaning you must not pass by crossing the yellow line there. A yield sign is a triangle pointing down, not sideways.",
       "page": 42,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m8-20",
@@ -311,7 +330,8 @@
       "answer": 0,
       "explanation": "On the manual's chart of sign shapes, the five-sided, house-shaped outline is the school zone sign. Pennants mark no-passing zones and round signs mark railroad crossings.",
       "page": 42,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m8-21",
@@ -325,7 +345,8 @@
       "answer": 0,
       "explanation": "Once the lights flash, you must halt no closer than 15 feet to the gate or light post and stay put until the gate is up and the flashing ends. Going around a lowered gate is never allowed, even if no train is visible.",
       "page": 45,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m8-22",
@@ -339,7 +360,8 @@
       "answer": 3,
       "explanation": "A single solid white line marks the road edge or divides same-direction lanes, and you should cross it only if needed to avoid a hazard. A broken white line is the one you may cross to change lanes after signaling.",
       "page": 46,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m8-23",
@@ -353,7 +375,8 @@
       "answer": 2,
       "explanation": "The manual flatly forbids crossing two solid white lines. A single solid white line may be crossed only to avoid a hazard, and a broken white line may be crossed to change lanes after signaling.",
       "page": 46,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m8-24",
@@ -367,7 +390,8 @@
       "answer": 0,
       "explanation": "With a solid-and-broken pair, the line nearest you decides: solid on your side means you may not cross, while broken on your side lets you cross only to pass when it is safe.",
       "page": 47,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m8-25",
@@ -381,7 +405,8 @@
       "answer": 1,
       "explanation": "Double solid yellow lines bar passing from both directions; the only time you may cross them is to make a left turn when it is safe.",
       "page": 47,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m8-26",
@@ -395,7 +420,8 @@
       "answer": 3,
       "explanation": "A painted white diamond warns that the lane has a special restriction, such as being for high-occupancy vehicles, buses or bicycles only.",
       "page": 47,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m8-27",
@@ -409,7 +435,8 @@
       "answer": 0,
       "explanation": "The manual calls speeding a major cause of crashes: the faster you go, the more distance you need to react and to stop. Massachusetts enforces its speed laws strictly, with severe penalties.",
       "page": 36,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m8-28",
@@ -423,7 +450,8 @@
       "answer": 1,
       "explanation": "The manual says the interstates and other limited-access highways have posted limits of 50 to 65 mph.",
       "page": 36,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m8-29",
@@ -437,7 +465,8 @@
       "answer": 3,
       "explanation": "When no limit is posted, the manual treats riding over 40 mph as unreasonable on roads outside thickly settled or business districts, unless you are on a highway.",
       "page": 37,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m8-30",
@@ -451,7 +480,8 @@
       "answer": 3,
       "explanation": "With no posted limit, the manual treats riding over 50 mph as unreasonable on highways outside thickly settled or business districts. A posted limit, where there is one, replaces this default.",
       "page": 37,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m8-31",
@@ -465,7 +495,8 @@
       "answer": 2,
       "explanation": "The manual says a typical signal has red on top, yellow in the middle and green at the bottom. There are also single flashing lights and colored arrows.",
       "page": 37,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m8-32",
@@ -479,7 +510,8 @@
       "answer": 3,
       "explanation": "A white crossbuck marks the spot where the tracks cross the road, and when two or more tracks cross, the number is posted beneath it. A round yellow warning sign usually comes first, telling you a crossing is ahead.",
       "page": 45,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m8-33",
@@ -493,7 +525,8 @@
       "answer": 1,
       "explanation": "The manual says smaller highways are posted at 55 mph or lower.",
       "page": 36,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     }
   ]
 }

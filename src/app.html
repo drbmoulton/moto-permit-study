@@ -544,8 +544,9 @@ dl.stats { margin: 0; }
   });
   var MOD_BY = {};
   MODULES.forEach(function (m) { MOD_BY[m.id] = m; });
+  var STAT_IDS = ALL_IDS.filter(function (id) { return QBY[id].stat === true; });
 
-  var PASS = 18, EXAM_N = 25, EXAM_MS = 25 * 60 * 1000;
+  var PASS = 18, EXAM_N = 25, EXAM_MS = 25 * 60 * 1000, DRILL_N = 20;
   var PDF_OFFSET = 7, PDF_LAST = 72;
   var LS_PROGRESS = 'mpp.progress.v1', LS_EXAM = 'mpp.exam.v1';
   var LETTERS = 'ABCD';
@@ -802,9 +803,11 @@ dl.stats { margin: 0; }
     h += pending ? '<button class="btn primary" type="button" data-action="exam-resume">Resume practice test</button>'
       : '<button class="btn primary" type="button" data-action="exam-start">Start a practice test</button>';
     h += '<button class="btn" type="button" data-action="quick">Quick 10</button>';
+    if (STAT_IDS.length) h += '<button class="btn" type="button" data-action="numbers">Numbers drill</button>';
     h += '<button class="btn" type="button" data-action="missed"' + (missed ? '' : ' disabled') + '>Missed questions <span class="count">' + missed + '</span></button>';
     h += '</div>';
-    h += '<p class="hint">Quick 10 mixes questions you got wrong with ones you haven’t seen yet, and shows the answer after each one.</p>';
+    h += '<p class="hint">Quick 10 mixes questions you got wrong with ones you haven’t seen yet, and shows the answer after each one.' +
+      (STAT_IDS.length ? ' Numbers drill works the same way with ' + Math.min(DRILL_N, STAT_IDS.length) + ' questions on the manual’s figures and statistics: speeds, distances, BAC levels, fines and suspensions.' : '') + '</p>';
     if (tests.length) h += '<button class="link" type="button" data-action="exam-review-last">Review your last practice test</button>';
     h += '</section>';
 
@@ -1239,6 +1242,7 @@ dl.stats { margin: 0; }
       startQuiz('missed', ids, id ? { title: MOD_BY[id].title, sub: 'Missed questions', modId: id } : { title: 'Missed questions' });
     }
     else if (a === 'quick') startQuiz('quick', L.pickQuick(ALL_IDS, qstats(), 10, Math.random), { title: 'Quick 10' });
+    else if (a === 'numbers') startQuiz('numbers', L.pickQuick(STAT_IDS, qstats(), DRILL_N, Math.random), { title: 'Numbers drill' });
     else if (a === 'pick') {
       var d = +t.getAttribute('data-i');
       if (view.name === 'quiz') pickQuiz(d); else if (view.name === 'exam') examPick(d);

@@ -52,6 +52,20 @@ assert.strictEqual(quick.length, 10);
 assert.strictEqual(new Set(quick).size, 10);
 ['m3-04', 'm8-11', 'm9-02'].forEach((id) => assert.ok(quick.includes(id), id + ' in Quick 10'));
 
+// Numbers drill: only questions marked stat, with missed ones first.
+mods.forEach((m) => m.questions.forEach((q) => assert.strictEqual(typeof q.stat, 'boolean', q.id + ' has a stat flag')));
+const statIds = mods.flatMap((m) => m.questions.filter((q) => q.stat).map((q) => q.id));
+assert.ok(statIds.length >= 20, 'enough questions on figures for a 20-question drill');
+const ds = {};
+statIds.forEach((id) => { ds[id] = { a: 1, c: 1, s: 1, l: 1, t: 1 }; });
+const missedStat = [statIds[0], statIds[statIds.length - 1]];
+missedStat.forEach((id) => { ds[id] = { a: 2, c: 0, s: 0, l: 0, t: 5 }; });
+const drill = L.pickQuick(statIds, ds, 20, rng(5));
+assert.strictEqual(drill.length, 20);
+assert.strictEqual(new Set(drill).size, 20, 'no repeats in the drill');
+drill.forEach((id) => assert.ok(statIds.includes(id), id + ' is a question on figures'));
+missedStat.forEach((id) => assert.ok(drill.includes(id), id + ' (missed) is in the drill'));
+
 // Recording answers.
 const st = L.emptyState();
 L.recordAnswer(st, 'm1-01', true, 10);

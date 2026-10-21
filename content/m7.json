@@ -34,7 +34,8 @@
       "answer": 0,
       "explanation": "Massachusetts requires all passengers to wear a helmet approved by the US DOT. Protective clothing and face protection are recommended on top of that.",
       "page": 32,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m7-02",
@@ -48,7 +49,8 @@
       "answer": 2,
       "explanation": "The manual says passengers should get on after the engine is already running.",
       "page": 32,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m7-03",
@@ -62,7 +64,8 @@
       "answer": 1,
       "explanation": "Passengers should keep their feet planted on the footpegs at all times, including at stops.",
       "page": 32,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m7-04",
@@ -76,7 +79,8 @@
       "answer": 3,
       "explanation": "The passenger should stay in line behind the rider and lean along with the rider through turns.",
       "page": 32,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m7-05",
@@ -90,7 +94,8 @@
       "answer": 1,
       "explanation": "The added weight changes how the bike handles and stops, so the manual says to allow more space when slowing or stopping.",
       "page": 32,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m7-06",
@@ -104,7 +109,8 @@
       "answer": 2,
       "explanation": "A slight head turn is suggested, as long as you keep watching the road and traffic ahead.",
       "page": 32,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m7-07",
@@ -118,7 +124,8 @@
       "answer": 0,
       "explanation": "Depending on the passenger's weight, small suspension and tire pressure adjustments may be needed. The manual also says riders should not have to change their own seating position.",
       "page": 32,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m7-08",
@@ -132,7 +139,8 @@
       "answer": 3,
       "explanation": "Keeping loads low and over the axles keeps the bike stable. Loads behind the rear axle hurt balance and braking.",
       "page": 33,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m7-09",
@@ -146,7 +154,8 @@
       "answer": 0,
       "explanation": "An uneven load between the bags can make the motorcycle pull toward one side, so keep the weight in each bag about the same.",
       "page": 33,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m7-10",
@@ -160,7 +169,8 @@
       "answer": 1,
       "explanation": "Overloaded bags can get caught in the wheel or chain, which can lock the rear wheel and cause a skid.",
       "page": 33,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m7-11",
@@ -174,7 +184,8 @@
       "answer": 2,
       "explanation": "When a group grows beyond five or six riders, it should be divided into two smaller groups.",
       "page": 33,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m7-12",
@@ -188,7 +199,8 @@
       "answer": 3,
       "explanation": "The manual says to place newer riders near the front so more experienced riders behind them can keep an eye on them.",
       "page": 33,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m7-13",
@@ -202,7 +214,8 @@
       "answer": 1,
       "explanation": "The manual puts the third rider directly behind the leader, at least two seconds back, and the fourth rider the same distance behind the second; the Staggering diagram on p.33 marks both gaps as two seconds. The manual gives no figure for the diagonal gap to the second rider.",
       "page": 34,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m7-14",
@@ -216,7 +229,8 @@
       "answer": 0,
       "explanation": "Riders should leave the stagger and ride single file for turns and curves and when getting on or off freeways. The rest of the time, including straight roads and the freeway itself, the manual recommends the staggered formation.",
       "page": 34,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m7-15",
@@ -230,7 +244,8 @@
       "answer": 3,
       "explanation": "When there is room, the leader passes first and promptly returns to the original lane; each remaining rider then passes the same way, one at a time. Once past, riders keep their original lane positions.",
       "page": 34,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m7-16",
@@ -244,7 +259,8 @@
       "answer": 2,
       "explanation": "Massachusetts law requires headlights from a half hour after sunset until a half hour before sunrise, so the legal requirement starts 30 minutes after sunset, not at sunset. Beyond the law, the manual recommends always riding with your headlight on (p.20).",
       "page": 35,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     }
   ]
 }

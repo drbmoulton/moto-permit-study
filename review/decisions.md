@@ -56,6 +56,7 @@ Each batch of new questions was checked against the manual by two reviewers, in 
 - **m1-28, two knowledge tests.** Without a Class D license you must pass both tests. This is flagged volatile because the RMV's current permit pages don't mention it.
 - **m10-31 and m10-32.** A reviewer checked these against the current statute. A third OUI offense is still a felony. For a second offense, 30 days of the term cannot be suspended, which matches the manual's 30-day minimum.
 - **Practice tests** still draw from each section in proportion to its size, so they now include about four questions from section 10.
+- **Numbers drill.** A home-screen button asks 20 questions marked `stat`. Like Quick 10, it puts missed questions first, then unseen ones. The 99 marked questions are the ones stats-coverage.md lists as testing a fact. Excluded are those whose answer is a rule, a name, an order or a place rather than a figure, such as "Slow, Look, Lean, Roll", "first vehicle in the intersection" and "until the out-of-state suspension is resolved".
 
 ## Sources (checked 2026-10-21)
 

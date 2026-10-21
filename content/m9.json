@@ -40,7 +40,8 @@
       "answer": 2,
       "explanation": "The right lane is the default on multi-lane roads. You leave it only to pass, to make a left turn, or when something blocks the right lane. At a curve you can't see around, the manual says the opposite: keep right and slow down.",
       "page": 48,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m9-02",
@@ -54,7 +55,8 @@
       "answer": 0,
       "explanation": "The special rules cap riders at two abreast. For group rides, the manual still recommends a staggered formation rather than pairing up.",
       "page": 51,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m9-03",
@@ -68,7 +70,8 @@
       "answer": 3,
       "explanation": "The special rules for motorcycles tell you to stay off lane lines and out of the gaps between lanes of traffic, and they make no exception for slow or stopped traffic.",
       "page": 51,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m9-04",
@@ -82,7 +85,8 @@
       "answer": 1,
       "explanation": "The manual's special rules for motorcycles keep you out of a lane posted as restricted except when you are moving into position to make a turn. Slow traffic, a need to pass, or an empty lane does not change that. A lane posted as open to motorcycles, such as the Southeast Expressway (I-93) HOV lane, is not restricted for you.",
       "page": 51,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m9-05",
@@ -96,7 +100,8 @@
       "answer": 2,
       "explanation": "If a motorcycle can't safely travel at the minimum posted speeds, the special rules say to keep it off highways and expressways.",
       "page": 51,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m9-06",
@@ -110,7 +115,8 @@
       "answer": 1,
       "explanation": "Never stop or reverse on a highway because you missed an exit. Ride on to the next exit and use the signs there to get back on the road heading the other way.",
       "page": 51,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m9-07",
@@ -124,7 +130,8 @@
       "answer": 0,
       "explanation": "Passing never permits speeding. When in doubt about whether a pass is safe, stay where you are.",
       "page": 52,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m9-08",
@@ -138,7 +145,8 @@
       "answer": 3,
       "explanation": "The manual rules out passing on a road shoulder, in a breakdown lane, or on a sidewalk. Where passing is allowed, do it on the left.",
       "page": 52,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m9-09",
@@ -152,7 +160,8 @@
       "answer": 1,
       "explanation": "Signal at least 100 feet before a turn, or at least 500 feet ahead on a highway, the same distance used before an exit ramp. Ideally, signal before you begin braking.",
       "page": 53,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m9-10",
@@ -166,7 +175,8 @@
       "answer": 3,
       "explanation": "The law requires a full stop for a blind pedestrian, and you must wait until they have finished crossing. Don't honk, wave them on, or pass another vehicle that has stopped for them.",
       "page": 54,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m9-11",
@@ -180,7 +190,8 @@
       "answer": 2,
       "explanation": "Where no signs or signals control an intersection, you must give way to traffic coming from your right, whether it is already in the intersection or still approaching. Even when a driver on your left should yield to you, confirm that they actually are before you go.",
       "page": 55,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m9-12",
@@ -194,7 +205,8 @@
       "answer": 1,
       "explanation": "At an all-way stop, yield to anyone who stopped before you, and to the driver directly to your right if you both stopped at the same moment. Eye contact helps you read what other drivers intend, but it does not decide who goes first.",
       "page": 55,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m9-13",
@@ -208,7 +220,8 @@
       "answer": 0,
       "explanation": "Yield to any vehicle already circulating in the rotary. When the rotary is busy, stop at its edge and wait for a safe gap.",
       "page": 56,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m9-14",
@@ -222,7 +235,8 @@
       "answer": 0,
       "explanation": "On an undivided road like this one, traffic in both directions must stop for a school bus with flashing red lights and its stop sign out. Even once the signals end, pull away slowly and keep watching for children.",
       "page": 56,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m9-15",
@@ -236,7 +250,8 @@
       "answer": 2,
       "explanation": "The single exception is a bus stopped across a barrier-divided highway from you. In every other case, traffic from both directions must stop.",
       "page": 56,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m9-16",
@@ -250,7 +265,8 @@
       "answer": 1,
       "explanation": "State law bars you from coming within 8 feet of a trolley's passenger step while riders are getting on or off. Also never turn in front of an approaching trolley, since it is stuck on its tracks and can't steer around you.",
       "page": 56,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m9-17",
@@ -264,7 +280,8 @@
       "answer": 3,
       "explanation": "Massachusetts bans parking within 10 feet of a hydrant or fire lane.",
       "page": 58,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m9-27",
@@ -278,7 +295,8 @@
       "answer": 1,
       "explanation": "Keep right and use the left lane only to pass. With three lanes, the manual makes the right lane the slower through lane, the center lane the faster through lane, and the leftmost lane the one for passing.",
       "page": 51,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m9-28",
@@ -292,7 +310,8 @@
       "answer": 1,
       "explanation": "The manual's three steps for a lane change are look, signal, move: use your mirrors and directional signals, and check your blind spot before you move over.",
       "page": 51,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m9-29",
@@ -306,7 +325,8 @@
       "answer": 2,
       "explanation": "Speed up as you enter the travel lane so you are moving at the same speed as the vehicles already on the highway.",
       "page": 51,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m9-30",
@@ -320,7 +340,8 @@
       "answer": 2,
       "explanation": "For long distances the manual suggests a stretch break after every 2 hours or 100 miles. If you feel drowsy (highway hypnosis), get off at the next exit, rest area, or service plaza.",
       "page": 52,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m9-31",
@@ -334,7 +355,8 @@
       "answer": 3,
       "explanation": "Don't try a U-turn near a curve, on a hilltop, or anywhere visibility, for you or for other drivers, is under 500 feet. Start it from the lane nearest the center line, and only when your path is clear.",
       "page": 53,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m9-32",
@@ -348,7 +370,8 @@
       "answer": 1,
       "explanation": "Coming from a single- or two-lane road, you must yield to vehicles on a divided highway or a road with three or more lanes.",
       "page": 56,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m9-33",
@@ -362,7 +385,8 @@
       "answer": 2,
       "explanation": "The manual says a first violation can result in a $250 fine and a license suspension.",
       "page": 56,
-      "volatile": true
+      "volatile": true,
+      "stat": true
     },
     {
       "id": "m9-34",
@@ -376,7 +400,8 @@
       "answer": 3,
       "explanation": "In business and residential districts, park within 12 inches of the curb unless angled parking is allowed, and stay between any white lines marking the space.",
       "page": 58,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m9-35",
@@ -390,7 +415,8 @@
       "answer": 1,
       "explanation": "Parking is banned within 20 feet of an intersection. It is also banned in a crosswalk or in front of a driveway.",
       "page": 58,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m9-36",
@@ -404,7 +430,8 @@
       "answer": 1,
       "explanation": "The manual blames many crashes on improper turns, so plan each turn, signal early, slow down, check your mirrors and blind spot, yield when needed, and turn into the proper lane.",
       "page": 53,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m9-37",
@@ -418,7 +445,8 @@
       "answer": 1,
       "explanation": "Because only a few states have traffic rotaries, many drivers don't know how they work, so be especially careful and generous with the right-of-way in and near them.",
       "page": 56,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     }
   ]
 }

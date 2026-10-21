@@ -35,7 +35,8 @@
       "answer": 1,
       "explanation": "The manual requires a properly aimed white headlight on the front of the motorcycle.",
       "page": 12,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m2-02",
@@ -49,7 +50,8 @@
       "answer": 2,
       "explanation": "At the rear, the manual requires a red taillight, a stoplight, and a white lamp that shines on the license plate.",
       "page": 12,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m2-03",
@@ -63,7 +65,8 @@
       "answer": 0,
       "explanation": "Handlebars must not rise above the operator's shoulders when the operator is seated properly. That is the legal limit; separately, page 16 advises setting the bars so your hands are level with or below your elbows.",
       "page": 12,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m2-04",
@@ -77,7 +80,8 @@
       "answer": 1,
       "explanation": "A motorcycle that carries passengers needs a secure seat for them and separate footpegs.",
       "page": 12,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m2-05",
@@ -91,7 +95,8 @@
       "answer": 3,
       "explanation": "Massachusetts law makes helmet use mandatory for motorcycle riders and passengers alike.",
       "page": 13,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m2-06",
@@ -105,7 +110,8 @@
       "answer": 2,
       "explanation": "The manual says that although a helmet can't prevent many other kinds of injury, it is effective in preventing brain injury about 67 percent of the time.",
       "page": 13,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m2-07",
@@ -119,7 +125,8 @@
       "answer": 0,
       "explanation": "The manual says every motorcycle helmet sold in the U.S. must meet FMVSS No. 218, the performance standard that sets a helmet's minimum level of protection.",
       "page": 13,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m2-08",
@@ -133,7 +140,8 @@
       "answer": 1,
       "explanation": "The manual names three-quarter and full-face helmets as the two types, each offering a different level of coverage.",
       "page": 13,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m2-09",
@@ -147,7 +155,8 @@
       "answer": 3,
       "explanation": "Helmet damage is not always visible, so the manual advises confirming the maker or distributor will re-inspect a used helmet.",
       "page": 13,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m2-10",
@@ -161,7 +170,8 @@
       "answer": 0,
       "explanation": "The manual recommends a full faceshield because it protects the whole face, not just the eyes; goggles, glasses, and windshields all give less protection.",
       "page": 13,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m2-11",
@@ -175,7 +185,8 @@
       "answer": 2,
       "explanation": "A windshield can't take the place of a faceshield or goggles, and most windshields won't keep wind out of your eyes. That is safety advice: the legal rule on page 9 lets an operator skip eye protection if the bike has a windshield or screen.",
       "page": 14,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m2-12",
@@ -189,7 +200,8 @@
       "answer": 1,
       "explanation": "Tint cuts the light reaching your eyes, so the manual says not to wear it at night or in other low-light conditions.",
       "page": 14,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m2-13",
@@ -203,7 +215,8 @@
       "answer": 2,
       "explanation": "Effective eye and face protection must be scratch-free and give a clear view to the sides; it must also let air through to limit fogging and leave room for glasses if you need them.",
       "page": 14,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m2-14",
@@ -217,7 +230,8 @@
       "answer": 0,
       "explanation": "Footwear should cover and support the ankles, have tough slip-resistant soles, short heels, and tucked-in laces.",
       "page": 14,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m2-15",
@@ -231,7 +245,8 @@
       "answer": 1,
       "explanation": "The checklist says to test each brake separately and confirm it is firm and holds the bike when fully applied.",
       "page": 15,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m2-16",
@@ -245,7 +260,8 @@
       "answer": 2,
       "explanation": "On an unfamiliar bike, do all your usual checks and learn the controls and shift pattern. Then ride more carefully than usual, not at your normal pace: accelerate gently, slow more for turns, and leave extra room until you know how it handles.",
       "page": 15,
-      "volatile": false
+      "volatile": false,
+      "stat": false
     },
     {
       "id": "m2-17",
@@ -259,7 +275,8 @@
       "answer": 2,
       "explanation": "Citing the U.S. Department of Transportation and NHTSA, the manual says that mile for mile, motorcycle riders are more likely than car passengers to die in a crash. Riding with an approved helmet, eye and face protection, and protective clothing greatly improves your odds of avoiding serious injury.",
       "page": 12,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m2-18",
@@ -273,7 +290,8 @@
       "answer": 1,
       "explanation": "The manual cites NHTSA's finding that wearing helmets saves hundreds of motorcyclists' lives each year. Don't mix this up with the manual's other figure, thousands of injuries in motorcycle crashes in a single year.",
       "page": 13,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m2-19",
@@ -287,7 +305,8 @@
       "answer": 1,
       "explanation": "The manual tags a plastic shatter-resistant faceshield with VESC-8. Such a shield can protect your whole face in a crash and blocks wind, dust, rain, insects and pebbles kicked up by traffic ahead.",
       "page": 13,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     },
     {
       "id": "m2-20",
@@ -301,7 +320,8 @@
       "answer": 1,
       "explanation": "Motorcycles need attention more often than other vehicles, so the manual strongly recommends a complete check before each ride to catch a mechanical defect or equipment failure.",
       "page": 15,
-      "volatile": false
+      "volatile": false,
+      "stat": true
     }
   ]
 }
