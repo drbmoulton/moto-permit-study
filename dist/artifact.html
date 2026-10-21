@@ -566,9 +566,18 @@ dl.stats { margin: 0; }
   function lsWorks() { try { var k = 'mpp.probe'; window.localStorage.setItem(k, '1'); window.localStorage.removeItem(k); return true; } catch (e) { return false; } }
   function sleep(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
 
+  /* What this browser keeps is kept per person, so two people sharing a browser never mix their progress.
+     On a Claude artifact the viewer is known only once the runtime answers; until then (owner null) answers
+     stay in memory and nothing here is read or written. With no runtime (GitHub Pages, a saved file) there is
+     no identity, and owner '' is this browser's one shared copy. */
+  var HAS_RUNTIME = !!(window.claude && typeof window.claude.use === 'function');
+  function progressKey(owner) { return owner ? LS_PROGRESS + '.' + owner : LS_PROGRESS; }
+  function examKey(owner) { return owner ? LS_EXAM + '.' + owner : LS_EXAM; }
+
   var store = {
-    mode: lsWorks() ? 'device' : 'memory',
-    state: L.normalize(lsGet(LS_PROGRESS)),
+    owner: HAS_RUNTIME ? null : '',
+    mode: HAS_RUNTIME ? 'pending' : (lsWorks() ? 'device' : 'memory'),
+    state: HAS_RUNTIME ? L.emptyState() : L.normalize(lsGet(progressKey(''))),
     ref: null, writing: false, dirty: false, timer: null, fails: 0
   };
 
@@ -579,11 +588,30 @@ dl.stats { margin: 0; }
   function hasData(s) { return Object.keys(s.q).length > 0 || s.tests.length > 0; }
 
   function touch() {
-    // Another tab of this page may have saved since this one loaded: keep its progress instead of overwriting it.
-    store.state = L.mergeStates(store.state, lsGet(LS_PROGRESS));
     store.state.updatedAt = Date.now();
-    lsSet(LS_PROGRESS, store.state);
+    if (store.owner === null) return; // viewer not known yet: adoptOwner() saves this once they are
+    // Another tab of this page may have saved since this one loaded: keep its progress instead of overwriting it.
+    store.state = L.mergeStates(store.state, lsGet(progressKey(store.owner)));
+    store.state.updatedAt = Date.now();
+    lsSet(progressKey(store.owner), store.state);
     if (store.ref) scheduleRemote(900);
+  }
+
+  /* Called once, when it is known who is viewing ('' = no identity). Anything done before that belongs to this
+     viewer, so it joins what this browser already holds for them. */
+  function adoptOwner(owner) {
+    if (store.owner !== null) return;
+    store.owner = owner;
+    if (store.mode === 'pending') store.mode = lsWorks() ? 'device' : 'memory';
+    store.state = L.mergeStates(lsGet(progressKey(owner)), store.state);
+    if (hasData(store.state)) lsSet(progressKey(owner), store.state);
+    if (exam) saveExam();
+    else {
+      exam = loadExam();
+      if (exam && examLeft() <= 0) finishExam(true);
+    }
+    updateStatus();
+    refreshPassive();
   }
 
   function scheduleRemote(ms) {
@@ -627,17 +655,18 @@ dl.stats { margin: 0; }
     });
   }
 
-  /* Progress follows the person when the page runs as a Claude artifact they can save in;
-     everywhere else (GitHub Pages, a view-only share) it stays in this browser. */
+  /* Progress follows the person when the page runs as a Claude artifact they can save in. Everywhere else
+     (GitHub Pages, a view-only share) it stays in this browser: per person when the viewer is known. */
   function connectAccount() {
+    if (!HAS_RUNTIME) return;
     var c = window.claude;
-    if (!c || typeof c.use !== 'function') return;
     Promise.all([c.use('user'), c.use('db')]).then(function (caps) {
       var user = caps[0], db = caps[1];
-      if (!user || !db) return null;
+      if (!user) { adoptOwner(''); return null; }
       return Promise.all([user.id(), user.can('data.write')]).then(function (r) {
         var uid = r[0], canWrite = r[1];
-        if (!uid || canWrite === false) return null;
+        adoptOwner(uid ? String(uid) : '');
+        if (!uid || !db || canWrite === false) return null;
         var ref;
         try { ref = db.doc('data/users/' + uid + '/progress'); } catch (e) { return null; }
         return ref.get().catch(function (e) {
@@ -648,7 +677,7 @@ dl.stats { margin: 0; }
           var merged = remote ? L.mergeStates(store.state, remote) : store.state;
           var push = hasData(merged) && (!remote || L.canon(merged) !== L.canon(remote));
           store.state = merged;
-          lsSet(LS_PROGRESS, merged);
+          lsSet(progressKey(store.owner), merged);
           store.ref = ref;
           store.mode = 'account';
           var done = push ? writeRemote() : Promise.resolve(true);
@@ -661,7 +690,7 @@ dl.stats { margin: 0; }
               var m = L.mergeStates(store.state, s.data());
               if (L.canon(m) !== L.canon(store.state)) {
                 store.state = m;
-                lsSet(LS_PROGRESS, m);
+                lsSet(progressKey(store.owner), m);
                 refreshPassive();
               }
             }, function () { /* live updates stopped; saving still works through set() */ });
@@ -669,10 +698,11 @@ dl.stats { margin: 0; }
           });
         });
       });
-    }).catch(function () { detachAccount(); });
+    }).catch(function () { adoptOwner(''); detachAccount(); });
   }
 
   function statusText() {
+    if (store.mode === 'pending') return 'Loading your progress…';
     if (store.mode === 'account') return 'Progress is saved to your Claude account.';
     if (store.mode === 'device') return 'Progress is saved in this browser only.';
     return 'Progress can’t be saved here: this browser is blocking storage.';
@@ -702,8 +732,8 @@ dl.stats { margin: 0; }
 
   // Another tab of this page saved progress: show it here too.
   window.addEventListener('storage', function (e) {
-    if (e.key !== LS_PROGRESS) return;
-    var m = L.mergeStates(store.state, lsGet(LS_PROGRESS));
+    if (store.owner === null || e.key !== progressKey(store.owner)) return;
+    var m = L.mergeStates(store.state, lsGet(progressKey(store.owner)));
     if (L.canon(m) !== L.canon(store.state)) { store.state = m; refreshPassive(); }
   });
 
@@ -1028,10 +1058,12 @@ dl.stats { margin: 0; }
   }
 
   // ---------------------------------------------------------------- practice test flow
-  function saveExam() { if (exam) lsSet(LS_EXAM, exam); }
+  function saveExam() { if (exam && store.owner !== null) lsSet(examKey(store.owner), exam); }
+  function dropSavedExam() { if (store.owner !== null) lsDel(examKey(store.owner)); }
 
   function loadExam() {
-    var x = lsGet(LS_EXAM);
+    if (store.owner === null) return null;
+    var x = lsGet(examKey(store.owner));
     if (!x || !Array.isArray(x.items) || x.items.length !== EXAM_N || !Array.isArray(x.answers) || typeof x.startedAt !== 'number') return null;
     var okItems = x.items.every(function (it) { return it && QBY[it.qid] && Array.isArray(it.perm) && it.perm.length === 4; });
     if (!okItems) return null;
@@ -1059,7 +1091,7 @@ dl.stats { margin: 0; }
     if (store.state.tests.length > L.MAX_TESTS) store.state.tests = store.state.tests.slice(-L.MAX_TESTS);
     touch();
     exam = null;
-    lsDel(LS_EXAM);
+    dropSavedExam();
     return rec;
   }
 
@@ -1228,7 +1260,7 @@ dl.stats { margin: 0; }
     }
     else if (a === 'exam-discard') {
       confirmSheet({ title: 'Discard this practice test?', body: 'Your answers on it won’t be scored or saved.', ok: 'Discard', cancel: 'Keep it' })
-        .then(function (yes) { if (yes) { exam = null; lsDel(LS_EXAM); go({ name: 'home' }); } });
+        .then(function (yes) { if (yes) { exam = null; dropSavedExam(); go({ name: 'home' }); } });
     }
     else if (a === 'exam-review-last') {
       var last = store.state.tests[store.state.tests.length - 1];

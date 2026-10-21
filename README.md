@@ -17,10 +17,10 @@ Answers that depend on fees, fines, suspension lengths or speed figures that may
 | Where it runs | Progress |
 | --- | --- |
 | Claude artifact, opened by someone who can save in it (the owner, or a person invited by email as an Editor while the artifact has no public link) | Saved to that person's Claude account and synced across their devices |
-| Claude artifact opened through a public link or as a Viewer | Saved in that browser only |
-| GitHub Pages or any other static host | Saved in that browser only |
+| Claude artifact opened through a public link or as a Viewer | Saved in that browser only, separately for each signed-in person |
+| GitHub Pages or any other static host | Saved in that browser only, shared by everyone who uses that browser |
 
-The footer of the home screen always says which one is active. A practice test in progress is kept in the browser, so it can be resumed after a reload; its timer keeps running.
+The footer of the home screen always says which one is active. On a Claude artifact the browser's copy is kept per person, so two people who share a browser never see or mix each other's progress. A practice test in progress is kept in the browser for that person, so it can be resumed after a reload; its timer keeps running.
 
 ## Layout
 

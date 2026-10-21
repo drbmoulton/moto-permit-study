@@ -11,6 +11,7 @@ The section reviews (m1–m9) and the app QA left judgment calls for a human. Th
 - **m8-04 explanation.** It notes that many cities and towns have opted to lower the 30 mph thickly-settled default to 25 mph (MGL c.90 §17C), and that the manual's 30 is the figure for the test.
 - **m9-04 explanation.** It notes that a lane posted as open to motorcycles, such as the I-93 Southeast Expressway HOV lane, is not restricted for a rider.
 - **m9 summary, drug convictions.** The manual's 1–5 year license loss for any drug conviction now carries a note that a 2016 law ended most of those automatic suspensions.
+- **Browser copies are kept per person.** QA found that progress already saved in a browser merged into whichever account opened the page there next. On a Claude artifact the browser's copy, and any paused practice test, now sits under the viewer's id, and anything done before the viewer is known joins their own copy. Leftover progress from before this change, or from a session with no identity, is never added to an account. GitHub Pages has no identity, so it keeps one shared copy per browser.
 - **README.** It now says that practice tests draw from sections in proportion to the question bank, not to the manual. It gives the rule against reordering options or re-keying an existing id, and notes the capabilities the artifact must declare.
 
 ## Kept as is
