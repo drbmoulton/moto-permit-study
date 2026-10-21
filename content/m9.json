@@ -1,6 +1,6 @@
 {
   "id": "m9",
-  "title": "Motorcycle Laws, Turns & Impairment",
+  "title": "Motorcycle Laws, Turns & Right-of-Way",
   "manualPages": [
     48,
     51,
@@ -11,29 +11,21 @@
     56,
     57,
     58,
-    59,
-    60,
-    61,
-    62,
-    63,
-    64
+    59
   ],
   "summary": [
     "Ride no more than two abreast, never between lanes of traffic or along lane lines, enter restricted lanes only to set up a turn, and stay off highways and expressways unless your motorcycle can safely hold the minimum posted speed.",
     "When two or more lanes run in your direction, keep right except to pass, turn left, or get around a blocked right lane; keep right and slow down at a curve you can't see around, never change lanes inside an intersection, and use a breakdown lane for travel only where a highway opens it at rush hour.",
     "Pass on the left, and only when you need to and can do it safely; never go over the speed limit to pass, and never pass using a shoulder, breakdown lane, or sidewalk.",
     "When joining a highway, yield to traffic already on it and match its speed; give your exit signal 500 or more feet ahead of the ramp, and if you miss your exit, continue to the next one rather than stopping or backing up.",
+    "On a three-lane expressway, use the right lane as the slower through lane, the middle as the faster through lane, and the left for passing. Change lanes in three steps (look, signal, move), checking your blind spot before you move. On long rides, stop to stretch every 2 hours or 100 miles.",
     "Signal at least 100 feet before a turn (500 feet on a highway); turn right on red only after a full stop and after yielding, and never where NO TURN ON RED is posted; and make a U-turn only from the lane nearest the center line, never on a hilltop, near a curve, or anywhere visibility is under 500 feet.",
     "You never claim the right-of-way, you only yield it: give way to pedestrians walking in or crossing the road, come to a full stop for a blind pedestrian using a white cane or guide dog and stay stopped until they have crossed, and yield even when another driver ignores the rules.",
-    "Yield to traffic from your right at uncontrolled intersections; at a four-way stop yield to anyone who stopped first and to the vehicle on your right if you stop together; and yield to oncoming traffic when turning left and to vehicles already in a rotary.",
+    "Yield to traffic from your right at uncontrolled intersections; at a four-way stop yield to anyone who stopped first and to the vehicle on your right if you stop together; yield to oncoming traffic when turning left and to vehicles already in a rotary; and coming from a one- or two-lane road, yield to traffic on a divided highway or a road with three or more lanes.",
     "Whichever direction you are traveling, stop for a school bus or pupil transport vehicle showing flashing red lights and an extended stop sign unless it is on the far side of a barrier-divided highway; the manual says a first violation can bring a $250 fine and license suspension.",
     "Stay at least 8 feet from a trolley's passenger step while riders board or exit, yield to a funeral procession until it has fully passed, and pull over and stop if an animal you are passing appears frightened.",
     "Never park within 20 feet of an intersection or within 10 feet of a hydrant or fire lane; in business or residential districts, park no more than 12 inches from the curb unless angled parking is allowed; unpaid parking tickets block license and registration renewals.",
-    "Driving on a bet, drag racing, littering, bypassing a muffler, and sending or reading electronic messages while riding are all illegal.",
-    "Alcohol, a depressant, slows reflexes and distorts vision and judgment even as it inflates confidence; a 12-oz beer, 4-oz glass of wine, or 1 oz of 80-proof liquor can each raise an average person's BAC by about 0.02%, and only time brings it down.",
-    "A BAC of 0.08% or higher is over the legal limit (0.02% for riders under 21); under implied consent, testing over the limit or refusing a breath or blood test gets your license seized on the spot, and OUI laws cover drugs too, with prescription and over-the-counter medicines able to impair you just like illegal drugs.",
-    "For a first OUI, the manual lists a $500 to $5,000 fine, up to 2½ years in prison, and a 1-year license suspension, which a court may cut to 45 to 90 days (over 21) or 210 days (under 21) if you complete an alcohol education course; the manual also lists a 1- to 5-year license loss for any drug conviction, even one with no vehicle involved, though a 2016 law ended most of those automatic suspensions.",
-    "The manual lists a 30-day suspension for riders 18 and older with three speeding violations within any one-year period, and a 90-day suspension for a junior operator's first speeding conviction."
+    "Driving on a bet, drag racing, littering, bypassing a muffler, and sending or reading electronic messages while riding are all illegal."
   ],
   "questions": [
     {
@@ -270,135 +262,163 @@
         "No closer than 10 feet"
       ],
       "answer": 3,
-      "explanation": "Massachusetts bans parking within 10 feet of a hydrant or fire lane. Don't confuse this with the 20-foot no-parking zone around an intersection.",
+      "explanation": "Massachusetts bans parking within 10 feet of a hydrant or fire lane.",
       "page": 58,
       "volatile": false
     },
     {
-      "id": "m9-18",
-      "q": "After drinking alcohol, what is the only thing that lowers your blood alcohol content (BAC)?",
+      "id": "m9-27",
+      "q": "On an expressway with three lanes in your direction, how does the manual say each lane should be used?",
       "options": [
-        "Drinking black coffee",
-        "Taking a cold shower",
-        "Letting time pass",
-        "Exercising"
-      ],
-      "answer": 2,
-      "explanation": "Your liver and kidneys need time to process alcohol, and there is no shortcut. Coffee, a cold shower, exercise, or food may make you feel more alert, but they don't change how fast alcohol leaves your body.",
-      "page": 59,
-      "volatile": false
-    },
-    {
-      "id": "m9-19",
-      "q": "Which of these contains about the same amount of alcohol as a 12-ounce beer?",
-      "options": [
-        "A 4-ounce glass of wine",
-        "An 8-ounce glass of wine",
-        "A 4-ounce serving of 80-proof liquor",
-        "A 24-ounce beer"
-      ],
-      "answer": 0,
-      "explanation": "A 12-ounce beer, a 4-ounce glass of wine, and 1 ounce of 80-proof liquor each contain roughly half an ounce of alcohol, and any one of them can raise an average person's BAC by about 0.02%.",
-      "page": 60,
-      "volatile": false
-    },
-    {
-      "id": "m9-20",
-      "q": "For a rider age 21 or older, what is the lowest BAC at which Massachusetts considers you over the legal limit?",
-      "options": [
-        "0.02%",
-        "0.05%",
-        "0.08%",
-        "0.10%"
-      ],
-      "answer": 2,
-      "explanation": "Operators 21 and older who test at 0.08% or higher are over the Massachusetts legal limit, although even a single drink can hurt your riding.",
-      "page": 60,
-      "volatile": false
-    },
-    {
-      "id": "m9-21",
-      "q": "Under the Massachusetts \"zero tolerance\" law, a rider under age 21 is over the legal limit with a BAC as low as:",
-      "options": [
-        "0.02%",
-        "0.04%",
-        "0.08%",
-        "0.10%"
-      ],
-      "answer": 0,
-      "explanation": "For operators under 21, a BAC of just 0.02%, roughly what one drink can produce, is over the legal limit.",
-      "page": 60,
-      "volatile": false
-    },
-    {
-      "id": "m9-22",
-      "q": "Under the Massachusetts Implied Consent Law, what happens if you are arrested for OUI and refuse a breathalyzer or blood test?",
-      "options": [
-        "Nothing, as long as you pass a field sobriety test",
-        "You keep your license until your court date",
-        "Your license is suspended starting 30 days later",
-        "The officer must seize your license immediately"
-      ],
-      "answer": 3,
-      "explanation": "Every licensed operator has already agreed to breath or blood testing in certain situations. If you refuse, or test over the limit, the officer is required to take your license right away and the suspension or revocation notice takes effect at once, though you can ask for a hearing.",
-      "page": 60,
-      "volatile": false
-    },
-    {
-      "id": "m9-23",
-      "q": "Before a ride, you take an over-the-counter cold medicine. What does the manual say about medicines like this?",
-      "options": [
-        "They are safe to ride on because they are sold without a prescription",
-        "They affect your riding only if you have also been drinking alcohol",
-        "They affect you only if you take more than the dose on the label",
-        "They can slow your reactions and dull your vision and motor skills"
-      ],
-      "answer": 3,
-      "explanation": "Nearly any drug can affect your riding; illegal drugs, prescription medicines, and over-the-counter remedies all slow your reactions and impair your vision and motor skills. Massachusetts OUI laws cover drugs as well as alcohol.",
-      "page": 60,
-      "volatile": false
-    },
-    {
-      "id": "m9-24",
-      "q": "According to the manual's OUI penalty table, what is the license suspension for a first offense, before any reduction for completing an alcohol education course?",
-      "options": [
-        "30 days",
-        "1 year",
-        "2 years",
-        "8 years"
+        "Right for passing, middle for slower through traffic, left for faster through traffic",
+        "Right for slower through traffic, middle for faster through traffic, left for passing",
+        "Right for trucks only, middle for cars and motorcycles, left for passing",
+        "Right for exiting only, middle for through traffic, left for faster through traffic"
       ],
       "answer": 1,
-      "explanation": "A first OUI conviction carries a 1-year license suspension, a $500 to $5,000 fine, and up to 2½ years in prison. A court may let you take an alcohol education course that cuts the suspension to 45 to 90 days if you are over 21, or 210 days if you are under 21.",
-      "page": 61,
-      "volatile": true
+      "explanation": "Keep right and use the left lane only to pass. With three lanes, the manual makes the right lane the slower through lane, the center lane the faster through lane, and the leftmost lane the one for passing.",
+      "page": 51,
+      "volatile": false
     },
     {
-      "id": "m9-25",
-      "q": "A rider age 18 or older is found responsible for three speeding violations within one year. What happens to their license?",
+      "id": "m9-28",
+      "q": "When changing lanes on a highway, what three steps does the manual tell you to remember, in order?",
       "options": [
-        "It is suspended for 30 days",
-        "It is suspended for 7 days",
-        "It is suspended for 90 days",
-        "It is suspended for 1 year"
-      ],
-      "answer": 0,
-      "explanation": "For operators 18 and older, three speeding violations inside any one-year period trigger a mandatory 30-day suspension, plus a reinstatement fee.",
-      "page": 62,
-      "volatile": true
-    },
-    {
-      "id": "m9-26",
-      "q": "Under the junior operator rules (ages 16 to 18), how long is the suspension for a first speeding conviction?",
-      "options": [
-        "30 days",
-        "90 days",
-        "180 days",
-        "3 years"
+        "Signal, look, move",
+        "Look, signal, move",
+        "Signal, move, look",
+        "Move, signal, look"
       ],
       "answer": 1,
-      "explanation": "Junior operators lose their permit or license for 90 days for a first speeding conviction and for one year for any later one; they must also retake the learner's permit exam.",
-      "page": 63,
+      "explanation": "The manual's three steps for a lane change are look, signal, move: use your mirrors and directional signals, and check your blind spot before you move over.",
+      "page": 51,
+      "volatile": false
+    },
+    {
+      "id": "m9-29",
+      "q": "You are entering a highway from an entrance ramp. What does the manual say to do with your speed as you move into the travel lane?",
+      "options": [
+        "Hold it at the ramp's posted speed until you are fully in the lane",
+        "Slow down so drivers on the highway can make room for you",
+        "Increase it to match the speed of traffic already on the highway",
+        "Go faster than highway traffic so you can get ahead of it"
+      ],
+      "answer": 2,
+      "explanation": "Speed up as you enter the travel lane so you are moving at the same speed as the vehicles already on the highway.",
+      "page": 51,
+      "volatile": false
+    },
+    {
+      "id": "m9-30",
+      "q": "On a long ride, how often does the manual recommend you stop and stretch?",
+      "options": [
+        "Every 4 hours or 200 miles",
+        "Every hour or 50 miles",
+        "Every 2 hours or 100 miles",
+        "Only when you start to feel drowsy"
+      ],
+      "answer": 2,
+      "explanation": "For long distances the manual suggests a stretch break after every 2 hours or 100 miles. If you feel drowsy (highway hypnosis), get off at the next exit, rest area, or service plaza.",
+      "page": 52,
+      "volatile": false
+    },
+    {
+      "id": "m9-31",
+      "q": "The manual says not to make a U-turn anywhere visibility, for you or for other drivers, is less than what distance?",
+      "options": [
+        "150 feet",
+        "300 feet",
+        "1,000 feet",
+        "500 feet"
+      ],
+      "answer": 3,
+      "explanation": "Don't try a U-turn near a curve, on a hilltop, or anywhere visibility, for you or for other drivers, is under 500 feet. Start it from the lane nearest the center line, and only when your path is clear.",
+      "page": 53,
+      "volatile": false
+    },
+    {
+      "id": "m9-32",
+      "q": "You are riding on a two-lane road that meets a bigger road at an intersection. Which vehicles must you yield to?",
+      "options": [
+        "Only vehicles on the larger road that are approaching from your right",
+        "Vehicles on a divided highway or on a road with three or more lanes",
+        "Only vehicles on the larger road that are traveling faster than you are",
+        "No one, as long as you reach the intersection before the other traffic"
+      ],
+      "answer": 1,
+      "explanation": "Coming from a single- or two-lane road, you must yield to vehicles on a divided highway or a road with three or more lanes.",
+      "page": 56,
+      "volatile": false
+    },
+    {
+      "id": "m9-33",
+      "q": "According to the manual, a first violation of the law requiring you to stop for a school bus can bring license suspension and what fine?",
+      "options": [
+        "$50",
+        "$100",
+        "$250",
+        "$1,000"
+      ],
+      "answer": 2,
+      "explanation": "The manual says a first violation can result in a $250 fine and a license suspension.",
+      "page": 56,
       "volatile": true
+    },
+    {
+      "id": "m9-34",
+      "q": "When parking at the curb in a business or residential district, how close to the curb must your vehicle be?",
+      "options": [
+        "Within 6 inches",
+        "Within 18 inches",
+        "Within 3 feet",
+        "Within 12 inches"
+      ],
+      "answer": 3,
+      "explanation": "In business and residential districts, park within 12 inches of the curb unless angled parking is allowed, and stay between any white lines marking the space.",
+      "page": 58,
+      "volatile": false
+    },
+    {
+      "id": "m9-35",
+      "q": "Massachusetts bans parking within what distance of an intersection?",
+      "options": [
+        "10 feet",
+        "20 feet",
+        "15 feet",
+        "30 feet"
+      ],
+      "answer": 1,
+      "explanation": "Parking is banned within 20 feet of an intersection. It is also banned in a crosswalk or in front of a driveway.",
+      "page": 58,
+      "volatile": false
+    },
+    {
+      "id": "m9-36",
+      "q": "According to the manual, what causes many motor vehicle crashes?",
+      "options": [
+        "Using both brakes at once",
+        "Improper turns",
+        "Riding with the headlight on in daylight",
+        "Changing gears before a turn"
+      ],
+      "answer": 1,
+      "explanation": "The manual blames many crashes on improper turns, so plan each turn, signal early, slow down, check your mirrors and blind spot, yield when needed, and turn into the proper lane.",
+      "page": 53,
+      "volatile": false
+    },
+    {
+      "id": "m9-37",
+      "q": "Why does the manual say many drivers are unfamiliar with right-of-way rules at rotaries?",
+      "options": [
+        "The rules differ from town to town",
+        "Only a few states have rotaries",
+        "Rotaries rarely have signs",
+        "The rules changed recently"
+      ],
+      "answer": 1,
+      "explanation": "Because only a few states have traffic rotaries, many drivers don't know how they work, so be especially careful and generous with the right-of-way in and near them.",
+      "page": 56,
+      "volatile": false
     }
   ]
 }

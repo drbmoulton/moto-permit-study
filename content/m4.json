@@ -16,7 +16,7 @@
     "Keeping the headlight on at all times is the best way to be noticed; research shows a daytime headlight makes a motorcycle twice as noticeable to oncoming drivers, and the manual suggests riders consider using high beam in daylight for extra visibility.",
     "A motorcycle brake light is usually less noticeable than a car's, so flash it before slowing or stopping, especially when being tailgated.",
     "Know the hand signals and routinely use them along with your electronic signals; the manual's drawing shows an arm held straight out for a left turn, a forearm bent upward for a right turn, and an arm angled downward to slow or stop.",
-    "Turn signals tell others your intentions and make you more visible; use them for every lane change even when no one seems to be around, and always cancel them afterward.",
+    "Turn signals tell others your intentions and make you more visible (a driver behind you is more likely to notice a turn signal than a taillight); use them for every lane change even when no one seems to be around, and always cancel them afterward.",
     "Be prepared to use the horn in an emergency or when a vehicle entering your lane may not leave you room to get by safely; be ready to stop or swerve if a driver in the next lane is closing fast on another vehicle and may try to pass, a parked car's door opens, or a pedestrian or bicyclist is in the street.",
     "Each lane offers three paths of travel; choose a position that keeps you out of blind spots and visible in the mirrors of vehicles ahead, and pass through blind spots quickly.",
     "SPIDER stands for Scan, Predict, Identify, Decide, Execute, Rely.",
@@ -302,6 +302,48 @@
       "answer": 0,
       "explanation": "Pick a spot in your lane where the driver in front can see you in their mirrors, not one of their blind spots, and use your lights along with your lane position to help others notice you.",
       "page": 21,
+      "volatile": false
+    },
+    {
+      "id": "m4-22",
+      "q": "Compared with a car's brake lights, how noticeable is a motorcycle's brake light, according to the manual?",
+      "options": [
+        "Usually more noticeable, because it sits higher",
+        "About as noticeable, since both must meet the same standards",
+        "Usually less noticeable, especially when the taillight is on",
+        "More noticeable at night, but less noticeable by day"
+      ],
+      "answer": 2,
+      "explanation": "Motorcycle brake lights are usually harder to notice than a car's, particularly with the taillight on, so flash yours before you slow or stop.",
+      "page": 20,
+      "volatile": false
+    },
+    {
+      "id": "m4-23",
+      "q": "What does the manual say about how well a driver behind you can see your turn signal?",
+      "options": [
+        "They are less likely to see it than your taillight",
+        "They are more likely to see it than your taillight",
+        "They can see it only if your headlight is on",
+        "They can't see it in daylight, so use hand signals instead"
+      ],
+      "answer": 1,
+      "explanation": "Besides showing your intentions, turn signals make you more visible: a driver behind you is more likely to notice a turn signal than a taillight.",
+      "page": 20,
+      "volatile": false
+    },
+    {
+      "id": "m4-24",
+      "q": "How often does the manual recommend checking your mirrors while riding?",
+      "options": [
+        "Every few seconds",
+        "About once a minute",
+        "Only before changing lanes",
+        "Only when slowing or stopping"
+      ],
+      "answer": 0,
+      "explanation": "Checking your mirrors every few seconds lets you respond safely when traffic conflicts or hazards come up. Check them with extra care whenever you slow down or make a sudden stop.",
+      "page": 24,
       "volatile": false
     }
   ]

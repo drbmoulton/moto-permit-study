@@ -227,13 +227,13 @@
       "id": "m6-15",
       "q": "In heavy, congested traffic, an animal runs into your lane. What does the manual recommend?",
       "options": [
-        "Swerve into the next lane, since hitting the animal is the bigger danger",
+        "Swerve into the next lane to get around it",
         "Avoid it if you can, but don't swerve into another lane to do so",
         "Hold your line and make no attempt to avoid it",
         "Move into the oncoming lane if it has the most open space"
       ],
       "answer": 1,
-      "explanation": "Make every effort to miss the animal, but in congested traffic don't swerve into a neighboring lane, because your odds of surviving are better against an animal than against another vehicle.",
+      "explanation": "Make every effort to miss the animal, but in congested traffic don't swerve into a neighboring lane to do it.",
       "page": 31,
       "volatile": false
     },
@@ -361,6 +361,62 @@
       "answer": 3,
       "explanation": "Holding the clutch in separates the seized engine from the rear wheel. Once you're safely stopped, step away and let the engine cool before trying to restart.",
       "page": 50,
+      "volatile": false
+    },
+    {
+      "id": "m6-25",
+      "q": "What does the manual say most often causes a motorcycle to wobble?",
+      "options": [
+        "Riding too slowly in a low gear while climbing a steep hill",
+        "Applying the rear brake harder than the front brake when stopping",
+        "Improper loading, unsuitable accessories, or incorrect tire pressure",
+        "Letting the engine idle too long before you ride"
+      ],
+      "answer": 2,
+      "explanation": "The manual says a wobble usually comes from improper loading, unsuitable accessories, or incorrect tire pressure. Other common causes include loose wheel bearings or spokes, bent or misaligned wheels, a poorly mounted or unsuitable windshield or fairing, uneven weight distribution, and overloading.",
+      "page": 49,
+      "volatile": false
+    },
+    {
+      "id": "m6-26",
+      "q": "According to the manual, what most often causes an engine to seize?",
+      "options": [
+        "A worn or stretched drive chain",
+        "Low oil pressure",
+        "Riding too long in a low gear",
+        "Using fuel with the wrong octane rating"
+      ],
+      "answer": 1,
+      "explanation": "Without enough oil and lubricant, moving parts rub and create friction that can overheat the engine until it seizes. The manual says low oil pressure is the usual cause, so check your oil and lubricant levels routinely.",
+      "page": 50,
+      "volatile": false
+    },
+    {
+      "id": "m6-27",
+      "q": "How does the manual describe a swerve?",
+      "options": [
+        "A hard stop using both brakes while turning",
+        "Two fast turns in a row, or a quick sideways shift",
+        "A slow, wide turn made from the center of the lane",
+        "Locking the rear wheel and sliding around an obstacle"
+      ],
+      "answer": 1,
+      "explanation": "The manual defines a swerve as any sudden change in direction, made as two fast turns in a row or a quick sideways shift.",
+      "page": 30,
+      "volatile": false
+    },
+    {
+      "id": "m6-28",
+      "q": "According to the manual, which impact gives a rider a better chance of survival?",
+      "options": [
+        "Another motor vehicle, rather than an animal",
+        "An animal, rather than another motor vehicle",
+        "Either one, since the odds are about the same",
+        "Whichever one is moving more slowly"
+      ],
+      "answer": 1,
+      "explanation": "The manual says a rider is likelier to survive a collision with an animal than one with a motor vehicle.",
+      "page": 31,
       "volatile": false
     }
   ]

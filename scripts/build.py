@@ -17,7 +17,7 @@ import re
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-MODULE_IDS = [f"m{i}" for i in range(1, 10)]
+MODULE_IDS = [f"m{i}" for i in range(1, 11)]
 QUESTION_KEYS = {"id", "q", "options", "answer", "explanation", "page", "volatile"}
 BANNED = re.compile(r"\b(all|none|both) of the above\b|\bboth [a-d] and [a-d]\b|\bneither [a-d] nor [a-d]\b", re.I)
 FIRST_PAGE, LAST_PAGE = 1, 64  # printed page numbers in the 2015 manual

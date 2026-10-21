@@ -37,10 +37,10 @@ for (let seed = 1; seed <= 50; seed++) {
 }
 // Least-seen questions come first within a section.
 const seen = {};
-mods[0].questions.forEach((q, i) => { if (i >= 2) seen[q.id] = { a: 3, c: 3, s: 3, l: 1, t: 1 }; });
+mods[0].questions.forEach((q, i) => { if (i >= alloc[0]) seen[q.id] = { a: 3, c: 3, s: 3, l: 1, t: 1 }; });
 const ex = L.pickExam(mods, seen, 25, rng(7));
 const m1picked = ex.filter((id) => id.startsWith('m1-')).sort();
-assert.deepStrictEqual(JSON.parse(JSON.stringify(m1picked)), [mods[0].questions[0].id, mods[0].questions[1].id].sort());
+assert.deepStrictEqual(JSON.parse(JSON.stringify(m1picked)), mods[0].questions.slice(0, alloc[0]).map((q) => q.id).sort());
 
 // Quick 10 puts missed questions in.
 const all = mods.flatMap((m) => m.questions.map((q) => q.id));

@@ -4,7 +4,8 @@ A study app for the Massachusetts Class M (motorcycle) learner's permit knowledg
 
 ## What's in it
 
-- **Nine study sections** that follow the manual, each with key points, the manual pages to read, and a section test that shows the answer and explanation after every question.
+- **Ten study sections** that follow the manual, each with key points, the manual pages to read, and a section test that shows the answer and explanation after every question.
+- **The manual's numbers**: the percentages, distances, speeds, BAC levels, fees, fines and suspension lengths a test writer could ask about have their own questions, since the real test asks a lot of them. `review/stats-coverage.md` maps every figure in the manual to the question that tests it and says why the rest are left out.
 - **Practice tests** that match the real one: 25 questions drawn from every section in proportion to its share of the question bank, a 25-minute timer, no feedback until the end, and pass at 18. The results screen breaks the score down by section and lets you review every question.
 - **Quick 10**: a short mixed set, starting with questions you got wrong and ones you haven't seen.
 - **Missed questions**: everything you got wrong the last time you saw it, overall or per section.
@@ -25,12 +26,12 @@ The footer of the home screen always says which one is active. On a Claude artif
 ## Layout
 
 ```
-content/m1.json … m9.json   question bank, one file per section (source of truth)
+content/m1.json … m10.json  question bank, one file per section (source of truth)
 src/app.html                 the app (HTML, CSS, JS); __BANK__ is replaced at build time
 manual/                      the manual PDF and one image per page (pages/pNN.webp, by PDF page)
 scripts/build.py             validates the bank, then builds dist/artifact.html and index.html
 scripts/test_logic.js        checks scoring, question picking and progress merging
-review/                      independent review notes for each section and the app; decisions.md records how open questions were settled
+review/                      independent review notes for each section and the app; decisions.md records how open questions were settled; stats-coverage.md maps the manual's figures to questions
 ```
 
 Each question looks like this:

@@ -17,9 +17,9 @@
     48
   ],
   "summary": [
-    "Posted limits assume ideal conditions, so never exceed them, and ride slower whenever traffic, road surface, weather, visibility, or pedestrians and cyclists call for it.",
-    "Where no other limit is posted, the manual treats riding over 20 mph in school zones, 30 mph in thickly settled or business districts, 40 mph outside those districts, or 50 mph on highways outside them as unreasonable, and it sets a 45 mph minimum on interstates and other limited-access highways.",
-    "A steady red light, or a red arrow for traffic headed the arrow's way, means stop; after a full stop and yielding you may turn right on red unless NO TURN ON RED is posted, but a left on red is allowed only from one one-way street onto another.",
+    "Speeding is a major cause of crashes. Posted limits assume ideal conditions, so never exceed them, and ride slower whenever traffic, road surface, weather, visibility, or pedestrians and cyclists call for it.",
+    "Where no other limit is posted, the manual treats riding over 20 mph in school zones, 30 mph in thickly settled or business districts, 40 mph outside those districts, or 50 mph on highways outside them as unreasonable. The manual also says interstates and other limited-access highways are posted at 50 to 65 mph with a 45 mph minimum, and smaller highways at 55 mph or less.",
+    "Signals usually show red at the top, yellow in the middle, and green at the bottom. A steady red light, or a red arrow for traffic headed the arrow's way, means stop; after a full stop and yielding you may turn right on red unless NO TURN ON RED is posted, but a left on red is allowed only from one one-way street onto another.",
     "Treat a flashing red like a STOP sign, stop for a steady yellow if you safely can, proceed carefully on a flashing yellow, and handle a blacked-out signal as an all-way stop.",
     "On a steady green, go only after yielding and only if you can clear the intersection without blocking it; a green arrow permits a turn in the arrow's direction.",
     "Riders must give way to any pedestrian stepping into or walking in a crosswalk along their path, and to pedestrians whenever their own signal shows red, alone or together with yellow.",
@@ -28,7 +28,7 @@
     "Sign shapes: octagon is stop, downward triangle yield, diamond warning, five-sided school zone, round railroad crossing, pennant no-passing zone, upright rectangle regulation, wide rectangle guide information, and shield interstate highway.",
     "At a STOP sign come to a full stop (slowing is not enough) behind any stop line or painted crosswalk, at a four-way stop the first vehicle into the intersection goes first, and at a YIELD sign slow down, let others go first, and stop only if traffic requires it.",
     "Orange work-zone signs call for extra caution because conditions there change quickly, and you must obey any flagger or police officer directing traffic.",
-    "A round yellow warning sign means a railroad crossing is ahead; if the crossing lights flash, stop at least 15 feet from the gate or light post, stay stopped until the gate is up and the flashing ends, and never ride around a gate that is down.",
+    "A round yellow warning sign means a railroad crossing is ahead, and a sign under the white crossbuck gives the number of tracks when there is more than one; if the crossing lights flash, stop at least 15 feet from the gate or light post, stay stopped until the gate is up and the flashing ends, and never ride around a gate that is down.",
     "White lines separate same-direction lanes: cross a broken one to change lanes after signaling, a solid one only to avoid a hazard, a double solid one never, and a painted white diamond marks a restricted lane such as HOV, bus or bicycle only.",
     "Yellow lines separate opposing traffic: you may cross to pass only when the broken line is on your side, and you may cross a double solid yellow only to turn left."
   ],
@@ -57,7 +57,7 @@
         "55 mph"
       ],
       "answer": 1,
-      "explanation": "The manual gives 45 mph as the lowest speed allowed on Massachusetts interstates and other limited-access highways. Their posted maximums range from 50 to 65 mph.",
+      "explanation": "The manual gives 45 mph as the lowest speed allowed on Massachusetts interstates and other limited-access highways.",
       "page": 36,
       "volatile": true
     },
@@ -85,7 +85,7 @@
         "40 mph"
       ],
       "answer": 1,
-      "explanation": "When no other limit is posted, the manual's defaults are 20 mph in school zones, 30 mph in thickly settled or business districts, 40 mph outside them, and 50 mph on highways outside them. Many Massachusetts cities and towns have since lowered the 30 mph default to 25 mph, so watch the signs; for the test, the manual's figure is 30.",
+      "explanation": "Where no other limit is posted, the manual treats anything over 30 mph as unreasonable in thickly settled or business districts. Many Massachusetts cities and towns have since lowered that default to 25 mph, so watch the signs; for the test, the manual's figure is 30.",
       "page": 37,
       "volatile": true
     },
@@ -396,6 +396,104 @@
       "explanation": "A painted white diamond warns that the lane has a special restriction, such as being for high-occupancy vehicles, buses or bicycles only.",
       "page": 47,
       "volatile": false
+    },
+    {
+      "id": "m8-27",
+      "q": "According to the manual, how big a factor is speeding in motor vehicle crashes?",
+      "options": [
+        "It is a major cause of crashes",
+        "It is only a minor cause of crashes",
+        "It matters only on highways, not city streets",
+        "It causes fewer crashes than riding too slowly"
+      ],
+      "answer": 0,
+      "explanation": "The manual calls speeding a major cause of crashes: the faster you go, the more distance you need to react and to stop. Massachusetts enforces its speed laws strictly, with severe penalties.",
+      "page": 36,
+      "volatile": false
+    },
+    {
+      "id": "m8-28",
+      "q": "According to the manual, what range of posted speed limits do limited-access highways such as the interstates have in Massachusetts?",
+      "options": [
+        "45 to 55 mph",
+        "50 to 65 mph",
+        "55 to 75 mph",
+        "40 to 60 mph"
+      ],
+      "answer": 1,
+      "explanation": "The manual says the interstates and other limited-access highways have posted limits of 50 to 65 mph.",
+      "page": 36,
+      "volatile": true
+    },
+    {
+      "id": "m8-29",
+      "q": "You're riding on a country road outside any thickly settled or business district, and no speed limit is posted. Riding faster than what speed would the manual consider unreasonable?",
+      "options": [
+        "30 mph",
+        "50 mph",
+        "55 mph",
+        "40 mph"
+      ],
+      "answer": 3,
+      "explanation": "When no limit is posted, the manual treats riding over 40 mph as unreasonable on roads outside thickly settled or business districts, unless you are on a highway.",
+      "page": 37,
+      "volatile": true
+    },
+    {
+      "id": "m8-30",
+      "q": "You are on a divided highway outside any thickly settled or business district, and no speed limit is posted. Above what speed does the manual say you would be riding unreasonably fast?",
+      "options": [
+        "40 mph",
+        "45 mph",
+        "65 mph",
+        "50 mph"
+      ],
+      "answer": 3,
+      "explanation": "With no posted limit, the manual treats riding over 50 mph as unreasonable on highways outside thickly settled or business districts. A posted limit, where there is one, replaces this default.",
+      "page": 37,
+      "volatile": true
+    },
+    {
+      "id": "m8-31",
+      "q": "On a standard vertical traffic signal, in what order are the three lights arranged from top to bottom?",
+      "options": [
+        "Green, yellow, red",
+        "Red, green, yellow",
+        "Red, yellow, green",
+        "Yellow, red, green"
+      ],
+      "answer": 2,
+      "explanation": "The manual says a typical signal has red on top, yellow in the middle and green at the bottom. There are also single flashing lights and colored arrows.",
+      "page": 37,
+      "volatile": false
+    },
+    {
+      "id": "m8-32",
+      "q": "At a railroad crossing marked with a white crossbuck, where does the manual say you'll find the number of tracks when there is more than one?",
+      "options": [
+        "Painted on the pavement before the tracks",
+        "On a round yellow sign before the crossing",
+        "On the gate arm that lowers across the road",
+        "On a sign below the crossbuck"
+      ],
+      "answer": 3,
+      "explanation": "A white crossbuck marks the spot where the tracks cross the road, and when two or more tracks cross, the number is posted beneath it. A round yellow warning sign usually comes first, telling you a crossing is ahead.",
+      "page": 45,
+      "volatile": false
+    },
+    {
+      "id": "m8-33",
+      "q": "According to the manual, what are the posted limits on smaller highways that are not limited-access?",
+      "options": [
+        "45 mph or lower",
+        "55 mph or lower",
+        "60 to 65 mph",
+        "At least 65 mph"
+      ],
+      "answer": 1,
+      "explanation": "The manual says smaller highways are posted at 55 mph or lower.",
+      "page": 36,
+      "volatile": true
     }
   ]
 }

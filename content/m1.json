@@ -14,18 +14,19 @@
     11
   ],
   "summary": [
-    "Riders under 18 must complete the Massachusetts Rider Education Program (MREP) basic rider course to get a motorcycle license.",
+    "Riders under 18 must complete the Massachusetts Rider Education Program (MREP) basic rider course to get a motorcycle license. The course takes about 15 hours: 5 in the classroom and 10 on the motorcycle.",
     "By law a motorcycle has a seat or saddle and is built to run on no more than three wheels touching the ground.",
-    "Mopeds (motorized bicycles) are limited to 30 mph and 50 cc by design and may not be ridden faster than 25 mph; motorized scooters may not be ridden faster than 20 mph or between sunset and sunrise.",
-    "A limited use vehicle (top speed over 30 but not over 40 mph) needs a Class M license or permit if it is a motorcycle and may not use any road with a speed limit above 40 mph or limited-access highways.",
+    "Mopeds (motorized bicycles) are limited to 30 mph and 50 cc by design and may not be ridden faster than 25 mph, with fines of up to $100 for breaking the moped rules; motorized scooters may not be ridden faster than 20 mph or between sunset and sunrise.",
+    "A limited use vehicle (top speed over 30 but not over 40 mph, with a certificate of origin and a 17-character VIN) needs a Class M license or permit if it is a motorcycle and may not use any road with a speed limit above 40 mph or limited-access highways.",
     "To get a motorcycle learner's permit you must be at least 16, fill out an application, show valid ID, pay the fee, and pass the knowledge test; if you have no Class D license, you must pass the Class D knowledge test as well.",
     "Permit holders may ride only from sunrise to sunset and may never carry passengers.",
     "At 16 and a half you can apply for a Class M license, as long as your license or right to operate has not been revoked; the permit converts to a license only after you pass the road test or complete the MREP course.",
     "Junior operators (under 18) must hold the permit for at least six months with a clean record before the road test, complete driver's education and the MREP basic rider course, and may not drive between 12:30 a.m. and 5:00 a.m.",
     "Failing the motorcycle road test twice means you must complete an approved rider training course before scheduling another road test.",
-    "For the road test the motorcycle must be safe, registered, insured, and inspected, and the rider must wear a DOT helmet meeting FMVSS No. 218 plus eye protection unless the bike has a windshield or screen.",
+    "For the road test the motorcycle must be safe, registered, insured, and inspected (Massachusetts-registered motorcycles need a safety inspection every year), and the rider must wear a DOT helmet meeting FMVSS No. 218 plus eye protection unless the bike has a windshield or screen.",
     "The manual says that if you take the road test on a trike or a limited use vehicle, your Class M license carries a 'J' restriction that limits you to that type of vehicle.",
-    "The road test may include figure-eights and 360-degree circles in both directions without putting a foot down, along with starts, stops, turns, traffic, intersections, and hills."
+    "The road test may include figure-eights and 360-degree circles in both directions without putting a foot down, along with starts, stops, turns, traffic, intersections, and hills.",
+    "The manual's fee table lists $30 for a 2-year learner's permit, $35 for the license application and road test, $50 for a 5-year Class M license, and $15 to add a motorcycle endorsement to a license you already hold; fees can change."
   ],
   "questions": [
     {
@@ -38,7 +39,7 @@
         "18"
       ],
       "answer": 1,
-      "explanation": "An applicant for a motorcycle learner's permit must be at least 16 years old. Sixteen and a half is the minimum age to apply for the license itself.",
+      "explanation": "An applicant for a motorcycle learner's permit must be at least 16 years old.",
       "page": 7,
       "volatile": false
     },
@@ -150,7 +151,7 @@
         "40 mph"
       ],
       "answer": 1,
-      "explanation": "Moped riders must not exceed 25 mph, even though a moped can be built to reach up to 30 mph.",
+      "explanation": "Moped riders must not ride faster than 25 mph, whatever the moped itself can do.",
       "page": 4,
       "volatile": true
     },
@@ -237,6 +238,174 @@
       "explanation": "Helmets that meet the federal standard required by state law are labeled with stickers on both the inside and the outside. A face shield, a bright color or a helmet's weight doesn't show that it meets the standard.",
       "page": 9,
       "volatile": false
+    },
+    {
+      "id": "m1-17",
+      "q": "About how long is the MREP basic rider course, according to the manual?",
+      "options": [
+        "About 8 hours: 3 in the classroom and 5 on the motorcycle",
+        "About 15 hours: 5 in the classroom and 10 on the motorcycle",
+        "About 20 hours: 10 in the classroom and 10 on the motorcycle",
+        "About 15 hours, all of it spent on the motorcycle"
+      ],
+      "answer": 1,
+      "explanation": "The manual describes the basic rider course as roughly 15 hours: 5 hours of classroom teaching and 10 hours of riding. To graduate you must attend every session and pass both a written test and a riding skills evaluation.",
+      "page": 2,
+      "volatile": true
+    },
+    {
+      "id": "m1-18",
+      "q": "By law, which limits must a moped (motorized bicycle) meet in Massachusetts?",
+      "options": [
+        "A top speed of 40 mph or less and an engine of 100 cc or less",
+        "A top speed of 25 mph or less and an engine of 150 cc or less",
+        "A top speed of 30 mph or less and an engine of 50 cc or less",
+        "A top speed of 45 mph or less and an engine of 50 cc or less"
+      ],
+      "answer": 2,
+      "explanation": "A moped is built to go no faster than 30 mph, has an engine of no more than 50 cubic centimeters, and has an automatic transmission.",
+      "page": 4,
+      "volatile": false
+    },
+    {
+      "id": "m1-19",
+      "q": "According to the manual, what is the most you can be fined for breaking one of the moped riding rules?",
+      "options": [
+        "$10",
+        "$200",
+        "$500",
+        "$100"
+      ],
+      "answer": 3,
+      "explanation": "Breaking any of the moped riding rules, such as using an off-street recreational path or skipping the helmet, can bring a fine of up to $100.",
+      "page": 5,
+      "volatile": true
+    },
+    {
+      "id": "m1-20",
+      "q": "How fast can a limited use vehicle go, by definition?",
+      "options": [
+        "No faster than 25 mph",
+        "Faster than 30 mph but no faster than 40 mph",
+        "Faster than 40 mph but no faster than 55 mph",
+        "No faster than 20 mph"
+      ],
+      "answer": 1,
+      "explanation": "By definition, a limited use vehicle has a top speed above 30 mph but not above 40 mph. Whether it is treated as a motorcycle or a passenger vehicle comes down to its number of wheels.",
+      "page": 6,
+      "volatile": false
+    },
+    {
+      "id": "m1-21",
+      "q": "Which of these is required for a limited use vehicle?",
+      "options": [
+        "An engine of 50 cc or less",
+        "An 11-character VIN",
+        "A 17-character VIN",
+        "Pedals as well as a motor"
+      ],
+      "answer": 2,
+      "explanation": "A limited use vehicle needs a 17-character vehicle identification number (VIN), a certificate of origin, and a manufacturer's statement that it satisfies the federal safety standards for its class. The manual sets no engine-size limit for a limited use vehicle.",
+      "page": 6,
+      "volatile": false
+    },
+    {
+      "id": "m1-22",
+      "q": "A permit holder wants to apply for a Class M license. What is the youngest age at which they may apply?",
+      "options": [
+        "16 years",
+        "17 years",
+        "16½ years",
+        "18 years"
+      ],
+      "answer": 2,
+      "explanation": "You must be at least 16½ to apply for the Class M license, and your license or right to operate must not have been revoked. Applicants under 18 also fall under the junior operator rules.",
+      "page": 7,
+      "volatile": false
+    },
+    {
+      "id": "m1-23",
+      "q": "According to the manual's fee table, how much does a Class M learner's permit application cost, and how long is the permit good for?",
+      "options": [
+        "$15, for 1 year",
+        "$25, for 3 years",
+        "$35, for 6 months",
+        "$30, for 2 years"
+      ],
+      "answer": 3,
+      "explanation": "The manual lists $30 for a permit application, which covers a 2-year permit for Class B, C, D or M. The manual notes that all fees can change.",
+      "page": 8,
+      "volatile": true
+    },
+    {
+      "id": "m1-24",
+      "q": "You already hold a Class D license. According to the manual's fee table, what does it cost to add a motorcycle endorsement to it?",
+      "options": [
+        "$25",
+        "$50",
+        "$15",
+        "$115"
+      ],
+      "answer": 2,
+      "explanation": "The manual's fee table lists $15 to add a motorcycle endorsement to a license you already hold.",
+      "page": 8,
+      "volatile": true
+    },
+    {
+      "id": "m1-25",
+      "q": "How often must a motorcycle registered in Massachusetts pass a safety inspection?",
+      "options": [
+        "Every two years",
+        "Once a year",
+        "Only when it is first registered",
+        "Every six months"
+      ],
+      "answer": 1,
+      "explanation": "Motorcycles registered in Massachusetts need a safety inspection every year. For the road test you must show the examiner the registration and a valid inspection sticker.",
+      "page": 9,
+      "volatile": false
+    },
+    {
+      "id": "m1-26",
+      "q": "What does the manual list as the fee for a Class M license, and for how many years is the license valid?",
+      "options": [
+        "$30, for 2 years",
+        "$35, for 3 years",
+        "$50, for 5 years",
+        "$75, for 10 years"
+      ],
+      "answer": 2,
+      "explanation": "The manual's fee table lists $50 for a Class M license, which is good for 5 years.",
+      "page": 8,
+      "volatile": true
+    },
+    {
+      "id": "m1-27",
+      "q": "In the manual's fee table, what is the combined license application and road test fee?",
+      "options": [
+        "$15",
+        "$40",
+        "$35",
+        "$50"
+      ],
+      "answer": 2,
+      "explanation": "The manual lists a $35 license application and road test fee, the same for every license class.",
+      "page": 8,
+      "volatile": true
+    },
+    {
+      "id": "m1-28",
+      "q": "You don't have a Class D (car) license. What must you pass to get a motorcycle learner's permit?",
+      "options": [
+        "Only the Class M knowledge test",
+        "The Class M knowledge test and a road test",
+        "Both the Class D and the Class M knowledge tests",
+        "A road test in place of any knowledge test"
+      ],
+      "answer": 2,
+      "explanation": "If you don't hold a Class D license, the manual says you must pass both a Class D and a Class M knowledge test.",
+      "page": 7,
+      "volatile": true
     }
   ]
 }

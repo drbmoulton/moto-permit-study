@@ -12,10 +12,10 @@
     "Massachusetts law sets minimum equipment standards, and the operator must keep all safety equipment, including the horn, rearview mirror, fenders, muffler, brakes, and lights, in good working order.",
     "The front needs a properly aimed white headlight; the rear needs a red taillight, a stoplight, and a white plate light, and a sidecar needs a white forward light.",
     "Every bike needs a secure seat for its operator, and one set up for passengers also needs a secure passenger seat and separate footpegs. On any bike, handlebars may not rise above the operator's shoulders when properly seated.",
-    "Helmets are mandatory for both riders and passengers in Massachusetts and prevent brain injury about 67% of the time.",
+    "Helmets are mandatory for both riders and passengers in Massachusetts. They prevent brain injury about 67% of the time, and NHTSA credits them with saving hundreds of riders' lives each year; mile for mile, riders are more likely than car passengers to die in a crash.",
     "Every motorcycle helmet sold in the U.S. must meet Federal Motor Vehicle Safety Standard (FMVSS) No. 218; the two main types are three-quarter and full-face.",
     "A helmet should fit snugly, show no defects such as cracks, frayed straps, loose padding, or exposed metal, and be securely fastened every time you ride.",
-    "A full, shatter-resistant faceshield protects best; goggles protect only the eyes. For safety, a windshield is no substitute for either, even though the law on page 9 lets an operator skip eye protection if the bike has a windshield or screen.",
+    "A full, shatter-resistant faceshield (VESC-8 in the manual) protects best; goggles protect only the eyes. For safety, a windshield is no substitute for either, even though the law on page 9 lets an operator skip eye protection if the bike has a windshield or screen.",
     "Don't wear tinted eye protection at night or at any other time when light is low.",
     "Jackets and pants should fully cover arms and legs, boots should cover the ankles, and gloves should be leather or a durable synthetic.",
     "Wear a jacket even on warm days to prevent dehydration. In cold or wet weather, dress to stay warm and dry; being numb from the cold hurts control, and long cold rides can lead to severe chill, fatigue, or even hypothermia.",
@@ -117,7 +117,7 @@
         "SAE J1100"
       ],
       "answer": 0,
-      "explanation": "The manual says every motorcycle helmet sold in the U.S. must meet FMVSS No. 218, the performance standard that sets a helmet's minimum level of protection. The manual ties VESC-8 to shatter-resistant faceshields, not to helmets.",
+      "explanation": "The manual says every motorcycle helmet sold in the U.S. must meet FMVSS No. 218, the performance standard that sets a helmet's minimum level of protection.",
       "page": 13,
       "volatile": false
     },
@@ -226,7 +226,7 @@
         "Apply both brakes together while rolling slowly and check that the bike stops straight",
         "Try the front and rear brakes one at a time; each should feel firm and hold the bike",
         "Pump only the rear brake until it feels firm, since the front brake needs no check",
-        "Don't test them; brakes only need checking at the annual safety inspection"
+        "Don't test them; brakes only need checking when the motorcycle is inspected"
       ],
       "answer": 1,
       "explanation": "The checklist says to test each brake separately and confirm it is firm and holds the bike when fully applied.",
@@ -244,6 +244,62 @@
       ],
       "answer": 2,
       "explanation": "On an unfamiliar bike, do all your usual checks and learn the controls and shift pattern. Then ride more carefully than usual, not at your normal pace: accelerate gently, slow more for turns, and leave extra room until you know how it handles.",
+      "page": 15,
+      "volatile": false
+    },
+    {
+      "id": "m2-17",
+      "q": "Per mile traveled, how does a motorcycle rider's chance of dying in a traffic crash compare with a car passenger's, according to the manual?",
+      "options": [
+        "The two are about equally likely to die",
+        "The car passenger is more likely to die",
+        "The motorcycle rider is more likely to die",
+        "The rider is more likely to die, but only without a helmet"
+      ],
+      "answer": 2,
+      "explanation": "Citing the U.S. Department of Transportation and NHTSA, the manual says that mile for mile, motorcycle riders are more likely than car passengers to die in a crash. Riding with an approved helmet, eye and face protection, and protective clothing greatly improves your odds of avoiding serious injury.",
+      "page": 12,
+      "volatile": false
+    },
+    {
+      "id": "m2-18",
+      "q": "According to NHTSA figures cited in the manual, how many motorcyclists' lives does helmet use save each year?",
+      "options": [
+        "A few dozen",
+        "Hundreds",
+        "Tens of thousands",
+        "Almost none, since helmets mainly prevent minor injuries"
+      ],
+      "answer": 1,
+      "explanation": "The manual cites NHTSA's finding that wearing helmets saves hundreds of motorcyclists' lives each year. Don't mix this up with the manual's other figure, thousands of injuries in motorcycle crashes in a single year.",
+      "page": 13,
+      "volatile": false
+    },
+    {
+      "id": "m2-19",
+      "q": "In the manual, the standard VESC-8 is linked to which piece of gear?",
+      "options": [
+        "A motorcycle helmet",
+        "A plastic shatter-resistant faceshield",
+        "Leather or synthetic riding gloves",
+        "A windshield mounted on the motorcycle"
+      ],
+      "answer": 1,
+      "explanation": "The manual tags a plastic shatter-resistant faceshield with VESC-8. Such a shield can protect your whole face in a crash and blocks wind, dust, rain, insects and pebbles kicked up by traffic ahead.",
+      "page": 13,
+      "volatile": false
+    },
+    {
+      "id": "m2-20",
+      "q": "How often does the manual recommend making a complete check of your motorcycle?",
+      "options": [
+        "Once a week",
+        "Before every ride",
+        "Once a month",
+        "Only before long trips"
+      ],
+      "answer": 1,
+      "explanation": "Motorcycles need attention more often than other vehicles, so the manual strongly recommends a complete check before each ride to catch a mechanical defect or equipment failure.",
       "page": 15,
       "volatile": false
     }
